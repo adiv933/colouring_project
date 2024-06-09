@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { SketchPicker } from "react-color";
-import DesignSvg from "./design"; // This should be your SVG design component
+import DesignSvg from "./design";
 
 const App = () => {
   const [color, setColor] = useState("#000000");
@@ -55,10 +55,20 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <SketchPicker color={color} onChangeComplete={handleColorChange} />
-      <div>
-        <DesignSvg ref={svgRef} />
+    <div className="flex flex-col items-center min-h-screen bg-gray-50 p-6 space-y-8">
+      <h1 className="text-4xl font-bold text-gray-700">
+        Mother's Symbol Colouring
+      </h1>
+      <div className="flex space-x-6">
+        <div className="p-6 bg-white shadow-lg rounded-lg">
+          <SketchPicker color={color} onChangeComplete={handleColorChange} />
+        </div>
+        <div className="p-6 bg-white shadow-lg rounded-lg overflow-hidden">
+          <DesignSvg
+            ref={svgRef}
+            className="w-full h-auto border border-gray-300"
+          />
+        </div>
       </div>
       <canvas
         ref={canvasRef}
@@ -66,7 +76,12 @@ const App = () => {
         height="400"
         style={{ display: "none" }}
       />
-      <button onClick={saveAsPng}>Save as PNG</button>
+      <button
+        onClick={saveAsPng}
+        className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      >
+        Save as PNG
+      </button>
     </div>
   );
 };
