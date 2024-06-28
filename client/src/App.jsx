@@ -7,58 +7,58 @@ import gsap from "gsap";
 const App = () => {
   //* gsap code
 
-  // useGSAP(() => {
-  //   gsap.from(".hero", {
-  //     y: 200,
-  //     opacity: 0,
-  //     delay: 3,
-  //     duration: 0.8,
-  //   });
-  //   gsap.from(".video-section > div:first-child", {
-  //     x: -200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".video-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+  useGSAP(() => {
+    gsap.from(".hero", {
+      y: 200,
+      opacity: 0,
+      delay: 3,
+      duration: 0.8,
+    });
+    gsap.from(".video-section > div:first-child", {
+      x: -200,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".video-section",
+        start: "top bottom",
+        end: "bottom 100%",
+        scrub: 2,
+      },
+    });
 
-  //   gsap.from(".video-section > section", {
-  //     x: 200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".video-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+    gsap.from(".video-section > section", {
+      x: 200,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".video-section",
+        start: "top bottom",
+        end: "bottom 100%",
+        scrub: 2,
+      },
+    });
 
-  //   // Animation for the action sections
-  //   gsap.from(".action-section > div:first-child", {
-  //     x: -200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".action-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+    // Animation for the action sections
+    gsap.from(".action-section > div:first-child", {
+      x: -200,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".action-section",
+        start: "top bottom",
+        end: "bottom 100%",
+        scrub: 2,
+      },
+    });
 
-  //   gsap.from(".action-section > div:last-child", {
-  //     x: 200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".action-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
-  // });
+    gsap.from(".action-section > div:last-child", {
+      x: 200,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".action-section",
+        start: "top bottom",
+        end: "bottom 100%",
+        scrub: 2,
+      },
+    });
+  });
 
   return (
     <div className="w-full h-screen">
