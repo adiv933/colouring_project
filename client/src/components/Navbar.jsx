@@ -12,33 +12,33 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  useGSAP(() => {
-    const tl = gsap.timeline();
-    tl.from(".navbar", {
-      y: -100,
-      opacity: 0,
-      delay: 0.5,
-      duration: 2,
-      ease: "back.inOut",
-    });
-    // tl.from(".links", {
-    //   y: -100,
-    //   opacity: 0,
-    //   duration: 2,
-    //   stagger: {
-    //     amount: 0.3,
-    //     from: "end",
-    //   },
-    //   ease: "back.inOut",
-    // });
-    ScrollTrigger.create({
-      start: "top -200", // Adjust this value to determine the height where the navbar disappears
-      end: 99999,
-      toggleClass: { targets: ".navbar", className: "hidden" },
-      onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
-      onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
-    });
-  });
+  // useGSAP(() => {
+  //   const tl = gsap.timeline();
+  //   tl.from(".navbar", {
+  //     y: -100,
+  //     opacity: 0,
+  //     delay: 0.5,
+  //     duration: 2,
+  //     ease: "back.inOut",
+  //   });
+  //   // tl.from(".links", {
+  //   //   y: -100,
+  //   //   opacity: 0,
+  //   //   duration: 2,
+  //   //   stagger: {
+  //   //     amount: 0.3,
+  //   //     from: "end",
+  //   //   },
+  //   //   ease: "back.inOut",
+  //   // });
+  //   ScrollTrigger.create({
+  //     start: "top -200", // Adjust this value to determine the height where the navbar disappears
+  //     end: 99999,
+  //     toggleClass: { targets: ".navbar", className: "hidden" },
+  //     onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
+  //     onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
+  //   });
+  // });
 
   return (
     <nav className="fixed w-full bg-[#bfc5e0] backdrop-blur-lg text-black z-10 h-16 shadow-md navbar">
