@@ -3,7 +3,7 @@ import { useState } from "react";
 import ColorPicker_test from "./ColorPicker_test";
 import DesignCanvas from "./DesignCanvas";
 
-const Colouring1 = () => {
+const Coloring1 = () => {
   const [color, setColor] = useState("#000000");
 
   const handleColorChange = (newColor) => {
@@ -21,4 +21,4 @@ const Colouring1 = () => {
   );
 };
 
-export default Colouring1;
+export default Coloring1;

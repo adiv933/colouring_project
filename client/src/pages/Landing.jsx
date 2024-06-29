@@ -3,169 +3,118 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useNavigate } from "react-router-dom";
 
-// import Colouring1 from "./components/Colouring1";
+// import Coloring1 from "./components/Coloring1";
 
 const Landing = () => {
   //* gsap code
 
-  // useGSAP(() => {
-  //   gsap.from(".hero", {
-  //     y: 200,
-  //     opacity: 0,
-  //     delay: 3,
-  //     duration: 0.8,
-  //   });
-  //   gsap.from(".video-section > div", {
-  //     x: -200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".video-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+  
+  useGSAP(() => {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
 
-  //   gsap.from(".video-section > section:first-child", {
-  //     x: 200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".video-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+    if (!isSmallScreen) {
+      gsap.from(".hero", {
+        y: 200,
+        opacity: 0,
+        delay: 3,
+        duration: 0.8,
+      });
 
-  //   // Animation for the action sections
-  //   gsap.from(".action-section > div:first-child", {
-  //     x: -200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".action-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
+      gsap.from(".video-section > div", {
+        x: -200,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".video-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //   gsap.from(".action-section > div:nth-child(2)", {
-  //     x: 200,
-  //     opacity: 0,
-  //     scrollTrigger: {
-  //       trigger: ".action-section",
-  //       start: "top bottom",
-  //       end: "bottom 100%",
-  //       scrub: 2,
-  //     },
-  //   });
-  // });
-  // useGSAP(() => {
-  //   const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+      gsap.from(".video-section > section:first-child", {
+        x: 200,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".video-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //   if (!isSmallScreen) {
-  //     gsap.from(".hero", {
-  //       y: 200,
-  //       opacity: 0,
-  //       delay: 3,
-  //       duration: 0.8,
-  //     });
+      // Animation for the action sections
+      gsap.from(".action-section > div:first-child", {
+        x: -200,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".action-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //     gsap.from(".video-section > div", {
-  //       x: -200,
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".video-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
+      gsap.from(".action-section > div:nth-child(2)", {
+        x: 200,
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".action-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
+    } else {
+      // Different or no animations for small screens
+      gsap.from(".hero", {
+        y: 100,
+        opacity: 0,
+        delay: 2,
+        duration: 0.5,
+      });
 
-  //     gsap.from(".video-section > section:first-child", {
-  //       x: 200,
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".video-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
+      gsap.from(".video-section > div", {
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".video-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //     // Animation for the action sections
-  //     gsap.from(".action-section > div:first-child", {
-  //       x: -200,
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".action-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
+      gsap.from(".video-section > section:first-child", {
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".video-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //     gsap.from(".action-section > div:nth-child(2)", {
-  //       x: 200,
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".action-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
-  //   } else {
-  //     // Different or no animations for small screens
-  //     gsap.from(".hero", {
-  //       y: 100,
-  //       opacity: 0,
-  //       delay: 2,
-  //       duration: 0.5,
-  //     });
+      // Animation for the action sections
+      gsap.from(".action-section > div:first-child", {
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".action-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
 
-  //     gsap.from(".video-section > div", {
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".video-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
-
-  //     gsap.from(".video-section > section:first-child", {
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".video-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
-
-  //     // Animation for the action sections
-  //     gsap.from(".action-section > div:first-child", {
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".action-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
-
-  //     gsap.from(".action-section > div:nth-child(2)", {
-  //       opacity: 0,
-  //       scrollTrigger: {
-  //         trigger: ".action-section",
-  //         start: "top bottom",
-  //         end: "bottom 100%",
-  //         scrub: 2,
-  //       },
-  //     });
-  //   }
-  // });
+      gsap.from(".action-section > div:nth-child(2)", {
+        opacity: 0,
+        scrollTrigger: {
+          trigger: ".action-section",
+          start: "top bottom",
+          end: "bottom 100%",
+          scrub: 2,
+        },
+      });
+    }
+  });
 
   const navigate = useNavigate();
 

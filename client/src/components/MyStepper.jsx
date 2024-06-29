@@ -8,14 +8,14 @@ import { useState } from "react";
 // import { StepLabel } from "@mui/material";
 
 const steps = [
-  "Colouring 1",
-  "Colouring 2",
-  "Colouring 3",
-  "Colouring 4",
-  "Colouring 5",
+  "Coloring 1",
+  "Coloring 2",
+  "Coloring 3",
+  "Coloring 4",
+  "Coloring 5",
 ];
 
-export default function HorizontalNonLinearStepper() {
+export default function MyStepper() {
   const [activeStep, setActiveStep] = useState(0);
   const [completed, setCompleted] = useState({});
 
