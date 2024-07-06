@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing";
-import Coloring from "./pages/Coloring";
+import ColoringIndex from "./pages/ColoringIndex";
 import Instructions from "./pages/Instructions";
 
 const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="/coloring" element={<Coloring />} />
+      <Route path="/coloring" element={<ColoringIndex />} />
       <Route path="/instructions" element={<Instructions />} />
     </Routes>
   );

@@ -3,7 +3,7 @@ import { SketchPicker } from "react-color";
 
 const ColorPicker_test = ({ color, onChangeComplete }) => {
   return (
-    <div className="w-full md:w-[100%]">
+    <div className="w-full">
       <SketchPicker
         color={color}
         onChangeComplete={onChangeComplete}

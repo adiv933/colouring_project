@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,28 +45,28 @@ const Navbar = () => {
     <nav className="fixed w-full bg-[#ffb2b2] backdrop-blur-lg text-black z-10 h-16 shadow-md navbar">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <a href="/" className="flex-shrink-0 flex items-center">
+          <Link to="/" className="flex-shrink-0 flex items-center">
             <img src="/logo.png" alt="Logo" className="h-14 w-14" />
-          </a>
+          </Link>
           <div className="hidden md:flex md:space-x-8 md:ml-10">
-            <a
-              href="#about"
+            <Link
+              to="/about"
               className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
             >
               About Us
-            </a>
-            <a
-              href="#instructions"
+            </Link>
+            <Link
+              to="/instructions"
               className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
             >
               Instructions
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
           <div className="flex items-center md:hidden">
             <button
@@ -92,30 +93,30 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-[#febfbf] text-zinc-700 shadow-md px-2 pt-2 pb-3 space-y-1 md:hidden">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium mobile-links"
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            to="/about"
             className="hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium mobile-links"
           >
             About Us
-          </a>
-          <a
-            href="#instructions"
+          </Link>
+          <Link
+            to="/instructions"
             className="hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium mobile-links"
           >
             Instructions
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium mobile-links"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       )}
     </nav>

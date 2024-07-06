@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useRef } from "react";
-import DesignSvg from "../../public/design";
+import Symbol from "../../public/Symbol.jsx";
+// import DesignSvg from "../../public/design";
 
 const DesignCanvas = ({ color }) => {
   const svgRef = useRef(null);
@@ -50,17 +51,14 @@ const DesignCanvas = ({ color }) => {
   };
 
   return (
-    <>
-      <div className="p-4 md:p-6 bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-[60%]">
-        <DesignSvg
-          ref={svgRef}
-          className="w-full h-auto border border-gray-300"
-        />
+    <div className="flex flex-col gap-y-4 ">
+      <div className="p-4 md:p-6 bg-white shadow-lg rounded-lg overflow-hidden w-full ">
+        <Symbol ref={svgRef} className="w-full h-auto border" color={color} />
       </div>
       <canvas
         ref={canvasRef}
-        width="400"
-        height="400"
+        width="708.661"
+        height="708.661"
         style={{ display: "none" }}
       />
       <button
@@ -69,7 +67,7 @@ const DesignCanvas = ({ color }) => {
       >
         Save as PNG
       </button>
-    </>
+    </div>
   );
 };
 
