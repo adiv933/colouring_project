@@ -22,3 +22,62 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+.text-outline {
+  text-shadow:
+    -0.5px -0.5px 0 #fff,
+    0.5px -0.5px 0 #fff,
+    -0.5px 0.5px 0 #fff,
+    0.5px 0.5px 0 #fff;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 0.45;
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: 0;
+  width: 50%;
+  height: 200%;
+  background-image: url('/symbol.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+  pointer-events: none;
+  animation: slideIn 2s ease-out forwards;
+}
+
+@media (max-width: 1024px) {
+  .hero::before {
+    width: 40%;
+    height: 150%;
+    top: -25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero::before {
+    width: 50%;
+    height: 120%;
+    top: -10%;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero::before {
+    width: 90%;
+    height: 100%;
+    top: 0;
+  }
+}

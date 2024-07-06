@@ -41,7 +41,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className="fixed w-full bg-[#bfc5e0] backdrop-blur-lg text-black z-10 h-16 shadow-md navbar">
+    <nav className="fixed w-full bg-[#ffb2b2] backdrop-blur-lg text-black z-10 h-16 shadow-md navbar">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <a href="/" className="flex-shrink-0 flex items-center">
@@ -91,7 +91,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-[#9da7d8] text-zinc-700 shadow-md px-2 pt-2 pb-3 space-y-1 md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-[#febfbf] text-zinc-700 shadow-md px-2 pt-2 pb-3 space-y-1 md:hidden">
           <a
             href="/"
             className="hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium mobile-links"
