@@ -68,19 +68,21 @@ function ColoringIndex() {
     <div className="w-full h-screen">
       <Navbar />
       <div className="flex flex-col items-center min-h-screen px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16">
-        <MyStepper
-          activeStep={activeStep}
-          completed={completed}
-          handleStep={handleStep}
-          allStepsCompleted={allStepsCompleted}
-          handleReset={handleReset}
-          handleBack={handleBack}
-          handleNext={handleNext}
-          handleComplete={handleComplete}
-          completedSteps={completedSteps}
-          totalSteps={totalSteps}
-        />
-      <div className="bg-red">{steps[activeStep].component}</div>
+        <div className="w-full p-4 bg-gray-100 rounded-md mt-4">
+          <MyStepper
+            activeStep={activeStep}
+            completed={completed}
+            handleStep={handleStep}
+            allStepsCompleted={allStepsCompleted}
+            handleReset={handleReset}
+            handleBack={handleBack}
+            handleNext={handleNext}
+            handleComplete={handleComplete}
+            completedSteps={completedSteps}
+            totalSteps={totalSteps}
+          />
+        </div>
+        <div className="">{steps[activeStep].component}</div>
       </div>
     </div>
   );
