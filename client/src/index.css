@@ -13,13 +13,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fee2e2;
 }
+
+.gradient-background {
+  background: linear-gradient(to bottom, #0046ff, #00d5ff, #00d5ff);
+}
+
 
 .font-dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+}
+
+.font-dancing-script-bold {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -31,19 +42,8 @@ body {
     0.5px 0.5px 0 #fff;
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
 
-  to {
-    transform: translateX(0);
-    opacity: 0.45;
-  }
-}
-
-.hero::before {
+.landing::before {
   content: "";
   position: absolute;
   top: -50%;
@@ -53,13 +53,12 @@ body {
   background-image: url('/symbol-hero.png');
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.45;
+  opacity: 0.4;
   pointer-events: none;
-  animation: slideIn 2s ease-out forwards;
 }
 
 @media (max-width: 1024px) {
-  .hero::before {
+  .landing::before {
     width: 40%;
     height: 150%;
     top: -25%;
@@ -67,7 +66,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero::before {
+  .landing::before {
     width: 50%;
     height: 120%;
     top: -10%;
@@ -75,7 +74,7 @@ body {
 }
 
 @media (max-width: 640px) {
-  .hero::before {
+  .landing::before {
     width: 90%;
     height: 100%;
     top: 0;

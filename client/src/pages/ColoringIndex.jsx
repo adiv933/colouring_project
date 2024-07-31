@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import MyStepper from "../components/MyStepper";
+import VideoModal from "../components/VideoModal";
 import Coloring1 from "../components/Coloring1";
 import Coloring2 from "../components/Coloring2";
 import Coloring3 from "../components/Coloring3";
@@ -65,24 +66,72 @@ function ColoringIndex() {
   };
 
   return (
-    <div className="w-full h-screen">
+    // <div className="w-full h-screen">
+    //   <Navbar />
+    //   <div className="flex flex-col items-center min-h-screen px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16">
+    //     <div className="w-full p-4 bg-gray-100 rounded-md mt-4">
+    //       <MyStepper
+    //         activeStep={activeStep}
+    //         completed={completed}
+    //         handleStep={handleStep}
+    //         allStepsCompleted={allStepsCompleted}
+    //         handleReset={handleReset}
+    //         handleBack={handleBack}
+    //         handleNext={handleNext}
+    //         handleComplete={handleComplete}
+    //         completedSteps={completedSteps}
+    //         totalSteps={totalSteps}
+    //       />
+    //     </div>
+    //     <div className="">{steps[activeStep].component}</div>
+    //   </div>
+    // </div>
+    <div className="w-full h-screen gradient-background">
       <Navbar />
-      <div className="flex flex-col items-center min-h-screen px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16">
-        <div className="w-full p-4 bg-gray-100 rounded-md mt-4">
-          <MyStepper
-            activeStep={activeStep}
-            completed={completed}
-            handleStep={handleStep}
-            allStepsCompleted={allStepsCompleted}
-            handleReset={handleReset}
-            handleBack={handleBack}
-            handleNext={handleNext}
-            handleComplete={handleComplete}
-            completedSteps={completedSteps}
-            totalSteps={totalSteps}
-          />
+      <div className="h-screen w-full  flex flex-col">
+        <header className="w-full text-center pt-16 sm:pt-20 ">
+          <h1 className="text-3xl sm:text-6xl text-black font-dancing-script-bold mb-4 sm:mb-16">
+            Colouring
+          </h1>
+        </header>
+
+        <section className="flex flex-col sm:flex-row justify-between items-center flex-1 px-4 py-8">
+          <div className="text-left sm:w-1/2 mb-8 sm:mb-0">
+            <p className="text-base sm:text-lg leading-relaxed">
+              Centre and four powers, white. The twelve, all of different colour
+              in three groups:
+              <br />
+              <br />
+              Top group red, passing to orange towards yellow.
+              <br />
+              Next group, yellow passing through green towards blue.
+              <br />
+              And third group, blue passing through violet towards red.
+              <br />
+              <br />
+              If white is not convenient, the center may be gold (powder).
+              <br />
+              <br />— Sri Aurobindo
+            </p>
+          </div>
+          <div className="sm:w-1/2 flex justify-center">
+            <img
+              src="/path/to/your/image.jpg"
+              alt="Description"
+              className="w-full h-auto max-w-sm rounded-lg shadow-lg"
+            />
+          </div>
+        </section>
+
+        <div className="flex gap-x-3 justify-center py-8">
+          <VideoModal />
+          {/* <button className="px-6 py-3 bg-blue-500 text-white text-lg font-bold rounded-lg shadow-md hover:bg-blue-600 transition">
+            Play Video
+          </button> */}
+          <button className="px-6 py-3 bg-blue-500 text-white text-lg font-bold rounded-lg shadow-md hover:bg-blue-600 transition">
+            Start Colouring
+          </button>
         </div>
-        <div className="">{steps[activeStep].component}</div>
       </div>
     </div>
   );
