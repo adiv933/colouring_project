@@ -5,7 +5,6 @@ import Step from "@mui/material/Step";
 import StepButton from "@mui/material/StepButton";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-// import { StepLabel } from "@mui/material";
 
 const steps = [
   "Coloring 1",
@@ -43,13 +42,8 @@ export default function MyStepper({
           }
           return (
             <Step key={label} completed={completed[index]}>
-              <StepButton
-                color="inherit"
-                onClick={handleStep(index)}
-                {...labelProps}
-              >
+              <StepButton onClick={handleStep(index)} {...labelProps}>
                 {label}
-                {/* <StepLabel {...labelProps}>{label}</StepLabel> */}
               </StepButton>
             </Step>
           );
@@ -93,7 +87,7 @@ export default function MyStepper({
                   <Button onClick={handleComplete}>
                     {completedSteps() === totalSteps() - 1
                       ? "Finish"
-                      : "Evaluate"}
+                      : "Reveal"}
                   </Button>
                 ))}
             </Box>
