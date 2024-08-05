@@ -1,12 +1,27 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import VideoModal from "../components/VideoModal";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 function Coloring() {
+  useGSAP(() => {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+
+    if (!isSmallScreen) {
+      gsap.from(".hero", {
+        y: 200,
+        opacity: 0,
+        delay: 2.5,
+        duration: 0.8,
+      });
+    }
+  });
+
   return (
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <div className="min-h-screen w-full  flex flex-col">
+      <div className="min-h-screen w-full  flex flex-col hero">
         <header className="w-full text-center pt-16 sm:pt-20 ">
           <h1 className="text-3xl sm:text-6xl text-black font-dancing-script-bold mb-4 sm:mb-8">
             Colouring

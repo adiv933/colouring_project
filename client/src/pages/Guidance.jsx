@@ -10,7 +10,7 @@ function Guidance() {
       gsap.from(".hero", {
         y: 200,
         opacity: 0,
-        delay: 3,
+        delay: 2.5,
         duration: 0.8,
       });
     }
