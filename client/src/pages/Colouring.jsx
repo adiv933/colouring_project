@@ -122,7 +122,7 @@ function Coloring() {
           </div>
           <div className="sm:w-1/3 h-96 flex justify-center mb-8 sm:mb-0">
             <img
-              src="./colouring_image.jpeg"
+              src="/Dual-Darshan-Photos.jpg"
               alt="Description"
               className="w-full h-auto max-w-sm rounded-lg shadow-lg"
             />

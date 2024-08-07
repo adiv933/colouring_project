@@ -19,10 +19,10 @@ const Landing = () => {
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
       <section className="min-h-screen w-full flex flex-col sm:flex-row items-center justify-center hero px-4 gap-4">
-        <div className="flex-1 sm:w-1/2 flex justify-center mb-8 sm:mb-0">
+        <div className="flex-1 sm:w-1/2 flex justify-center my-8">
           <img
-            src="/Dual-Darshan-Photos.jpg"
-            alt="Symbol"
+            src="/mother_image.png"
+            alt="Image of the Mother"
             className="w-full md:w-[25vw] max-h-[70vh] object-cover rounded-lg shadow-lg"
           />
         </div>
