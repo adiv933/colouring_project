@@ -44,8 +44,12 @@ const Navbar = () => {
     <nav className="fixed w-full bg-[#0046ff] backdrop-blur-lg text-white z-10 h-16 shadow-md navbar">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <Link to="/" className="flex-shrink-0 flex items-center">
-            <img src="/logo.png" alt="Logo" className="h-14 w-14" />
+          <Link
+            to="/"
+            className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
+          >
+            {/* <img src="/logo.png" alt="Logo" className="h-14 w-14" /> */}
+            Home
           </Link>
           <div className="hidden md:flex md:space-x-8 md:ml-10">
             {links.map((link, index) => (

@@ -1,24 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'Aharoni';
+  src: url('/font/Aharoni/Aharoni.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aharoni Bold';
+  src: url('/font/Aharoni/Aharoni_Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Aharoni', sans-serif;
 }
 
 .gradient-background {
   background: linear-gradient(to bottom, #0046ff, #00d5ff, #00d5ff);
 }
 
+/* 
 
 .font-dancing-script {
   font-family: "Dancing Script", cursive;
@@ -40,7 +52,7 @@ body {
     0.5px -0.5px 0 #fff,
     -0.5px 0.5px 0 #fff,
     0.5px 0.5px 0 #fff;
-}
+} */
 
 /* 
 .landing::before {
