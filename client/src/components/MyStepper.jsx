@@ -7,11 +7,11 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 const steps = [
-  "Coloring 1",
-  "Coloring 2",
-  "Coloring 3",
-  "Coloring 4",
-  "Coloring 5",
+  "Colouring 1",
+  "Colouring 2",
+  "Colouring 3",
+  "Colouring 4",
+  "Colouring 5",
 ];
 
 export default function MyStepper({
@@ -31,15 +31,6 @@ export default function MyStepper({
       <Stepper nonLinear activeStep={activeStep} alternativeLabel>
         {steps.map((label, index) => {
           const labelProps = {};
-          if (index === 3) {
-            labelProps.optional = (
-              <Typography variant="caption" color="error">
-                Score more than 100 to continue
-              </Typography>
-            );
-
-            labelProps.error = true;
-          }
           return (
             <Step key={label} completed={completed[index]}>
               <StepButton onClick={handleStep(index)} {...labelProps}>

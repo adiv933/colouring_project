@@ -19,7 +19,7 @@ function Guidance() {
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
       <section className="min-h-screen w-full flex flex-col justify-center items-center hero">
-        <h1 className="text-3xl sm:text-6xl text-black text-center font-dancing-script-bold mb-4 sm:mb-16">
+        <h1 className="text-3xl sm:text-6xl text-white text-center font-dancing-script-bold mb-4 sm:mb-16">
           Guidance
         </h1>
       </section>

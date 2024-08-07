@@ -7,8 +7,6 @@ const SwatchesPicker_test = ({ color, colors, onChangeComplete }) => {
       <SwatchesPicker
         color={color}
         colors={colors}
-        // height="700px"
-        // width="340px"
         onChangeComplete={onChangeComplete}
         styles={{
           default: {

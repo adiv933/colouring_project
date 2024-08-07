@@ -1,22 +1,22 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import MyStepper from "../components/MyStepper";
-import MyProgress from "../components/MyProgress";
-import Coloring1 from "../components/Coloring1";
-import Coloring2 from "../components/Coloring2";
-import Coloring3 from "../components/Coloring3";
-import Coloring4 from "../components/Coloring4";
-import Coloring5 from "../components/Coloring5";
+// import MyProgress from "../components/MyProgress";
+import Colouring1 from "../components/Colouring1";
+import Colouring2 from "../components/Colouring2";
+import Colouring3 from "../components/Colouring3";
+import Colouring4 from "../components/Colouring4";
+import Colouring5 from "../components/Colouring5";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function ColouringIndex() {
   const steps = [
-    { label: "Coloring 1", component: <Coloring1 /> },
-    { label: "Coloring 2", component: <Coloring2 /> },
-    { label: "Coloring 3", component: <Coloring3 /> },
-    { label: "Coloring 4", component: <Coloring4 /> },
-    { label: "Coloring 5", component: <Coloring5 /> },
+    { label: "Colouring 1", component: <Colouring1 /> },
+    { label: "Colouring 2", component: <Colouring2 /> },
+    { label: "Colouring 3", component: <Colouring3 /> },
+    { label: "Colouring 4", component: <Colouring4 /> },
+    { label: "Colouring 5", component: <Colouring5 /> },
   ];
   const [activeStep, setActiveStep] = useState(0);
   const [completed, setCompleted] = useState({});
@@ -98,9 +98,9 @@ function ColouringIndex() {
             totalSteps={totalSteps}
           />
         </div>
-        <div className="w-full p-4 bg-blue-400 rounded-md mt-4">
+        {/* <div className="w-full p-4 bg-blue-400 rounded-md mt-4">
           <MyProgress />
-        </div>
+        </div> */}
         <div className="">{steps[activeStep].component}</div>
       </div>
     </div>
