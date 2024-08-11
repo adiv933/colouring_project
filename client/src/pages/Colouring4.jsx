@@ -1,10 +1,9 @@
 import Navbar from "../components/Navbar";
-import MyStepper from "../components/MyStepper";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Colouring1 from "../components/ColouringComponent1";
+import ColouringComponent4 from "../components/ColouringComponent4";
 
-function ColouringIndex() {
+function Colouring4() {
   useGSAP(() => {
     const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
 
@@ -22,10 +21,10 @@ function ColouringIndex() {
     <div className="w-full min-h-screen  gradient-background">
       <Navbar />
       <div className="flex flex-col items-center min-h-screen w-full px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16 hero">
-        <Colouring1 />
+        <ColouringComponent4 />
       </div>
     </div>
   );
 }
 
-export default ColouringIndex;
+export default Colouring4;

@@ -1,10 +1,9 @@
-/* eslint-disable react/prop-types */
 import { useState } from "react";
 import ColorPicker_test from "./ColorPicker_test";
-import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
 import ColourTester from "./ColourTester";
+import DesignCanvas from "./DesignCanvas";
 
-const Coloring2 = () => {
+const ColouringComponent3 = () => {
   const [color, setColor] = useState("#000000");
 
   const handleColorChange = (newColor) => {
@@ -18,9 +17,9 @@ const Coloring2 = () => {
         <ColourTester color={color} />
       </div>
       <div className="order-3 md:order-2 w-full md:w-[55%] ">
-        <DesignCanvas_without_desc color={color} />
+        <DesignCanvas color={color} />
       </div>
-      <div className="flex-col order-1 md:order-3 p-4 md:p-6 bg-white shadow-lg rounded-lg w-full md:w-[30%] flex items-center justify-center gap-y-4">
+      <div className="flex-col order-1 md:order-3 p-4 md:p-6 bg-white shadow-lg rounded-lg w-full md:w-[30%] flex items-center justify-center gap-y-8">
         Select colors
         <ColorPicker_test color={color} onChangeComplete={handleColorChange} />
       </div>
@@ -28,4 +27,4 @@ const Coloring2 = () => {
   );
 };
 
-export default Coloring2;
+export default ColouringComponent3;

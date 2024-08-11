@@ -9,7 +9,7 @@ const Landing = () => {
       gsap.from(".hero", {
         y: 200,
         opacity: 0,
-        delay: 2.5,
+        delay: 2,
         duration: 0.8,
       });
     }
@@ -18,33 +18,37 @@ const Landing = () => {
   return (
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="min-h-screen w-full flex flex-col sm:flex-row items-center justify-center hero px-4 gap-4">
-        <div className="flex-1 sm:w-1/2 flex justify-center my-8">
-          <img
-            src="/mother_image.png"
-            alt="Image of the Mother"
-            className="w-full md:w-[25vw] max-h-[70vh] object-cover rounded-lg shadow-lg"
-          />
-        </div>
-        <div className="flex-1 sm:w-1/2 text-center sm:text-left">
-          <h1 className="text-3xl lg:text-5xl xl:text-6xl text-white font-dancing-script-bold mb-4 sm:mb-12 text-center">
-            Living Symbol of the Mother
-          </h1>
-          <h1 className="text-2xl lg:text-3xl xl:text-4xl text-white font-dancing-script mb-2 sm:mb-4 text-center">
-            Question: Mother, in your symbol the twelve petals signify the
-            twelve inner planes, don’t they?
-          </h1>
-          <p className="text-sm lg:text-md xl:text-lg font-semibold text-white mx-4 sm:mx-0 text-center">
-            “It signifies anything one wants, you see. Twelve: that’s the number
-            of Aditi, of Mahashakti. So it applies to everything; all Her action
-            has twelve Aspects. There are also Her twelve Virtues, Her twelve
-            Powers, Her twelve Aspects, and Her twelve Planes of manifestation
-            and many other things that are twelve; and the symbol, the number
-            twelve is in itself a symbol. It is the symbol of manifestation,
-            double perfection, in essence and in manifestation, in the
-            creation.” -{" "}
-            <span className="underline text-blue-600"> The Mother</span>
-          </p>
+      <section className="min-h-screen w-full flex flex-col items-center justify-center hero p-12 ">
+        <h1 className="text-2xl sm:text-4xl xl:text-6xl text-white flex mt-8 mb-2 text-center font-semibold gap-x-2">
+          <img src="/logo.png" alt="logo" className="w-16 h-16" />
+          Living Symbol of the Mother
+        </h1>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-y-8">
+          <div className="flex-1 sm:w-1/2 flex md:block justify-center">
+            <img
+              src="/mother_image.png"
+              alt="Image of the Mother"
+              className="w-full md:w-[25vw] max-h-[70vh] object-cover rounded-3xl shadow-lg md:ml-24"
+            />
+          </div>
+          <div className="flex-1 sm:w-1/2">
+            <h1 className="text-md lg:text-lg xl:text-xl font-semibold text-white text-left mb-2 sm:mb-4">
+              Question: Mother, in your symbol the twelve petals signify the
+              twelve inner planes, don’t they?
+            </h1>
+            <p className="text-md lg:text-lg xl:text-xl font-semibold italic text-white mx-4 sm:mx-0 text-justify">
+              “It signifies anything one wants, you see. Twelve: that’s the
+              number of Aditi, of Mahashakti. So it applies to everything; all
+              Her action has twelve Aspects. There are also Her twelve Virtues,
+              Her twelve Powers, Her twelve Aspects, and Her twelve Planes of
+              manifestation and many other things that are twelve; and the
+              symbol, the number twelve is in itself a symbol. It is the symbol
+              of manifestation, double perfection, in essence and in
+              manifestation, in the creation.”
+              <br />
+              <span className="underline"> - The Mother</span>
+            </p>
+          </div>
         </div>
       </section>
     </div>

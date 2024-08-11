@@ -26,7 +26,7 @@ export default function VideoModal() {
     <div>
       <button
         onClick={handleOpen}
-        className="px-6 py-3 bg-blue-500 text-white text-lg font-bold rounded-lg shadow-md hover:bg-blue-600 transition"
+        className="px-6 py-3 bg-white text-[#dbaf46] text-lg font-bold rounded-lg shadow-md hover:bg-blue-600 transition"
       >
         Play video
       </button>

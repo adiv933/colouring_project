@@ -3,88 +3,31 @@ import Box from "@mui/material/Box";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepButton from "@mui/material/StepButton";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 const steps = [
-  "Colouring 1",
-  "Colouring 2",
-  "Colouring 3",
-  "Colouring 4",
-  "Colouring 5",
+  { label: "Colouring 1", link: "/colouring1" },
+  { label: "Colouring 2", link: "/colouring2" },
+  { label: "Colouring 3", link: "/colouring3" },
+  { label: "Colouring 4", link: "/colouring4" },
+  { label: "Colouring 5", link: "/colouring5" },
 ];
 
-export default function MyStepper({
-  activeStep,
-  completed,
-  handleStep,
-  allStepsCompleted,
-  handleReset,
-  handleBack,
-  handleNext,
-  handleComplete,
-  completedSteps,
-  totalSteps,
-}) {
+export default function MyStepper() {
   return (
-    <Box sx={{ width: "100%", paddingTop: "50px" }}>
-      <Stepper nonLinear activeStep={activeStep} alternativeLabel>
-        {steps.map((label, index) => {
-          const labelProps = {};
+    <Box sx={{ width: "100%" }}>
+      <Stepper nonLinear alternativeLabel>
+        {steps.map((step) => {
+          const { label, link } = step;
           return (
-            <Step key={label} completed={completed[index]}>
-              <StepButton onClick={handleStep(index)} {...labelProps}>
+            <Step key={label}>
+              <StepButton component={Link} to={link}>
                 {label}
               </StepButton>
             </Step>
           );
         })}
       </Stepper>
-      <div>
-        {allStepsCompleted() ? (
-          <>
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              All steps completed - you&apos;re finished
-            </Typography>
-            <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
-              <Box sx={{ flex: "1 1 auto" }} />
-              <Button onClick={handleReset}>Reset</Button>
-            </Box>
-          </>
-        ) : (
-          <>
-            <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
-              <Button
-                color="inherit"
-                disabled={activeStep === 0}
-                onClick={handleBack}
-                sx={{ mr: 1 }}
-              >
-                Back
-              </Button>
-              <Box sx={{ flex: "1 1 auto" }} />
-              <Button onClick={handleNext} sx={{ mr: 1 }}>
-                Next
-              </Button>
-              {activeStep !== steps.length &&
-                (completed[activeStep] ? (
-                  <Typography
-                    variant="caption"
-                    sx={{ display: "inline-block" }}
-                  >
-                    Step {activeStep + 1} already completed
-                  </Typography>
-                ) : (
-                  <Button onClick={handleComplete}>
-                    {completedSteps() === totalSteps() - 1
-                      ? "Finish"
-                      : "Reveal"}
-                  </Button>
-                ))}
-            </Box>
-          </>
-        )}
-      </div>
     </Box>
   );
 }

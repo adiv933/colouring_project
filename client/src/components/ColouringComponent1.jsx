@@ -5,7 +5,7 @@ import SwatchesPicker_test from "./SwatchesPicker_test";
 import ColourTester from "./ColourTester";
 import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
 
-const Coloring1 = () => {
+const ColouringComponent1 = () => {
   const [color, setColor] = useState("#000000");
 
   const handleColorChange = (newColor) => {
@@ -58,4 +58,4 @@ const Coloring1 = () => {
   );
 };
 
-export default Coloring1;
+export default ColouringComponent1;
