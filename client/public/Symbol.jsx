@@ -26,115 +26,164 @@ const Symbol = forwardRef((props, ref) => {
         </clipPath>
       </defs>
       <g id="layer_1" data-name="Vrstva 1">
-        <g clipPath="url(#clip_0)">
-          {/* golder outline */}
-          <path
-            transform="matrix(1,0,0,-1,600.1441,212.1676)"
-            d="M0 0C78.259-135.554 31.808-308.891-103.752-387.159-239.311-465.428-412.645-418.989-490.903-283.436-569.162-147.882-522.71 25.455-387.151 103.724-251.592 181.992-78.258 135.553 0 0"
-            fill="#dbaf46"
-            style={{ pointerEvents: "none" }}
-          />
-          {/* 4 inner petals */}
-          <path
-            transform="matrix(1,0,0,-1,275.7271,284.04023)"
-            d="M0 0C-4.438 4.575-11.852 4.252-15.905-.666-25.64-12.475-40.601-36.111-40.6-69.836-40.599-103.561-25.635-127.199-15.9-139.008-11.846-143.927-4.432-144.25 .005-139.675L38.611-99.875C32.359-91.493 28.657-81.098 28.657-69.839 28.656-58.58 32.357-48.185 38.608-39.805V-39.803Z"
-            fill="#ffffff"
-            style={{ pointerEvents: "none" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,284.835,432.8493)"
-            d="M0 0C-4.574-4.437-4.251-11.852 .667-15.906 12.476-25.642 36.111-40.606 69.833-40.608 103.555-40.609 127.19-25.646 138.999-15.911 143.916-11.857 144.238-4.443 139.664-.005L99.864 38.606H99.863C91.483 32.355 81.089 28.654 69.831 28.654 58.572 28.655 48.178 32.357 39.798 38.609H39.797Z"
-            fill="#ffffff"
-            style={{ pointerEvents: "none" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,284.8286,274.9621)"
-            d="M0 0C-4.574 4.438-4.251 11.853 .666 15.906 12.474 25.642 36.108 40.604 69.831 40.603 103.553 40.602 127.188 25.637 138.997 15.901 143.915 11.847 144.238 4.433 139.664-.005L99.867-38.614H99.866C91.485-32.362 81.092-28.66 69.833-28.659 58.575-28.659 48.181-32.36 39.801-38.611H39.8Z"
-            fill="#ffffff"
-            style={{ pointerEvents: "none" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,433.6206,284.0465)"
-            d="M0 0C4.437 4.575 11.851 4.251 15.905-.667 25.641-12.477 40.604-36.114 40.605-69.839 40.606-103.564 25.645-127.2 15.91-139.01 11.856-143.928 4.443-144.25 .006-139.676L-38.603-99.872V-99.871C-32.353-91.49-28.651-81.097-28.651-69.836-28.652-58.577-32.354-48.183-38.605-39.801V-39.8Z"
-            fill="#ffffff"
-            style={{ pointerEvents: "none" }}
-          />
-          {/* 12 outer petals */}
-          <path
-            transform="matrix(1,0,0,-1,475.2788,108.93231)"
-            d="M0 0C-33.004 16.108-67.904 25.012-102.686 27.225-109.366 27.65-114.934 22.483-114.871 15.976L-114.658-115.169C-97.066-116.206-76.952-121.228-60.342-129.853L5.036-15.851C8.339-10.215 6.039-2.947 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,234.1153,598.8952)"
-            d="M0 0C33.004-16.107 67.904-25.012 102.686-27.225 109.366-27.649 114.934-22.483 114.871-15.976L114.658 115.17C97.066 116.206 76.952 121.228 60.342 129.854L-5.036 15.852C-8.338 10.216-6.039 2.947 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,109.7154,233.3317)"
-            d="M0 0C-16.107-33.004-25.012-67.904-27.225-102.686-27.649-109.366-22.483-114.934-15.976-114.871L115.17-114.659C116.207-97.066 121.228-76.952 129.854-60.342L15.852 5.036C10.216 8.338 2.948 6.039 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,336.6333,81.462589)"
-            d="M0 0C-36.636-2.552-71.313-12.291-102.541-27.765-108.539-30.737-110.777-37.996-107.469-43.6L-41.712-157.069C-25.959-149.171-6.028-143.462 12.669-142.627L12.287-11.209C12.329-4.678 6.704 .467 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,372.7613,626.3649)"
-            d="M0 0C36.636 2.553 71.313 12.291 102.54 27.766 108.538 30.737 110.777 37.996 107.469 43.601L41.712 157.069C25.958 149.171 6.028 143.462-12.67 142.628L-12.287 11.21C-12.329 4.678-6.704-.467 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,627.148,335.84983)"
-            d="M0 0C-2.552 36.636-12.291 71.313-27.766 102.541-30.737 108.539-37.996 110.777-43.6 107.469L-157.068 41.712C-149.171 25.959-143.462 6.028-142.627-12.669L-11.209-12.287C-4.678-12.329 .467-6.704 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,82.2461,371.9772)"
-            d="M0 0C2.552-36.637 12.291-71.313 27.765-102.541 30.737-108.539 37.996-110.777 43.6-107.47L157.069-41.713C149.171-25.959 143.462-6.028 142.627 12.669L11.209 12.287C4.678 12.329-.467 6.703 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,202.8277,126.99579)"
-            d="M0 0C-30.452-20.529-55.613-46.301-74.92-75.316-78.628-80.889-76.938-88.294-71.271-91.494L42.411-156.882C52.104-142.165 66.51-127.256 82.286-117.185L16.246-3.564C13.016 2.113 5.572 3.756 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,506.5659,580.8317)"
-            d="M0 0C30.452 20.529 55.613 46.302 74.921 75.316 78.629 80.89 76.939 88.295 71.272 91.494L-42.41 156.882C-52.104 142.166-66.51 127.257-82.285 117.185L-16.245 3.564C-13.016-2.113-5.571-3.756 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,581.6148,202.0441)"
-            d="M0 0C-20.528 30.452-46.301 55.613-75.315 74.92-80.889 78.628-88.294 76.938-91.493 71.27L-156.882-42.411C-142.165-52.105-127.256-66.51-117.185-82.286L-3.564-16.246C2.113-13.016 3.756-5.572 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,127.7793,505.7829)"
-            d="M0 0C20.529-30.452 46.301-55.613 75.316-74.92 80.889-78.629 88.294-76.938 91.494-71.271L156.882 42.41C142.166 52.104 127.256 66.51 117.185 82.286L3.564 16.246C-2.113 13.016-3.756 5.572 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
-          <path
-            transform="matrix(1,0,0,-1,599.6783,474.4958)"
-            d="M0 0C16.108 33.005 25.013 67.905 27.225 102.686 27.65 109.366 22.483 114.935 15.976 114.871L-115.169 114.659C-116.206 97.066-121.228 76.952-129.854 60.342L-15.851-5.036C-10.215-8.338-2.947-6.039 0 0"
-            fill="#ffffff"
-            style={{ cursor: "pointer" }}
-          />
+        <g id="layer_1" data-name="Vrstva 1">
+          <g clipPath="url(#clip_0)">
+            {/* golder outline */}
+            <path
+              transform="matrix(1,0,0,-1,600.1441,212.1676)"
+              d="M0 0C78.259-135.554 31.808-308.891-103.752-387.159-239.311-465.428-412.645-418.989-490.903-283.436-569.162-147.882-522.71 25.455-387.151 103.724-251.592 181.992-78.258 135.553 0 0"
+              fill="#dbaf46"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            {/* 4 inner petals */}
+            <path
+              transform="matrix(1,0,0,-1,275.7271,284.04023)"
+              d="M0 0C-4.438 4.575-11.852 4.252-15.905-.666-25.64-12.475-40.601-36.111-40.6-69.836-40.599-103.561-25.635-127.199-15.9-139.008-11.846-143.927-4.432-144.25 .005-139.675L38.611-99.875C32.359-91.493 28.657-81.098 28.657-69.839 28.656-58.58 32.357-48.185 38.608-39.805V-39.803Z"
+              fill="#ffffff"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,284.835,432.8493)"
+              d="M0 0C-4.574-4.437-4.251-11.852 .667-15.906 12.476-25.642 36.111-40.606 69.833-40.608 103.555-40.609 127.19-25.646 138.999-15.911 143.916-11.857 144.238-4.443 139.664-.005L99.864 38.606H99.863C91.483 32.355 81.089 28.654 69.831 28.654 58.572 28.655 48.178 32.357 39.798 38.609H39.797Z"
+              fill="#ffffff"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,284.8286,274.9621)"
+              d="M0 0C-4.574 4.438-4.251 11.853 .666 15.906 12.474 25.642 36.108 40.604 69.831 40.603 103.553 40.602 127.188 25.637 138.997 15.901 143.915 11.847 144.238 4.433 139.664-.005L99.867-38.614H99.866C91.485-32.362 81.092-28.66 69.833-28.659 58.575-28.659 48.181-32.36 39.801-38.611H39.8Z"
+              fill="#ffffff"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,433.6206,284.0465)"
+              d="M0 0C4.437 4.575 11.851 4.251 15.905-.667 25.641-12.477 40.604-36.114 40.605-69.839 40.606-103.564 25.645-127.2 15.91-139.01 11.856-143.928 4.443-144.25 .006-139.676L-38.603-99.872V-99.871C-32.353-91.49-28.651-81.097-28.651-69.836-28.652-58.577-32.354-48.183-38.605-39.801V-39.8Z"
+              fill="#ffffff"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            {/* 12 outer petals */}
+            <path
+              transform="matrix(1,0,0,-1,475.2788,108.93231)"
+              d="M0 0C-33.004 16.108-67.904 25.012-102.686 27.225-109.366 27.65-114.934 22.483-114.871 15.976L-114.658-115.169C-97.066-116.206-76.952-121.228-60.342-129.853L5.036-15.851C8.339-10.215 6.039-2.947 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,234.1153,598.8952)"
+              d="M0 0C33.004-16.107 67.904-25.012 102.686-27.225 109.366-27.649 114.934-22.483 114.871-15.976L114.658 115.17C97.066 116.206 76.952 121.228 60.342 129.854L-5.036 15.852C-8.338 10.216-6.039 2.947 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,109.7154,233.3317)"
+              d="M0 0C-16.107-33.004-25.012-67.904-27.225-102.686-27.649-109.366-22.483-114.934-15.976-114.871L115.17-114.659C116.207-97.066 121.228-76.952 129.854-60.342L15.852 5.036C10.216 8.338 2.948 6.039 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,336.6333,81.462589)"
+              d="M0 0C-36.636-2.552-71.313-12.291-102.541-27.765-108.539-30.737-110.777-37.996-107.469-43.6L-41.712-157.069C-25.959-149.171-6.028-143.462 12.669-142.627L12.287-11.209C12.329-4.678 6.704 .467 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,372.7613,626.3649)"
+              d="M0 0C36.636 2.553 71.313 12.291 102.54 27.766 108.538 30.737 110.777 37.996 107.469 43.601L41.712 157.069C25.958 149.171 6.028 143.462-12.67 142.628L-12.287 11.21C-12.329 4.678-6.704-.467 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,627.148,335.84983)"
+              d="M0 0C-2.552 36.636-12.291 71.313-27.766 102.541-30.737 108.539-37.996 110.777-43.6 107.469L-157.068 41.712C-149.171 25.959-143.462 6.028-142.627-12.669L-11.209-12.287C-4.678-12.329 .467-6.704 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,82.2461,371.9772)"
+              d="M0 0C2.552-36.637 12.291-71.313 27.765-102.541 30.737-108.539 37.996-110.777 43.6-107.47L157.069-41.713C149.171-25.959 143.462-6.028 142.627 12.669L11.209 12.287C4.678 12.329-.467 6.703 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,202.8277,126.99579)"
+              d="M0 0C-30.452-20.529-55.613-46.301-74.92-75.316-78.628-80.889-76.938-88.294-71.271-91.494L42.411-156.882C52.104-142.165 66.51-127.256 82.286-117.185L16.246-3.564C13.016 2.113 5.572 3.756 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,506.5659,580.8317)"
+              d="M0 0C30.452 20.529 55.613 46.302 74.921 75.316 78.629 80.89 76.939 88.295 71.272 91.494L-42.41 156.882C-52.104 142.166-66.51 127.257-82.285 117.185L-16.245 3.564C-13.016-2.113-5.571-3.756 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,581.6148,202.0441)"
+              d="M0 0C-20.528 30.452-46.301 55.613-75.315 74.92-80.889 78.628-88.294 76.938-91.493 71.27L-156.882-42.411C-142.165-52.105-127.256-66.51-117.185-82.286L-3.564-16.246C2.113-13.016 3.756-5.572 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,127.7793,505.7829)"
+              d="M0 0C20.529-30.452 46.301-55.613 75.316-74.92 80.889-78.629 88.294-76.938 91.494-71.271L156.882 42.41C142.166 52.104 127.256 66.51 117.185 82.286L3.564 16.246C-2.113 13.016-3.756 5.572 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+            <path
+              transform="matrix(1,0,0,-1,599.6783,474.4958)"
+              d="M0 0C16.108 33.005 25.013 67.905 27.225 102.686 27.65 109.366 22.483 114.935 15.976 114.871L-115.169 114.659C-116.206 97.066-121.228 76.952-129.854 60.342L-15.851-5.036C-10.215-8.338-2.947-6.039 0 0"
+              fill="#ffffff"
+              style={{ cursor: "pointer" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+          </g>
+
+          <g clipPath="url(#clip_1)">
+            {/* middle circle */}
+            <path
+              transform="matrix(1,0,0,-1,379.8199,328.74873)"
+              d="M0 0C13.879-13.88 13.878-36.384-.003-50.265-13.883-64.145-36.387-64.146-50.267-50.267-64.146-36.387-64.145-13.883-50.264-.002-36.384 13.878-13.88 13.879 0 0"
+              fill="#ffffff"
+              style={{ pointerEvents: "none" }}
+              stroke="#000000"
+              strokeWidth="1"
+            />
+          </g>
         </g>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.09715428 -.99526938 .99526938 .09715428 0 708.661)"
@@ -146,7 +195,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.08406335 -.99646046 .99646046 .08406335 0 708.661)"
@@ -158,7 +208,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.07095926 -.9974792 .9974792 .07095926 0 708.661)"
@@ -170,7 +221,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.05782767 -.9983266 .9983266 .05782767 0 708.661)"
@@ -182,7 +234,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.04468225 -.99900129 .99900129 .04468225 0 708.661)"
@@ -194,7 +247,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.03151615 -.99950328 .99950328 .03151615 0 708.661)"
@@ -206,7 +260,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.01834314 -.99983176 .99983176 .01834314 0 708.661)"
@@ -218,7 +273,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.005149574 -.9999867 .9999867 .005149574 0 708.661)"
@@ -230,7 +286,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.008050892 -.9999675 .9999675 -.008050892 0 708.661)"
@@ -242,7 +299,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.021265056 -.99977388 .99977388 -.021265056 0 708.661)"
@@ -254,7 +312,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.03439005 -.9994084 .9994084 -.03439005 0 708.661)"
@@ -266,7 +325,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.047624928 -.9988653 .9988653 -.047624928 0 708.661)"
@@ -278,7 +338,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.06085957 -.99814638 .99814638 -.06085957 0 708.661)"
@@ -290,7 +351,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.074004899 -.9972579 .9972579 -.074004899 0 708.661)"
@@ -302,7 +364,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.08724669 -.99618676 .99618676 -.08724669 0 708.661)"
@@ -314,7 +377,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.10039201 -.99494799 .99494799 -.10039201 0 708.661)"
@@ -326,7 +390,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.113544467 -.99353298 .99353298 -.113544467 0 708.661)"
@@ -338,7 +403,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.12669048 -.99194237 .99194237 -.12669048 0 708.661)"
@@ -350,7 +416,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.13982913 -.99017569 .99017569 -.13982913 0 708.661)"
@@ -362,7 +429,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.1529669 -.98823127 .98823127 -.1529669 0 708.661)"
@@ -374,7 +442,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.16609229 -.9861102 .9861102 -.16609229 0 708.661)"
@@ -386,7 +455,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.17920973 -.9838109 .9838109 -.17920973 0 708.661)"
@@ -398,7 +468,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.19221817 -.9813522 .9813522 -.19221817 0 708.661)"
@@ -410,7 +481,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.20530844 -.97869738 .97869738 -.20530844 0 708.661)"
@@ -422,7 +494,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.2182952 -.9758828 .9758828 -.2182952 0 708.661)"
@@ -434,7 +507,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.23124874 -.97289469 .97289469 -.23124874 0 708.661)"
@@ -446,7 +520,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.24419503 -.96972617 .96972617 -.24419503 0 708.661)"
@@ -458,7 +533,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.25711275 -.9663814 .9663814 -.25711275 0 708.661)"
@@ -470,7 +546,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.26990865 -.9628859 .9628859 -.26990865 0 708.661)"
@@ -482,7 +559,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.2827786 -.95918527 .95918527 -.2827786 0 708.661)"
@@ -494,7 +572,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.29551894 -.95533689 .95533689 -.29551894 0 708.661)"
@@ -506,7 +585,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.30822406 -.95131376 .95131376 -.30822406 0 708.661)"
@@ -518,7 +598,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.32090185 -.9471125 .9471125 -.32090185 0 708.661)"
@@ -530,7 +611,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.33353747 -.9427368 .9427368 -.33353747 0 708.661)"
@@ -542,7 +624,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.346037 -.93822088 .93822088 -.346037 0 708.661)"
@@ -554,7 +637,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3585031 -.93352857 .93352857 -.3585031 0 708.661)"
@@ -566,7 +650,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.37091885 -.9286652 .9286652 -.37091885 0 708.661)"
@@ -578,7 +663,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.38328029 -.9236321 .9236321 -.38328029 0 708.661)"
@@ -590,7 +676,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.39550523 -.9184637 .9184637 -.39550523 0 708.661)"
@@ -602,7 +689,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.40776963 -.9130849 .9130849 -.40776963 0 708.661)"
@@ -614,7 +702,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4197944 -.9076192 .9076192 -.4197944 0 708.661)"
@@ -626,7 +715,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4318549 -.9019431 .9019431 -.4318549 0 708.661)"
@@ -638,7 +728,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.44384433 -.8961039 .8961039 -.44384433 0 708.661)"
@@ -650,7 +741,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.455683 -.89014217 .89014217 -.455683 0 708.661)"
@@ -662,7 +754,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.46745397 -.8840174 .8840174 -.46745397 0 708.661)"
@@ -674,7 +767,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.47906793 -.8777779 .8777779 -.47906793 0 708.661)"
@@ -686,7 +780,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4906121 -.87137809 .87137809 -.4906121 0 708.661)"
@@ -698,7 +793,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.50207796 -.8648224 .8648224 -.50207796 0 708.661)"
@@ -710,7 +806,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5134631 -.8581117 .8581117 -.5134631 0 708.661)"
@@ -722,7 +819,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5246911 -.8512927 .8512927 -.5246911 0 708.661)"
@@ -734,7 +832,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.53582838 -.844327 .844327 -.53582838 0 708.661)"
@@ -746,7 +845,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5467947 -.8372667 .8372667 -.5467947 0 708.661)"
@@ -758,7 +858,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.55775859 -.8300032 .8300032 -.55775859 0 708.661)"
@@ -770,7 +871,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5684665 -.8227064 .8227064 -.5684665 0 708.661)"
@@ -782,7 +884,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5756235 -.81771489 .81771489 -.5756235 0 708.661)"
@@ -794,7 +897,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6018168 -.7986342 .7986342 -.6018168 0 708.661)"
@@ -809,7 +913,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.611107 -.791548 .791548 -.611107 0 708.661)"
@@ -821,7 +926,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.62139019 -.7835012 .7835012 -.62139019 0 708.661)"
@@ -833,7 +939,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6315594 -.77532747 .77532747 -.6315594 0 708.661)"
@@ -845,7 +952,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6416939 -.76696088 .76696088 -.6416939 0 708.661)"
@@ -857,7 +965,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.65171328 -.75846549 .75846549 -.65171328 0 708.661)"
@@ -869,7 +978,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.66161808 -.7498411 .7498411 -.66161808 0 708.661)"
@@ -881,7 +991,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6714691 -.7410326 .7410326 -.6714691 0 708.661)"
@@ -893,7 +1004,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6811965 -.7321006 .7321006 -.6811965 0 708.661)"
@@ -905,7 +1017,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.69079706 -.7230488 .7230488 -.69079706 0 708.661)"
@@ -917,7 +1030,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.70033356 -.7138158 .7138158 -.70033356 0 708.661)"
@@ -929,7 +1043,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7097385 -.7044652 .7044652 -.7097385 0 708.661)"
@@ -941,7 +1056,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.71901926 -.6949902 .6949902 -.71901926 0 708.661)"
@@ -953,7 +1069,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7281554 -.6854121 .6854121 -.7281554 0 708.661)"
@@ -965,7 +1082,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7372169 -.67565616 .67565616 -.7372169 0 708.661)"
@@ -977,7 +1095,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.74614337 -.6657854 .6657854 -.74614337 0 708.661)"
@@ -989,7 +1108,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.75492158 -.65581509 .65581509 -.75492158 0 708.661)"
@@ -1001,7 +1121,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7636189 -.6456673 .6456673 -.7636189 0 708.661)"
@@ -1013,7 +1134,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7721705 -.6354153 .6354153 -.7721705 0 708.661)"
@@ -1025,7 +1147,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.78056827 -.62507066 .62507066 -.78056827 0 708.661)"
@@ -1037,7 +1160,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7888181 -.61462679 .61462679 -.7888181 0 708.661)"
@@ -1049,7 +1173,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7969179 -.6040876 .6040876 -.7969179 0 708.661)"
@@ -1061,7 +1186,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8049205 -.59338268 .59338268 -.8049205 0 708.661)"
@@ -1073,7 +1199,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8127689 -.58258619 .58258619 -.8127689 0 708.661)"
@@ -1085,7 +1212,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.82046136 -.57170209 .57170209 -.82046136 0 708.661)"
@@ -1097,7 +1225,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.82799306 -.5607384 .5607384 -.82799306 0 708.661)"
@@ -1109,7 +1238,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8354237 -.5496064 .5496064 -.8354237 0 708.661)"
@@ -1121,7 +1251,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.84268799 -.5384023 .5384023 -.84268799 0 708.661)"
@@ -1133,7 +1264,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8497453 -.5271934 .5271934 -.8497453 0 708.661)"
@@ -1145,7 +1277,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8566911 -.51582977 .51582977 -.8566911 0 708.661)"
@@ -1157,7 +1290,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.86347356 -.5043942 .5043942 -.86347356 0 708.661)"
@@ -1169,7 +1303,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.87013986 -.4928049 .4928049 -.87013986 0 708.661)"
@@ -1181,7 +1316,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8765959 -.4812271 .4812271 -.8765959 0 708.661)"
@@ -1193,7 +1329,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8829339 -.46949736 .46949736 -.8829339 0 708.661)"
@@ -1205,7 +1342,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.88906219 -.45778654 .45778654 -.88906219 0 708.661)"
@@ -1217,7 +1355,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.89506849 -.44592888 .44592888 -.89506849 0 708.661)"
@@ -1229,7 +1368,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.90090599 -.43401427 .43401427 -.90090599 0 708.661)"
@@ -1241,7 +1381,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9065783 -.4220377 .4220377 -.9065783 0 708.661)"
@@ -1253,7 +1394,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.91212996 -.4099012 .4099012 -.91212996 0 708.661)"
@@ -1265,7 +1407,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.91746827 -.39780907 .39780907 -.91746827 0 708.661)"
@@ -1277,7 +1420,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.92263796 -.38566718 .38566718 -.92263796 0 708.661)"
@@ -1289,7 +1433,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.927678 -.37338127 .37338127 -.927678 0 708.661)"
@@ -1301,7 +1446,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.932516 -.36112873 .36112873 -.932516 0 708.661)"
@@ -1313,7 +1459,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.93721958 -.34873993 .34873993 -.93721958 0 708.661)"
@@ -1325,7 +1472,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.94171997 -.3363978 .3363978 -.94171997 0 708.661)"
@@ -1337,7 +1485,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.94608488 -.32391898 .32391898 -.94608488 0 708.661)"
@@ -1349,7 +1498,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9502832 -.3113869 .3113869 -.9502832 0 708.661)"
@@ -1361,7 +1511,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.95431008 -.29881833 .29881833 -.95431008 0 708.661)"
@@ -1373,7 +1524,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.95816716 -.28620918 .28620918 -.95816716 0 708.661)"
@@ -1385,7 +1537,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9618574 -.27355135 .27355135 -.9618574 0 708.661)"
@@ -1397,7 +1550,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9653763 -.26086123 .26086123 -.9653763 0 708.661)"
@@ -1409,7 +1563,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9687258 -.24813368 .24813368 -.9687258 0 708.661)"
@@ -1421,7 +1576,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9719049 -.23537393 .23537393 -.9719049 0 708.661)"
@@ -1433,7 +1589,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9749162 -.2225722 .2225722 -.9749162 0 708.661)"
@@ -1445,7 +1602,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9777565 -.20974317 .20974317 -.9777565 0 708.661)"
@@ -1457,7 +1615,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9804278 -.19687897 .19687897 -.9804278 0 708.661)"
@@ -1469,7 +1628,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.98294648 -.1838921 .1838921 -.98294648 0 708.661)"
@@ -1481,7 +1641,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.985278 -.1709599 .1709599 -.985278 0 708.661)"
@@ -1493,7 +1654,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9874369 -.15801384 .15801384 -.9874369 0 708.661)"
@@ -1505,7 +1667,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9894257 -.14504051 .14504051 -.9894257 0 708.661)"
@@ -1517,7 +1680,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9912454 -.13203222 .13203222 -.9912454 0 708.661)"
@@ -1529,7 +1693,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9929062 -.11890014 .11890014 -.9929062 0 708.661)"
@@ -1541,7 +1706,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99438199 -.10585144 .10585144 -.99438199 0 708.661)"
@@ -1553,7 +1719,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9956878 -.09276778 .09276778 -.9956878 0 708.661)"
@@ -1565,7 +1732,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9968207 -.07967718 .07967718 -.9968207 0 708.661)"
@@ -1577,7 +1745,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9977825 -.066559169 .066559169 -.9977825 0 708.661)"
@@ -1589,7 +1758,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9985721 -.053420538 .053420538 -.9985721 0 708.661)"
@@ -1601,7 +1771,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99918887 -.040268415 .040268415 -.99918887 0 708.661)"
@@ -1613,7 +1784,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9996327 -.027102204 .027102204 -.9996327 0 708.661)"
@@ -1625,7 +1797,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9999031 -.013922397 .013922397 -.9999031 0 708.661)"
@@ -1637,7 +1810,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99999979 -.00072877758 .00072877758 -.99999979 0 708.661)"
@@ -1649,7 +1823,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99992218 .012478573 -.012478573 -.99992218 0 708.661)"
@@ -1661,7 +1836,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9996699 .025692853 -.025692853 -.9996699 0 708.661)"
@@ -1673,7 +1849,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9992423 .0389208 -.0389208 -.9992423 0 708.661)"
@@ -1685,7 +1862,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.998644 .052059406 -.052059406 -.998644 0 708.661)"
@@ -1697,7 +1875,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9978665 .065287347 -.065287347 -.9978665 0 708.661)"
@@ -1709,7 +1888,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99691948 .078432958 -.078432958 -.99691948 0 708.661)"
@@ -1721,7 +1901,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9957973 .09158519 -.09158519 -.9957973 0 708.661)"
@@ -1733,7 +1914,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9944905 .10482687 -.10482687 -.9944905 0 708.661)"
@@ -1745,7 +1927,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99301698 .11797206 -.11797206 -.99301698 0 708.661)"
@@ -1757,7 +1940,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99136599 .13112426 -.13112426 -.99136599 0 708.661)"
@@ -1769,7 +1953,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9895394 .14426314 -.14426314 -.9895394 0 708.661)"
@@ -1781,7 +1966,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9875369 .15738769 -.15738769 -.9875369 0 708.661)"
@@ -1793,7 +1979,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9853542 .17052 -.17052 -.9853542 0 708.661)"
@@ -1805,7 +1992,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.98299399 .1836376 -.1836376 -.98299399 0 708.661)"
@@ -1817,7 +2005,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9804774 .19663175 -.19663175 -.9804774 0 708.661)"
@@ -1829,7 +2018,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9777802 .20963238 -.20963238 -.9777802 0 708.661)"
@@ -1841,7 +2031,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.97488799 .2226958 -.2226958 -.97488799 0 708.661)"
@@ -1853,7 +2044,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.97183659 .2356559 -.2356559 -.97183659 0 708.661)"
@@ -1865,7 +2057,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9686094 .24858757 -.24858757 -.9686094 0 708.661)"
@@ -1877,7 +2070,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9652278 .26141016 -.26141016 -.9652278 0 708.661)"
@@ -1889,7 +2083,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9616476 .27428798 -.27428798 -.9616476 0 708.661)"
@@ -1901,7 +2096,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9579159 .28704889 -.28704889 -.9579159 0 708.661)"
@@ -1913,7 +2109,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9540061 .29978729 -.29978729 -.9540061 0 708.661)"
@@ -1925,7 +2122,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9499244 .31247968 -.31247968 -.9499244 0 708.661)"
@@ -1937,7 +2135,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9456643 .3251447 -.3251447 -.9456643 0 708.661)"
@@ -1949,7 +2148,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9412325 .33775936 -.33775936 -.9412325 0 708.661)"
@@ -1961,7 +2161,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9366554 .3502523 -.3502523 -.9366554 0 708.661)"
@@ -1973,7 +2174,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9319046 .36270339 -.36270339 -.9319046 0 708.661)"
@@ -1985,7 +2187,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9269818 .37510626 -.37510626 -.9269818 0 708.661)"
@@ -1997,7 +2200,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9218887 .38745479 -.38745479 -.9218887 0 708.661)"
@@ -2009,7 +2213,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.91666159 .39966438 -.39966438 -.91666159 0 708.661)"
@@ -2021,7 +2226,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9112652 .4118201 -.4118201 -.9112652 0 708.661)"
@@ -2033,7 +2239,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9057027 .42391349 -.42391349 -.9057027 0 708.661)"
@@ -2045,7 +2252,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8999697 .43595246 -.43595246 -.8999697 0 708.661)"
@@ -2057,7 +2265,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8941176 .44783227 -.44783227 -.8941176 0 708.661)"
@@ -2069,7 +2278,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.88810017 .45964993 -.45964993 -.88810017 0 708.661)"
@@ -2081,7 +2291,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.88191959 .47139985 -.47139985 -.88191959 0 708.661)"
@@ -2093,7 +2304,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8756243 .48299287 -.48299287 -.8756243 0 708.661)"
@@ -2105,7 +2317,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8691733 .49450768 -.49450768 -.8691733 0 708.661)"
@@ -2117,7 +2330,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.86255976 .50595518 -.50595518 -.86255976 0 708.661)"
@@ -2129,7 +2343,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.85579887 .51730886 -.51730886 -.85579887 0 708.661)"
@@ -2141,7 +2356,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.84892556 .5285125 -.5285125 -.84892556 0 708.661)"
@@ -2153,7 +2369,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.84196326 .5395349 -.5395349 -.84196326 0 708.661)"
@@ -2165,7 +2382,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8347986 .55055549 -.55055549 -.8347986 0 708.661)"
@@ -2177,7 +2395,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.82754048 .5614061 -.5614061 -.82754048 0 708.661)"
@@ -2189,7 +2408,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8201372 .57216688 -.57216688 -.8201372 0 708.661)"
@@ -2201,7 +2421,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8177456 .57557979 -.57557979 -.8177456 0 708.661)"
@@ -2213,7 +2434,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7986639 .60177728 -.60177728 -.7986639 0 708.661)"
@@ -2225,7 +2447,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7967426 .60431876 -.60431876 -.7967426 0 708.661)"
@@ -2237,7 +2460,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7887817 .6146733 -.6146733 -.7887817 0 708.661)"
@@ -2249,7 +2473,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7806904 .6249181 -.6249181 -.7806904 0 708.661)"
@@ -2261,7 +2486,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.77246859 .635053 -.635053 -.77246859 0 708.661)"
@@ -2273,7 +2499,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.76405349 .6451529 -.6451529 -.76405349 0 708.661)"
@@ -2285,7 +2512,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7555126 .65513417 -.65513417 -.7555126 0 708.661)"
@@ -2297,7 +2525,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.74685296 .66498926 -.66498926 -.74685296 0 708.661)"
@@ -2309,7 +2538,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7379958 .67480537 -.67480537 -.7379958 0 708.661)"
@@ -2321,7 +2551,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.729025 .6844871 -.6844871 -.729025 0 708.661)"
@@ -2333,7 +2564,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7199344 .6940422 -.6940422 -.7199344 0 708.661)"
@@ -2345,7 +2577,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.71065238 .70354339 -.70354339 -.71065238 0 708.661)"
@@ -2357,7 +2590,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.70125946 .7129061 -.7129061 -.70125946 0 708.661)"
@@ -2369,7 +2603,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.69175276 .7221345 -.7221345 -.69175276 0 708.661)"
@@ -2381,7 +2616,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6820578 .73129829 -.73129829 -.6820578 0 708.661)"
@@ -2393,7 +2629,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6722658 .7403099 -.7403099 -.6722658 0 708.661)"
@@ -2405,7 +2642,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6623592 .7491864 -.7491864 -.6623592 0 708.661)"
@@ -2417,7 +2655,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.65234938 .7579185 -.7579185 -.65234938 0 708.661)"
@@ -2429,7 +2668,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.64216908 .766563 -.766563 -.64216908 0 708.661)"
@@ -2441,7 +2681,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6318815 .775065 -.775065 -.6318815 0 708.661)"
@@ -2453,7 +2694,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6214937 .7834192 -.7834192 -.6214937 0 708.661)"
@@ -2465,7 +2707,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6110177 .7916169 -.7916169 -.6110177 0 708.661)"
@@ -2477,7 +2720,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.60037288 .7997202 -.7997202 -.60037288 0 708.661)"
@@ -2489,7 +2733,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.58962729 .8076754 -.8076754 -.58962729 0 708.661)"
@@ -2501,7 +2746,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.57880589 .81546536 -.81546536 -.57880589 0 708.661)"
@@ -2513,7 +2759,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.567889 .8231052 -.8231052 -.567889 0 708.661)"
@@ -2525,7 +2772,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5568941 .8305835 -.8305835 -.5568941 0 708.661)"
@@ -2537,7 +2785,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.54572936 .8379615 -.8379615 -.54572936 0 708.661)"
@@ -2549,7 +2798,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.53449419 .8451721 -.8451721 -.53449419 0 708.661)"
@@ -2561,7 +2811,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.52317956 .85222247 -.85222247 -.52317956 0 708.661)"
@@ -2573,7 +2824,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5117876 .859112 -.859112 -.5117876 0 708.661)"
@@ -2585,7 +2837,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5003269 .8658366 -.8658366 -.5003269 0 708.661)"
@@ -2597,7 +2850,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.48878969 .87240168 -.87240168 -.48878969 0 708.661)"
@@ -2609,7 +2863,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.47710596 .87884578 -.87884578 -.47710596 0 708.661)"
@@ -2621,7 +2876,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.46543274 .88508328 -.88508328 -.46543274 0 708.661)"
@@ -2633,7 +2889,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4536153 .8911976 -.8911976 -.4536153 0 708.661)"
@@ -2645,7 +2902,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4417353 .8971454 -.8971454 -.4417353 0 708.661)"
@@ -2657,7 +2915,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4297929 .9029275 -.9029275 -.4297929 0 708.661)"
@@ -2669,7 +2928,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4177886 .90854427 -.90854427 -.4177886 0 708.661)"
@@ -2681,7 +2941,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.405734 .9139912 -.9139912 -.405734 0 708.661)"
@@ -2693,7 +2954,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.39353258 .9193106 -.9193106 -.39353258 0 708.661)"
@@ -2705,7 +2967,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.38136319 .92442539 -.92442539 -.38136319 0 708.661)"
@@ -2717,7 +2980,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.36905549 .92940738 -.92940738 -.36905549 0 708.661)"
@@ -2729,7 +2993,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.35678373 .934187 -.934187 -.35678373 0 708.661)"
@@ -2741,7 +3006,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3443815 .93882986 -.93882986 -.3443815 0 708.661)"
@@ -2753,7 +3019,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.33201803 .94327309 -.94327309 -.33201803 0 708.661)"
@@ -2765,7 +3032,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3195198 .9475796 -.9475796 -.3195198 0 708.661)"
@@ -2777,7 +3045,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.30697868 .95171639 -.95171639 -.30697868 0 708.661)"
@@ -2789,7 +3058,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.29439069 .95568516 -.95568516 -.29439069 0 708.661)"
@@ -2801,7 +3071,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.28176207 .95948436 -.95948436 -.28176207 0 708.661)"
@@ -2813,7 +3084,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.26909743 .96311298 -.96311298 -.26909743 0 708.661)"
@@ -2825,7 +3097,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.25639064 .9665732 -.9665732 -.25639064 0 708.661)"
@@ -2837,7 +3110,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.24365169 .9698628 -.9698628 -.24365169 0 708.661)"
@@ -2849,7 +3123,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.23087067 .97298446 -.97298446 -.23087067 0 708.661)"
@@ -2861,7 +3136,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.21805577 .9759363 -.9759363 -.21805577 0 708.661)"
@@ -2873,7 +3149,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.20521209 .97871759 -.97871759 -.20521209 0 708.661)"
@@ -2885,7 +3162,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.19224596 .9813467 -.9813467 -.19224596 0 708.661)"
@@ -2897,7 +3175,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.17933434 .98378816 -.98378816 -.17933434 0 708.661)"
@@ -2909,7 +3188,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.16640882 .98605689 -.98605689 -.16640882 0 708.661)"
@@ -2921,7 +3201,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.15344164 .98815777 -.98815777 -.15344164 0 708.661)"
@@ -2933,7 +3214,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.14035769 .99010089 -.99010089 -.14035769 0 708.661)"
@@ -2945,7 +3227,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.12734348 .99185869 -.99185869 -.12734348 0 708.661)"
@@ -2957,7 +3240,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.11430104 .9934462 -.9934462 -.11430104 0 708.661)"
@@ -2969,7 +3253,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.10123804 .99486228 -.99486228 -.10123804 0 708.661)"
@@ -2981,7 +3266,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.08815445 .9961068 -.9961068 -.08815445 0 708.661)"
@@ -2993,7 +3279,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.07505026 .99717977 -.99717977 -.07505026 0 708.661)"
@@ -3005,7 +3292,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.061835965 .99808636 -.99808636 -.061835965 0 708.661)"
@@ -3017,7 +3305,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.04869043 .9988139 -.9988139 -.04869043 0 708.661)"
@@ -3029,7 +3318,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.035538015 .9993683 -.9993683 -.035538015 0 708.661)"
@@ -3041,7 +3331,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.02236517 .99974986 -.99974986 -.02236517 0 708.661)"
@@ -3053,7 +3344,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.009171592 .999958 -.999958 -.009171592 0 708.661)"
@@ -3065,7 +3357,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.0039326467 .99999228 -.99999228 .0039326467 0 708.661)"
@@ -3077,7 +3370,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.017133112 .9998532 -.9998532 .017133112 0 708.661)"
@@ -3089,7 +3383,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.030361146 .999539 -.999539 .030361146 0 708.661)"
@@ -3101,7 +3396,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.043582228 .99904987 -.99904987 .043582228 0 708.661)"
@@ -3113,7 +3409,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.05681718 .9983846 -.9983846 .05681718 0 708.661)"
@@ -3125,7 +3422,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.06996247 .9975496 -.9975496 .06996247 0 708.661)"
@@ -3137,7 +3435,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.08310806 .99654057 -.99654057 .08310806 0 708.661)"
@@ -3149,7 +3448,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.09635627 .9953469 -.9953469 .09635627 0 708.661)"
@@ -3161,7 +3461,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.1095018 .99398657 -.99398657 .1095018 0 708.661)"
@@ -3173,7 +3474,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.13401261 .9909797 -.9909797 .13401261 0 708.661)"
@@ -3185,7 +3487,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.16637427 .9860627 -.9860627 .16637427 0 708.661)"
@@ -3197,7 +3500,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.19773816 .9802548 -.9802548 .19773816 0 708.661)"
@@ -3209,7 +3513,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.22891824 .97344568 -.97344568 .22891824 0 708.661)"
@@ -3221,7 +3526,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.25896884 .96588566 -.96588566 .25896884 0 708.661)"
@@ -3233,7 +3539,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.29228664 .9563307 -.9563307 .29228664 0 708.661)"
@@ -3245,7 +3552,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.32437969 .9459269 -.9459269 .32437969 0 708.661)"
@@ -3257,7 +3565,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.344939 .93862518 -.93862518 .344939 0 708.661)"
@@ -3269,7 +3578,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3635777 .9315639 -.9315639 .3635777 0 708.661)"
@@ -3281,7 +3591,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.39074723 .920498 -.920498 .39074723 0 708.661)"
@@ -3293,7 +3604,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.41106297 .91160699 -.91160699 .41106297 0 708.661)"
@@ -3305,7 +3617,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.42316396 .9060531 -.9060531 .42316396 0 708.661)"
@@ -3317,7 +3630,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4351138 .9003755 -.9003755 .4351138 0 708.661)"
@@ -3329,7 +3643,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4470018 .89453306 -.89453306 .4470018 0 708.661)"
@@ -3341,7 +3656,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.45882506 .8885266 -.8885266 .45882506 0 708.661)"
@@ -3353,7 +3669,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.470575 .88236 -.88236 .470575 0 708.661)"
@@ -3365,7 +3682,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.48225708 .8760298 -.8760298 .48225708 0 708.661)"
@@ -3377,7 +3695,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.49377967 .86958709 -.86958709 .49377967 0 708.661)"
@@ -3389,7 +3708,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5052268 .8629866 -.8629866 .5052268 0 708.661)"
@@ -3401,7 +3721,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.51650336 .8562852 -.8562852 .51650336 0 708.661)"
@@ -3413,7 +3734,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.52770236 .8494293 -.8494293 .52770236 0 708.661)"
@@ -3425,7 +3747,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5388186 .8424218 -.8424218 .5388186 0 708.661)"
@@ -3437,7 +3760,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.54984697 .83526548 -.83526548 .54984697 0 708.661)"
@@ -3449,7 +3773,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5607021 .82801768 -.82801768 .5607021 0 708.661)"
@@ -3461,7 +3786,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.57138136 .82068476 -.82068476 .57138136 0 708.661)"
@@ -3473,7 +3799,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.57561108 .8177236 -.8177236 .57561108 0 708.661)"
@@ -3485,7 +3812,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6018168 .7986342 -.7986342 .6018168 0 708.661)"
@@ -3497,7 +3825,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.60364589 .79725256 -.79725256 .60364589 0 708.661)"
@@ -3509,7 +3838,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9196324 -.39278019 .39278019 .9196324 0 708.661)"
@@ -3521,7 +3851,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.92803767 -.37248648 .37248648 .92803767 0 708.661)"
@@ -3533,7 +3864,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9393223 -.343036 .343036 .9393223 0 708.661)"
@@ -3545,7 +3877,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.95050796 -.31070028 .31070028 .95050796 0 708.661)"
@@ -3557,7 +3890,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.96103647 -.27642165 .27642165 .96103647 0 708.661)"
@@ -3569,7 +3903,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.96992239 -.24341452 .24341452 .96992239 0 708.661)"
@@ -3581,7 +3916,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9769072 -.21366431 .21366431 .9769072 0 708.661)"
@@ -3593,7 +3929,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.98284587 -.18442914 .18442914 .98284587 0 708.661)"
@@ -3605,7 +3942,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.98803177 -.15425049 .15425049 .98803177 0 708.661)"
@@ -3617,7 +3955,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9911811 -.13251463 .13251463 .9911811 0 708.661)"
@@ -3629,7 +3968,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9928428 -.11942857 .11942857 .9928428 0 708.661)"
@@ -3641,7 +3981,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99432268 -.10640727 .10640727 .99432268 0 708.661)"
@@ -3653,7 +3994,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.995642 -.09325774 .09325774 .995642 0 708.661)"
@@ -3665,7 +4007,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99678799 -.08008589 .08008589 .99678799 0 708.661)"
@@ -3677,7 +4020,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99776116 -.06687883 .06687883 .99776116 0 708.661)"
@@ -3689,7 +4033,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99855479 -.053743114 .053743114 .99855479 0 708.661)"
@@ -3701,7 +4046,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99918016 -.040485778 .040485778 .99918016 0 708.661)"
@@ -3713,7 +4059,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9996271 -.027307297 .027307297 .9996271 0 708.661)"
@@ -3725,7 +4072,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99990066 -.014100009 .014100009 .99990066 0 708.661)"
@@ -3737,7 +4085,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9999996 -.00087857738 .00087857738 .9999996 0 708.661)"
@@ -3749,7 +4098,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9999237 .01235717 -.01235717 .9999237 0 708.661)"
@@ -3761,7 +4111,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99967178 .025621437 -.025621437 .99967178 0 708.661)"
@@ -3773,7 +4124,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9992437 .038885748 -.038885748 .9992437 0 708.661)"
@@ -3785,7 +4137,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99863818 .05217156 -.05217156 .99863818 0 708.661)"
@@ -3797,7 +4150,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9978549 .06546461 -.06546461 .9978549 0 708.661)"
@@ -3809,7 +4163,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9969006 .07867148 -.07867148 .9969006 0 708.661)"
@@ -3821,7 +4176,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99577018 .091879118 -.091879118 .99577018 0 708.661)"
@@ -3833,7 +4189,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9944519 .10519305 -.10519305 .9944519 0 708.661)"
@@ -3845,7 +4202,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99177137 .12802142 -.12802142 .99177137 0 708.661)"
@@ -3857,7 +4215,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9873234 .15872175 -.15872175 .9873234 0 708.661)"
@@ -3869,7 +4228,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.98173967 .19022933 -.19022933 .98173967 0 708.661)"
@@ -3881,7 +4241,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9751652 .22147878 -.22147878 .9751652 0 708.661)"
@@ -3893,7 +4254,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9680313 .25082929 -.25082929 .9680313 0 708.661)"
@@ -3905,7 +4267,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9602906 .2790014 -.2790014 .9602906 0 708.661)"
@@ -3917,7 +4280,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.95454087 .29808019 -.29808019 .95454087 0 708.661)"
@@ -3929,7 +4293,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9481218 .31790728 -.31790728 .9481218 0 708.661)"
@@ -3941,7 +4306,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9413098 .33754383 -.33754383 .9413098 0 708.661)"
@@ -3953,7 +4319,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.93442556 .3561587 -.3561587 .93442556 0 708.661)"
@@ -3965,7 +4332,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.92365917 .3832151 -.3832151 .92365917 0 708.661)"
@@ -3977,7 +4345,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.91501316 .4034241 -.4034241 .91501316 0 708.661)"
@@ -3989,7 +4358,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.90963837 .4154012 -.4154012 .90963837 0 708.661)"
@@ -4001,7 +4371,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9041094 .42730109 -.42730109 .9041094 0 708.661)"
@@ -4013,7 +4384,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.89841249 .4391526 -.4391526 .89841249 0 708.661)"
@@ -4025,7 +4397,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.89260706 .45083566 -.45083566 .89260706 0 708.661)"
@@ -4037,7 +4410,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.88664779 .46244539 -.46244539 .88664779 0 708.661)"
@@ -4049,7 +4423,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.88053169 .47398735 -.47398735 .88053169 0 708.661)"
@@ -4061,7 +4436,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8775558 .4794746 -.4794746 .8775558 0 708.661)"
@@ -4073,7 +4449,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8615456 .5076802 -.5076802 .8615456 0 708.661)"
@@ -4085,7 +4462,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8614349 .507868 -.507868 .8614349 0 708.661)"
@@ -4097,7 +4475,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.85473027 .5190725 -.5190725 .85473027 0 708.661)"
@@ -4109,7 +4488,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8478755 .53019538 -.53019538 .8478755 0 708.661)"
@@ -4121,7 +4501,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.84088829 .5412088 -.5412088 .84088829 0 708.661)"
@@ -4133,7 +4514,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.83375838 .5521294 -.5521294 .83375838 0 708.661)"
@@ -4145,7 +4527,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.82643136 .56303766 -.56303766 .82643136 0 708.661)"
@@ -4157,7 +4540,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8189126 .5739181 -.5739181 .8189126 0 708.661)"
@@ -4169,7 +4553,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8113192 .5846035 -.5846035 .8113192 0 708.661)"
@@ -4181,7 +4566,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8035235 .595273 -.595273 .8035235 0 708.661)"
@@ -4193,7 +4579,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.79020306 .6128452 -.6128452 .79020306 0 708.661)"
@@ -4205,7 +4592,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7709223 .6369293 -.6369293 .7709223 0 708.661)"
@@ -4217,7 +4605,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7507739 .6605593 -.6605593 .7507739 0 708.661)"
@@ -4229,7 +4618,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.73626497 .67669346 -.67669346 .73626497 0 708.661)"
@@ -4241,7 +4631,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.72083869 .69310286 -.69310286 .72083869 0 708.661)"
@@ -4253,7 +4644,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6983026 .71580269 -.71580269 .6983026 0 708.661)"
@@ -4265,7 +4657,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.68025818 .73297259 -.73297259 .68025818 0 708.661)"
@@ -4277,7 +4670,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6655251 .7463755 -.7463755 .6655251 0 708.661)"
@@ -4289,7 +4683,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.64704468 .76245209 -.76245209 .64704468 0 708.661)"
@@ -4301,7 +4696,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6196096 .7849102 -.7849102 .6196096 0 708.661)"
@@ -4313,7 +4709,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6006444 .7995163 -.7995163 .6006444 0 708.661)"
@@ -4325,7 +4722,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5899727 .8074232 -.8074232 .5899727 0 708.661)"
@@ -4337,7 +4735,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5792162 .81517407 -.81517407 .5792162 0 708.661)"
@@ -4349,7 +4748,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.56828698 .82283046 -.82283046 .56828698 0 708.661)"
@@ -4361,7 +4761,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.557366 .8302669 -.8302669 .557366 0 708.661)"
@@ -4373,7 +4774,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5462802 .8376025 -.8376025 .5462802 0 708.661)"
@@ -4385,7 +4787,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.53510138 .8447879 -.8447879 .53510138 0 708.661)"
@@ -4397,7 +4800,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5238599 .8518045 -.8518045 .5238599 0 708.661)"
@@ -4409,7 +4813,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.51253649 .8586655 -.8586655 .51253649 0 708.661)"
@@ -4421,7 +4826,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5011376 .8653676 -.8653676 .5011376 0 708.661)"
@@ -4433,7 +4839,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4896605 .8719132 -.8719132 .4896605 0 708.661)"
@@ -4445,7 +4852,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.47803772 .87833938 -.87833938 .47803772 0 708.661)"
@@ -4457,7 +4865,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.46642373 .8845615 -.8845615 .46642373 0 708.661)"
@@ -4469,7 +4878,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.45465807 .8906661 -.8906661 .45465807 0 708.661)"
@@ -4481,7 +4891,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4429084 .89656689 -.89656689 .4429084 0 708.661)"
@@ -4493,7 +4904,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.43102376 .9023406 -.9023406 .43102376 0 708.661)"
@@ -4505,7 +4917,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.41905815 .90795937 -.90795937 .41905815 0 708.661)"
@@ -4517,7 +4930,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4071224 .9133736 -.9133736 .4071224 0 708.661)"
@@ -4529,7 +4943,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.39503885 .91866448 -.91866448 .39503885 0 708.661)"
@@ -4541,7 +4956,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.38289283 .9237928 -.9237928 .38289283 0 708.661)"
@@ -4553,7 +4969,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.37069477 .9287547 -.9287547 .37069477 0 708.661)"
@@ -4565,7 +4982,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.35843719 .9335539 -.9335539 .35843719 0 708.661)"
@@ -4577,7 +4995,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.34611646 .93819156 -.93819156 .34611646 0 708.661)"
@@ -4589,7 +5008,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.33375774 .94265887 -.94265887 .33375774 0 708.661)"
@@ -4601,7 +5021,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.32132966 .9469674 -.9469674 .32132966 0 708.661)"
@@ -4613,7 +5034,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.30886609 .95110556 -.95110556 .30886609 0 708.661)"
@@ -4625,7 +5047,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.2963502 .9550793 -.9550793 .2963502 0 708.661)"
@@ -4637,7 +5060,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.28377969 .95888957 -.95888957 .28377969 0 708.661)"
@@ -4649,7 +5073,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.27116544 .9625327 -.9625327 .27116544 0 708.661)"
@@ -4661,7 +5086,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.25850103 .966011 -.966011 .25850103 0 708.661)"
@@ -4673,7 +5099,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.24570072 .9693457 -.9693457 .24570072 0 708.661)"
@@ -4685,7 +5112,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.23295067 .9724885 -.9724885 .23295067 0 708.661)"
@@ -4697,7 +5125,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.22015037 .97546598 -.97546598 .22015037 0 708.661)"
@@ -4709,7 +5138,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.2073149 .9782743 -.9782743 .2073149 0 708.661)"
@@ -4721,7 +5151,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.19444414 .98091366 -.98091366 .19444414 0 708.661)"
@@ -4733,7 +5164,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.18152857 .9833857 -.9833857 .18152857 0 708.661)"
@@ -4745,7 +5177,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.168579 .98568817 -.98568817 .168579 0 708.661)"
@@ -4757,7 +5190,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.1555789 .9878235 -.9878235 .1555789 0 708.661)"
@@ -4769,7 +5203,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.14255026 .9897876 -.9897876 .14255026 0 708.661)"
@@ -4781,7 +5216,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.12959324 .99156728 -.99156728 .12959324 0 708.661)"
@@ -4793,7 +5229,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.11650058 .99319067 -.99319067 .11650058 0 708.661)"
@@ -4805,7 +5242,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.10337215 .9946427 -.9946427 .10337215 0 708.661)"
@@ -4817,7 +5255,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.090221468 .99592176 -.99592176 .090221468 0 708.661)"
@@ -4829,7 +5268,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.077136199 .99702057 -.99702057 .077136199 0 708.661)"
@@ -4841,7 +5281,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.06392886 .9979545 -.9979545 .06392886 0 708.661)"
@@ -4853,7 +5294,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.05079296 .9987092 -.9987092 .05079296 0 708.661)"
@@ -4865,7 +5307,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.03752154 .9992958 -.9992958 .03752154 0 708.661)"
@@ -4877,7 +5320,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.024350085 .99970349 -.99970349 .024350085 0 708.661)"
@@ -4889,7 +5333,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.01113574 .999938 -.999938 .01113574 0 708.661)"
@@ -4901,7 +5346,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.0021857247 .9999976 -.9999976 -.0021857247 0 708.661)"
@@ -4913,7 +5359,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.015421468 .9998811 -.9998811 -.015421468 0 708.661)"
@@ -4925,7 +5372,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.028685796 .9995885 -.9995885 -.028685796 0 708.661)"
@@ -4937,7 +5385,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.04185723 .9991236 -.9991236 -.04185723 0 708.661)"
@@ -4949,7 +5398,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.055135736 .9984789 -.9984789 -.055135736 0 708.661)"
@@ -4961,7 +5411,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.06843609 .9976555 -.9976555 -.06843609 0 708.661)"
@@ -4973,7 +5424,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.081643227 .99666169 -.99666169 -.081643227 0 708.661)"
@@ -4985,7 +5437,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.09485056 .99549159 -.99549159 -.09485056 0 708.661)"
@@ -4997,7 +5450,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.1080644 .9941439 -.9941439 -.1080644 0 708.661)"
@@ -5009,7 +5463,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.12127909 .99261847 -.99261847 -.12127909 0 708.661)"
@@ -5021,7 +5476,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.13450086 .99091348 -.99091348 -.13450086 0 708.661)"
@@ -5033,7 +5489,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.14771451 .98903009 -.98903009 -.14771451 0 708.661)"
@@ -5045,7 +5502,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.1608222 .98698338 -.98698338 -.1608222 0 708.661)"
@@ -5057,7 +5515,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.17401433 .9847431 -.9847431 -.17401433 0 708.661)"
@@ -5069,7 +5528,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.18711473 .9823381 -.9823381 -.18711473 0 708.661)"
@@ -5081,7 +5541,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.20019414 .97975626 -.97975626 -.20019414 0 708.661)"
@@ -5093,7 +5554,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.2132578 .97699597 -.97699597 -.2132578 0 708.661)"
@@ -5105,7 +5567,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.22620727 .9740792 -.9740792 -.22620727 0 708.661)"
@@ -5117,7 +5580,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.23913582 .9709861 -.9709861 -.23913582 0 708.661)"
@@ -5129,7 +5593,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.25204999 .96771427 -.96771427 -.25204999 0 708.661)"
@@ -5141,7 +5606,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.26492293 .96426966 -.96426966 -.26492293 0 708.661)"
@@ -5153,7 +5619,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.27778576 .960643 -.960643 -.27778576 0 708.661)"
@@ -5165,7 +5632,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.29050754 .9568727 -.9568727 -.29050754 0 708.661)"
@@ -5177,7 +5645,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.30320809 .9529244 -.9529244 -.30320809 0 708.661)"
@@ -5189,7 +5658,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.31585918 .9488061 -.9488061 -.31585918 0 708.661)"
@@ -5201,7 +5671,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.32846496 .9445162 -.9445162 -.32846496 0 708.661)"
@@ -5213,7 +5684,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3409509 .9400811 -.9400811 -.3409509 0 708.661)"
@@ -5225,7 +5697,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.35337917 .9354801 -.9354801 -.35337917 0 708.661)"
@@ -5237,7 +5710,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.36576683 .9307065 -.9307065 -.36576683 0 708.661)"
@@ -5249,7 +5723,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.37800197 .9258048 -.9258048 -.37800197 0 708.661)"
@@ -5261,7 +5736,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3901945 .92073246 -.92073246 -.3901945 0 708.661)"
@@ -5273,7 +5749,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.40232349 .91549757 -.91549757 -.40232349 0 708.661)"
@@ -5285,7 +5762,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.41430176 .91013959 -.91013959 -.41430176 0 708.661)"
@@ -5297,7 +5775,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4262146 .9046221 -.9046221 -.4262146 0 708.661)"
@@ -5309,7 +5788,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.43805883 .8989463 -.8989463 -.43805883 0 708.661)"
@@ -5321,7 +5801,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4498374 .8931105 -.8931105 -.4498374 0 708.661)"
@@ -5333,7 +5814,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.46145083 .88716587 -.88716587 -.46145083 0 708.661)"
@@ -5345,7 +5827,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.47291485 .88110819 -.88110819 -.47291485 0 708.661)"
@@ -5357,7 +5840,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.47945757 .8775651 -.8775651 -.47945757 0 708.661)"
@@ -5369,7 +5853,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.50765278 .8615618 -.8615618 -.50765278 0 708.661)"
@@ -5384,7 +5869,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.51802816 .85536357 -.85536357 -.51802816 0 708.661)"
@@ -5396,7 +5882,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5291447 .8485316 -.8485316 -.5291447 0 708.661)"
@@ -5408,7 +5895,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5401737 .84155359 -.84155359 -.5401737 0 708.661)"
@@ -5420,7 +5908,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5511876 .83438137 -.83438137 -.5511876 0 708.661)"
@@ -5432,7 +5921,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.56209746 .827071 -.827071 -.56209746 0 708.661)"
@@ -5444,7 +5934,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.57290187 .819624 -.819624 -.57290187 0 708.661)"
@@ -5456,7 +5947,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5836155 .8120302 -.8120302 -.5836155 0 708.661)"
@@ -5468,7 +5960,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5942796 .8042585 -.8042585 -.5942796 0 708.661)"
@@ -5480,7 +5973,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6048438 .7963441 -.7963441 -.6048438 0 708.661)"
@@ -5492,7 +5986,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6153677 .78824016 -.78824016 -.6153677 0 708.661)"
@@ -5504,7 +5999,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.62576678 .7800102 -.7800102 -.62576678 0 708.661)"
@@ -5516,7 +6012,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6360447 .77165219 -.77165219 -.6360447 0 708.661)"
@@ -5528,7 +6025,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.64620956 .76316007 -.76316007 -.64620956 0 708.661)"
@@ -5540,7 +6038,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.65632286 .7544802 -.7544802 -.65632286 0 708.661)"
@@ -5552,7 +6051,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6662951 .7456882 -.7456882 -.6662951 0 708.661)"
@@ -5564,7 +6064,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.676146 .7367677 -.7367677 -.676146 0 708.661)"
@@ -5576,7 +6077,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.68586096 .7277326 -.7277326 -.68586096 0 708.661)"
@@ -5588,7 +6090,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.69550958 .7185168 -.7185168 -.69550958 0 708.661)"
@@ -5600,7 +6103,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.70502516 .7091823 -.7091823 -.70502516 0 708.661)"
@@ -5612,7 +6116,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.71440097 .6997366 -.6997366 -.71440097 0 708.661)"
@@ -5624,7 +6129,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7237072 .69010719 -.69010719 -.7237072 0 708.661)"
@@ -5636,7 +6142,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7327973 .680447 -.680447 -.7327973 0 708.661)"
@@ -5648,7 +6155,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7418102 .67060998 -.67060998 -.7418102 0 708.661)"
@@ -5660,7 +6168,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7506869 .6606582 -.6606582 -.7506869 0 708.661)"
@@ -5672,7 +6181,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7594078 .65061488 -.65061488 -.7594078 0 708.661)"
@@ -5684,7 +6194,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7680456 .64039519 -.64039519 -.7680456 0 708.661)"
@@ -5696,7 +6207,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7764726 .630151 -.630151 -.7764726 0 708.661)"
@@ -5708,7 +6220,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7848093 .6197374 -.6197374 -.7848093 0 708.661)"
@@ -5720,7 +6233,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7929914 .6092329 -.6092329 -.7929914 0 708.661)"
@@ -5732,7 +6246,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8010248 .59863117 -.59863117 -.8010248 0 708.661)"
@@ -5744,7 +6259,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8089016 .58794406 -.58794406 -.8089016 0 708.661)"
@@ -5756,7 +6272,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.81662586 .5771674 -.5771674 -.81662586 0 708.661)"
@@ -5768,7 +6285,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8242432 .56623598 -.56623598 -.8242432 0 708.661)"
@@ -5780,7 +6298,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8317073 .5552144 -.5552144 -.8317073 0 708.661)"
@@ -5792,7 +6311,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.83896258 .5441892 -.5441892 -.83896258 0 708.661)"
@@ -5804,7 +6324,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.84610977 .53300878 -.53300878 -.84610977 0 708.661)"
@@ -5816,7 +6337,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.85310718 .5217357 -.5217357 -.85310718 0 708.661)"
@@ -5828,7 +6350,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8599368 .5104006 -.5104006 -.8599368 0 708.661)"
@@ -5840,7 +6363,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8666094 .49898703 -.49898703 -.8666094 0 708.661)"
@@ -5852,7 +6376,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.87316629 .48742254 -.48742254 -.87316629 0 708.661)"
@@ -5864,7 +6389,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8795177 .4758661 -.4758661 -.8795177 0 708.661)"
@@ -5876,7 +6402,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.88571068 .46423755 -.46423755 -.88571068 0 708.661)"
@@ -5888,7 +6415,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.89178606 .45245735 -.45245735 -.89178606 0 708.661)"
@@ -5900,7 +6428,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.89769586 .44061575 -.44061575 -.89769586 0 708.661)"
@@ -5912,7 +6441,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9033996 .4287998 -.4287998 -.9033996 0 708.661)"
@@ -5924,7 +6454,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9089906 .41681657 -.41681657 -.9089906 0 708.661)"
@@ -5936,7 +6467,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9144108 .40478737 -.40478737 -.9144108 0 708.661)"
@@ -5948,7 +6480,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.91963496 .39277414 -.39277414 -.91963496 0 708.661)"
@@ -5960,7 +6493,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.92472806 .38062836 -.38062836 -.92472806 0 708.661)"
@@ -5972,7 +6506,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9296636 .3684097 -.3684097 -.9296636 0 708.661)"
@@ -5984,7 +6519,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.93443116 .35614387 -.35614387 -.93443116 0 708.661)"
@@ -5996,7 +6532,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9390343 .34382353 -.34382353 -.9390343 0 708.661)"
@@ -6008,7 +6545,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9434726 .3314504 -.3314504 -.9434726 0 708.661)"
@@ -6020,7 +6558,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.94774708 .31902284 -.31902284 -.94774708 0 708.661)"
@@ -6032,7 +6571,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.95186117 .30652986 -.30652986 -.95186117 0 708.661)"
@@ -6044,7 +6584,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.955803 .29400806 -.29400806 -.955803 0 708.661)"
@@ -6056,7 +6597,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9596073 .28134293 -.28134293 -.9596073 0 708.661)"
@@ -6068,7 +6610,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9632195 .26871578 -.26871578 -.9632195 0 708.661)"
@@ -6080,7 +6623,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.96666708 .25603647 -.25603647 -.96666708 0 708.661)"
@@ -6092,7 +6636,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.96994557 .24332212 -.24332212 -.96994557 0 708.661)"
@@ -6104,7 +6649,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9730571 .23056427 -.23056427 -.9730571 0 708.661)"
@@ -6116,7 +6662,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9760014 .2177646 -.2177646 -.9760014 0 708.661)"
@@ -6128,7 +6675,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9787813 .20490772 -.20490772 -.9787813 0 708.661)"
@@ -6140,7 +6688,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9813892 .19202927 -.19202927 -.9813892 0 708.661)"
@@ -6152,7 +6701,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9838308 .17910043 -.17910043 -.9838308 0 708.661)"
@@ -6164,7 +6714,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9861028 .16613619 -.16613619 -.9861028 0 708.661)"
@@ -6176,7 +6727,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.98820397 .15314348 -.15314348 -.98820397 0 708.661)"
@@ -6188,7 +6740,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9901352 .14011522 -.14011522 -.9901352 0 708.661)"
@@ -6200,7 +6753,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9918963 .12705043 -.12705043 -.9918963 0 708.661)"
@@ -6212,7 +6766,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99348649 .11395008 -.11395008 -.99348649 0 708.661)"
@@ -6224,7 +6779,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9948951 .10091451 -.10091451 -.9948951 0 708.661)"
@@ -6236,7 +6792,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9961425 .08774997 -.08774997 -.9961425 0 708.661)"
@@ -6248,7 +6805,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99721726 .07455022 -.07455022 -.99721726 0 708.661)"
@@ -6260,7 +6818,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.998111 .06143595 -.06143595 -.998111 0 708.661)"
@@ -6272,7 +6831,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99883779 .048200098 -.048200098 -.99883779 0 708.661)"
@@ -6284,7 +6844,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9993863 .03502859 -.03502859 -.9993863 0 708.661)"
@@ -6296,7 +6857,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9997614 .02184295 -.02184295 -.9997614 0 708.661)"
@@ -6308,7 +6870,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9999636 .008535769 -.008535769 -.9999636 0 708.661)"
@@ -6320,7 +6883,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9999889 -.0047000155 .0047000155 -.9999889 0 708.661)"
@@ -6332,7 +6896,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.999839 -.017942917 .017942917 -.999839 0 708.661)"
@@ -6344,7 +6909,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.999513 -.031207324 .031207324 -.999513 0 708.661)"
@@ -6356,7 +6922,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9990104 -.04447871 .04447871 -.9990104 0 708.661)"
@@ -6368,7 +6935,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99833527 -.057678958 .057678958 -.99833527 0 708.661)"
@@ -6380,7 +6948,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9974783 -.07097192 .07097192 -.9974783 0 708.661)"
@@ -6392,7 +6961,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99645009 -.08418572 .08418572 -.99645009 0 708.661)"
@@ -6404,7 +6974,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99524536 -.09740024 .09740024 -.99524536 0 708.661)"
@@ -6416,7 +6987,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9938531 -.110707487 .110707487 -.9938531 0 708.661)"
@@ -6428,7 +7000,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99230358 -.123829018 .123829018 -.99230358 0 708.661)"
@@ -6440,7 +7013,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.99056419 -.13704998 .13704998 -.99056419 0 708.661)"
@@ -6452,7 +7026,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9886468 -.15025775 .15025775 -.9886468 0 708.661)"
@@ -6464,7 +7039,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.98656579 -.16336453 .16336453 -.98656579 0 708.661)"
@@ -6476,7 +7052,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9842878 -.17657179 .17657179 -.9842878 0 708.661)"
@@ -6488,7 +7065,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.98184886 -.18966542 .18966542 -.98184886 0 708.661)"
@@ -6500,7 +7078,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9792304 -.20275039 .20275039 -.9792304 0 708.661)"
@@ -6512,7 +7091,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9764581 -.21570736 .21570736 -.9764581 0 708.661)"
@@ -6524,7 +7104,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9734832 -.22875823 .22875823 -.9734832 0 708.661)"
@@ -6536,7 +7117,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9703544 -.2416868 .2416868 -.9703544 0 708.661)"
@@ -6548,7 +7130,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9670498 -.25458754 .25458754 -.9670498 0 708.661)"
@@ -6560,7 +7143,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9635657 -.26747183 .26747183 -.9635657 0 708.661)"
@@ -6572,7 +7156,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.95990827 -.28031463 .28031463 -.95990827 0 708.661)"
@@ -6584,7 +7169,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.95610138 -.29303614 .29303614 -.95610138 0 708.661)"
@@ -6596,7 +7182,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9521204 -.30572338 .30572338 -.9521204 0 708.661)"
@@ -6608,7 +7195,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.94796589 -.31837199 .31837199 -.94796589 0 708.661)"
@@ -6620,7 +7208,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.94367006 -.33088774 .33088774 -.94367006 0 708.661)"
@@ -6632,7 +7221,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9391702 -.34345217 .34345217 -.9391702 0 708.661)"
@@ -6644,7 +7234,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.93453177 -.35587979 .35587979 -.93453177 0 708.661)"
@@ -6656,7 +7247,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9297627 -.36815936 .36815936 -.9297627 0 708.661)"
@@ -6668,7 +7260,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.92482456 -.38039414 .38039414 -.92482456 0 708.661)"
@@ -6680,7 +7273,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.91968396 -.39265947 .39265947 -.91968396 0 708.661)"
@@ -6692,7 +7286,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9144549 -.40468786 .40468786 -.9144549 0 708.661)"
@@ -6704,7 +7299,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9090239 -.41674397 .41674397 -.9090239 0 708.661)"
@@ -6716,7 +7312,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.9034735 -.42864386 .42864386 -.9034735 0 708.661)"
@@ -6728,7 +7325,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8978014 -.4404007 .4404007 -.8978014 0 708.661)"
@@ -6740,7 +7338,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.89193776 -.4521582 .4521582 -.89193776 0 708.661)"
@@ -6752,7 +7351,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.88596126 -.46375925 .46375925 -.88596126 0 708.661)"
@@ -6764,7 +7364,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8798764 -.47520266 .47520266 -.8798764 0 708.661)"
@@ -6776,7 +7377,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8775528 -.4794801 .4794801 -.8775528 0 708.661)"
@@ -6788,7 +7390,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8615456 -.5076802 .5076802 -.8615456 0 708.661)"
@@ -6800,7 +7403,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.860678 -.5091497 .5091497 -.860678 0 708.661)"
@@ -6812,7 +7416,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8540122 -.52025309 .52025309 -.8540122 0 708.661)"
@@ -6824,7 +7429,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.84714326 -.5313645 .5313645 -.84714326 0 708.661)"
@@ -6836,7 +7442,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8401379 -.5423728 .5423728 -.8401379 0 708.661)"
@@ -6848,7 +7455,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8329383 -.55336597 .55336597 -.8329383 0 708.661)"
@@ -6860,7 +7468,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.82559707 -.56426 .56426 -.82559707 0 708.661)"
@@ -6872,7 +7481,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8181203 -.5750471 .5750471 -.8181203 0 708.661)"
@@ -6884,7 +7494,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8104503 -.5858074 .5858074 -.8104503 0 708.661)"
@@ -6896,7 +7507,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.8026442 -.59645816 .59645816 -.8026442 0 708.661)"
@@ -6908,7 +7520,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7947046 -.60699638 .60699638 -.7947046 0 708.661)"
@@ -6920,7 +7533,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7865808 -.61748746 .61748746 -.7865808 0 708.661)"
@@ -6932,7 +7546,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7783769 -.62779727 .62779727 -.7783769 0 708.661)"
@@ -6944,7 +7559,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.76992937 -.6381292 .6381292 -.76992937 0 708.661)"
@@ -6956,7 +7572,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.76141497 -.6482648 .6482648 -.76141497 0 708.661)"
@@ -6968,7 +7585,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7527099 -.65835246 .65835246 -.7527099 0 708.661)"
@@ -6980,7 +7598,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7438891 -.6683031 .6683031 -.7438891 0 708.661)"
@@ -6992,7 +7611,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7349535 -.6781175 .6781175 -.7349535 0 708.661)"
@@ -7004,7 +7624,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.72582378 -.68788078 .68788078 -.72582378 0 708.661)"
@@ -7016,7 +7637,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7166451 -.69743797 .69743797 -.7166451 0 708.661)"
@@ -7028,7 +7650,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.7072889 -.7069246 .7069246 -.7072889 0 708.661)"
@@ -7040,7 +7663,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.69775286 -.7163386 .7163386 -.69775286 0 708.661)"
@@ -7052,7 +7676,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6881668 -.7255526 .7255526 -.6881668 0 708.661)"
@@ -7064,7 +7689,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.67841479 -.7346791 .7346791 -.67841479 0 708.661)"
@@ -7076,7 +7702,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.66854396 -.7436726 .7436726 -.66854396 0 708.661)"
@@ -7088,7 +7715,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.65858098 -.75250986 .75250986 -.65858098 0 708.661)"
@@ -7100,7 +7728,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.64851549 -.76120147 .76120147 -.64851549 0 708.661)"
@@ -7112,7 +7741,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6383517 -.7697448 .7697448 -.6383517 0 708.661)"
@@ -7124,7 +7754,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.628003 -.77821096 .77821096 -.628003 0 708.661)"
@@ -7136,7 +7767,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.61757519 -.7865119 .7865119 -.61757519 0 708.661)"
@@ -7148,7 +7780,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.6071223 -.79460838 .79460838 -.6071223 0 708.661)"
@@ -7160,7 +7793,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.59642949 -.8026655 .8026655 -.59642949 0 708.661)"
@@ -7172,7 +7806,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.58572867 -.81050726 .81050726 -.58572867 0 708.661)"
@@ -7184,7 +7819,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.57493028 -.8182024 .8182024 -.57493028 0 708.661)"
@@ -7196,7 +7832,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5639803 -.82578828 .82578828 -.5639803 0 708.661)"
@@ -7208,7 +7845,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5530227 -.83316627 .83316627 -.5530227 0 708.661)"
@@ -7220,7 +7858,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.54189506 -.8404462 .8404462 -.54189506 0 708.661)"
@@ -7232,7 +7871,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.53069606 -.8475622 .8475622 -.53069606 0 708.661)"
@@ -7244,7 +7884,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5194232 -.8545171 .8545171 -.5194232 0 708.661)"
@@ -7256,7 +7897,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.5080664 -.86131796 .86131796 -.5080664 0 708.661)"
@@ -7268,7 +7910,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4966396 -.8679568 .8679568 -.4966396 0 708.661)"
@@ -7280,7 +7923,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4850588 -.8744815 .8744815 -.4850588 0 708.661)"
@@ -7292,7 +7936,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.47348634 -.88080117 .88080117 -.47348634 0 708.661)"
@@ -7304,7 +7949,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.46184475 -.8869608 .8869608 -.46184475 0 708.661)"
@@ -7316,7 +7962,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.45005138 -.8930027 .8930027 -.45005138 0 708.661)"
@@ -7328,7 +7975,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4381938 -.89888057 .89888057 -.4381938 0 708.661)"
@@ -7340,7 +7988,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.42635904 -.904554 .904554 -.42635904 0 708.661)"
@@ -7352,7 +8001,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.4143717 -.91010776 .91010776 -.4143717 0 708.661)"
@@ -7364,7 +8014,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.40232349 -.91549757 .91549757 -.40232349 0 708.661)"
@@ -7376,7 +8027,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3902213 -.92072108 .92072108 -.3902213 0 708.661)"
@@ -7388,7 +8040,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.3780523 -.9257843 .9257843 -.3780523 0 708.661)"
@@ -7400,7 +8053,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.36591623 -.93064787 .93064787 -.36591623 0 708.661)"
@@ -7412,7 +8066,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.35364355 -.9353803 .9353803 -.35364355 0 708.661)"
@@ -7424,7 +8079,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.34130145 -.9399539 .9399539 -.34130145 0 708.661)"
@@ -7436,7 +8092,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.32892148 -.9443573 .9443573 -.32892148 0 708.661)"
@@ -7448,7 +8105,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.31648059 -.9485989 .9485989 -.31648059 0 708.661)"
@@ -7460,7 +8118,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.30390764 -.9527015 .9527015 -.30390764 0 708.661)"
@@ -7472,7 +8131,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.2913657 -.95661178 .95661178 -.2913657 0 708.661)"
@@ -7484,7 +8144,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.27878005 -.960355 .960355 -.27878005 0 708.661)"
@@ -7496,7 +8157,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.26614417 -.9639332 .9639332 -.26614417 0 708.661)"
@@ -7508,7 +8170,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.25345809 -.96734645 .96734645 -.25345809 0 708.661)"
@@ -7520,7 +8183,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.24073689 -.97059038 .97059038 -.24073689 0 708.661)"
@@ -7532,7 +8196,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.22796545 -.97366926 .97366926 -.22796545 0 708.661)"
@@ -7544,7 +8209,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.21515735 -.9765794 .9765794 -.21515735 0 708.661)"
@@ -7556,7 +8222,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.20230043 -.9793235 .9793235 -.20230043 0 708.661)"
@@ -7568,7 +8235,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.1894151 -.98189708 .98189708 -.1894151 0 708.661)"
@@ -7580,7 +8248,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.17647243 -.98430559 .98430559 -.17647243 0 708.661)"
@@ -7592,7 +8261,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.16350819 -.986542 .986542 -.16350819 0 708.661)"
@@ -7604,7 +8274,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.15051438 -.9886078 .9886078 -.15051438 0 708.661)"
@@ -7616,7 +8287,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.13747221 -.9905056 .9905056 -.13747221 0 708.661)"
@@ -7628,7 +8300,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.124400448 -.9922321 .9922321 -.124400448 0 708.661)"
@@ -7640,7 +8313,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.11128601 -.99378839 .99378839 -.11128601 0 708.661)"
@@ -7652,7 +8326,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.09825752 -.99516108 .99516108 -.09825752 0 708.661)"
@@ -7664,7 +8339,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.085085909 -.99637368 .99637368 -.085085909 0 708.661)"
@@ -7676,7 +8352,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.07189323 -.9974123 .9974123 -.07189323 0 708.661)"
@@ -7688,7 +8365,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.058764318 -.9982719 .9982719 -.058764318 0 708.661)"
@@ -7700,7 +8378,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.045528838 -.998963 .998963 -.045528838 0 708.661)"
@@ -7712,7 +8391,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.0323573 -.9994764 .9994764 -.0323573 0 708.661)"
@@ -7724,7 +8404,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.019157187 -.9998165 .9998165 -.019157187 0 708.661)"
@@ -7736,7 +8417,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.0059428794 -.9999823 .9999823 -.0059428794 0 708.661)"
@@ -7748,7 +8430,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.007378581 -.99997279 .99997279 .007378581 0 708.661)"
@@ -7760,7 +8443,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.020535784 -.9997891 .9997891 .020535784 0 708.661)"
@@ -7772,7 +8456,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.033800004 -.99942865 .99942865 .033800004 0 708.661)"
@@ -7784,7 +8469,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.04707883 -.99889126 .99889126 .04707883 0 708.661)"
@@ -7796,7 +8482,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.06036459 -.99817648 .99817648 .06036459 0 708.661)"
@@ -7808,7 +8495,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.073564637 -.99729046 .99729046 .073564637 0 708.661)"
@@ -7820,7 +8508,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.086871888 -.99621948 .99621948 .086871888 0 708.661)"
@@ -7832,7 +8521,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.100085739 -.9949788 .9949788 .100085739 0 708.661)"
@@ -7844,7 +8534,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.124700199 -.9921944 .9921944 .124700199 0 708.661)"
@@ -7856,7 +8547,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.1607295 -.9869985 .9869985 .1607295 0 708.661)"
@@ -7868,7 +8560,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.19659415 -.98048499 .98048499 .19659415 0 708.661)"
@@ -7880,7 +8573,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.23083729 -.97299239 .97299239 .23083729 0 708.661)"
@@ -7892,7 +8586,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.26399369 -.96452447 .96452447 .26399369 0 708.661)"
@@ -7904,7 +8599,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.29462338 -.95561346 .95561346 .29462338 0 708.661)"
@@ -7916,7 +8612,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.32319428 -.94633266 .94633266 .32319428 0 708.661)"
@@ -7928,7 +8625,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.35228796 -.9358916 .9358916 .35228796 0 708.661)"
@@ -7940,7 +8638,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3729025 -.9278705 .9278705 .3729025 0 708.661)"
@@ -7952,7 +8651,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.38511593 -.9228682 .9228682 .38511593 0 708.661)"
@@ -7964,7 +8664,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.39726583 -.91770359 .91770359 .39726583 0 708.661)"
@@ -7976,7 +8677,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4092735 -.91241177 .91241177 .4092735 0 708.661)"
@@ -7988,7 +8690,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4212941 -.9069241 .9069241 .4212941 0 708.661)"
@@ -8000,7 +8703,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.43317316 -.90131077 .90131077 .43317316 0 708.661)"
@@ -8012,7 +8716,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.44489495 -.8955828 .8955828 .44489495 0 708.661)"
@@ -8024,7 +8729,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.45653776 -.889704 .889704 .45653776 0 708.661)"
@@ -8036,7 +8742,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4681158 -.8836672 .8836672 .4681158 0 708.661)"
@@ -8048,7 +8755,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.47945757 -.8775651 .8775651 .47945757 0 708.661)"
@@ -8063,7 +8771,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5076496 -.8615636 .8615636 .5076496 0 708.661)"
@@ -8075,7 +8784,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.513364 -.858171 .858171 .513364 0 708.661)"
@@ -8087,7 +8797,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.52443578 -.85145 .85145 .52443578 0 708.661)"
@@ -8099,7 +8810,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5355868 -.8444802 .8444802 .5355868 0 708.661)"
@@ -8111,7 +8823,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.54655739 -.8374217 .8374217 .54655739 0 708.661)"
@@ -8123,7 +8836,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5575157 -.8301664 .8301664 .5575157 0 708.661)"
@@ -8135,7 +8849,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5683669 -.8227752 .8227752 .5683669 0 708.661)"
@@ -8147,7 +8862,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5791112 -.81524857 .81524857 .5791112 0 708.661)"
@@ -8159,7 +8875,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5898366 -.8075226 .8075226 .5898366 0 708.661)"
@@ -8171,7 +8888,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.60882946 -.79330119 .79330119 .60882946 0 708.661)"
@@ -8183,7 +8901,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.63650259 -.7712745 .7712745 .63650259 0 708.661)"
@@ -8195,7 +8914,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6633737 -.7482883 .7482883 .6633737 0 708.661)"
@@ -8207,7 +8927,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.688196 -.7255248 .7255248 .688196 0 708.661)"
@@ -8219,7 +8940,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.71106 -.7031314 .7031314 .71106 0 708.661)"
@@ -8231,7 +8953,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7343087 -.6788157 .6788157 .7343087 0 708.661)"
@@ -8243,7 +8966,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7562024 -.6543378 .6543378 .7562024 0 708.661)"
@@ -8256,7 +8980,8 @@ const Symbol = forwardRef((props, ref) => {
         </text>
 
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.43110375 .90230247 -.90230247 .43110375 0 708.661)"
@@ -8268,7 +8993,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.44299744 .8965228 -.8965228 .44299744 0 708.661)"
@@ -8280,7 +9006,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.45474965 .8906193 -.8906193 .45474965 0 708.661)"
@@ -8292,7 +9019,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.46650646 .88451787 -.88451787 .46650646 0 708.661)"
@@ -8304,7 +9032,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.47812499 .8782918 -.8782918 .47812499 0 708.661)"
@@ -8316,7 +9045,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.48974688 .8718647 -.8718647 .48974688 0 708.661)"
@@ -8328,7 +9058,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5012198 .86532 -.86532 .5012198 0 708.661)"
@@ -8340,7 +9071,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5126171 .8586173 -.8586173 .5126171 0 708.661)"
@@ -8352,7 +9084,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5240234 .8517039 -.8517039 .5240234 0 708.661)"
@@ -8364,7 +9097,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.53526809 .8446823 -.8446823 .53526809 0 708.661)"
@@ -8376,7 +9110,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.54635569 .8375533 -.8375533 .54635569 0 708.661)"
@@ -8388,7 +9123,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5574455 .83021357 -.83021357 .5574455 0 708.661)"
@@ -8400,7 +9136,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5684546 .8227146 -.8227146 .5684546 0 708.661)"
@@ -8412,7 +9149,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5792951 .8151179 -.8151179 .5792951 0 708.661)"
@@ -8424,7 +9162,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5901297 .8073085 -.8073085 .5901297 0 708.661)"
@@ -8436,7 +9175,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.60079446 .79940357 -.79940357 .60079446 0 708.661)"
@@ -8448,7 +9188,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.611384 .7913341 -.7913341 .611384 0 708.661)"
@@ -8460,7 +9201,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6218704 .78312018 -.78312018 .6218704 0 708.661)"
@@ -8472,7 +9214,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6384235 .7696852 -.7696852 .6384235 0 708.661)"
@@ -8484,7 +9227,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6633625 .7482982 -.7482982 .6633625 0 708.661)"
@@ -8496,7 +9240,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6895724 .72421678 -.72421678 .6895724 0 708.661)"
@@ -8508,7 +9253,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.712968 .70119658 -.70119658 .712968 0 708.661)"
@@ -8520,7 +9266,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.73289367 .6803432 -.6803432 .73289367 0 708.661)"
@@ -8532,7 +9279,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.74603798 .66590347 -.66590347 .74603798 0 708.661)"
@@ -8544,7 +9292,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.759183 .65087726 -.65087726 .759183 0 708.661)"
@@ -8556,7 +9305,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7778234 .628483 -.628483 .7778234 0 708.661)"
@@ -8568,7 +9318,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7915266 .6111346 -.6111346 .7915266 0 708.661)"
@@ -8580,7 +9331,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7995787 .6005613 -.6005613 .7995787 0 708.661)"
@@ -8592,7 +9344,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.80743077 .58996239 -.58996239 .80743077 0 708.661)"
@@ -8604,7 +9357,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.81516119 .5792342 -.5792342 .81516119 0 708.661)"
@@ -8616,7 +9370,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.82269278 .5684863 -.5684863 .82269278 0 708.661)"
@@ -8628,7 +9383,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8300832 .5576396 -.5576396 .8300832 0 708.661)"
@@ -8640,7 +9396,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.83734396 .5466765 -.5466765 .83734396 0 708.661)"
@@ -8652,7 +9409,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8444607 .5356175 -.5356175 .8444607 0 708.661)"
@@ -8664,7 +9422,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8513752 .5245572 -.5245572 .8513752 0 708.661)"
@@ -8676,7 +9435,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.85814997 .5133992 -.5133992 .85814997 0 708.661)"
@@ -8688,7 +9448,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.861545 .50768116 -.50768116 .861545 0 708.661)"
@@ -8700,7 +9461,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8775487 .47948749 -.47948749 .8775487 0 708.661)"
@@ -8712,7 +9474,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.877885 .4788715 -.4788715 .877885 0 708.661)"
@@ -8724,7 +9487,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.884069 .4673563 -.4673563 .884069 0 708.661)"
@@ -8736,7 +9500,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.89009329 .45577846 -.45577846 .89009329 0 708.661)"
@@ -8748,7 +9513,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.89596238 .4441299 -.4441299 .89596238 0 708.661)"
@@ -8760,7 +9526,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.90172478 .4323106 -.4323106 .90172478 0 708.661)"
@@ -8772,7 +9539,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.90732589 .42042799 -.42042799 .90732589 0 708.661)"
@@ -8784,7 +9552,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.912765 .40848495 -.40848495 .912765 0 708.661)"
@@ -8796,7 +9565,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9180855 .39638243 -.39638243 .9180855 0 708.661)"
@@ -8808,7 +9578,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9232397 .3842244 -.3842244 .9232397 0 708.661)"
@@ -8820,7 +9591,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.92822828 .37201113 -.37201113 .92822828 0 708.661)"
@@ -8832,7 +9604,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.933087 .35965068 -.35965068 .933087 0 708.661)"
@@ -8844,7 +9617,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9377775 .34723676 -.34723676 .9377775 0 708.661)"
@@ -8856,7 +9630,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.94229575 .3347815 -.3347815 .94229575 0 708.661)"
@@ -8868,7 +9643,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9494795 .31382896 -.31382896 .9494795 0 708.661)"
@@ -8880,7 +9656,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.958498 .2850991 -.2850991 .958498 0 708.661)"
@@ -8892,7 +9669,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9666746 .25600819 -.25600819 .9666746 0 708.661)"
@@ -8904,7 +9682,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.97455826 .22413443 -.22413443 .97455826 0 708.661)"
@@ -8916,7 +9695,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9812205 .1928895 -.1928895 .9812205 0 708.661)"
@@ -8928,7 +9708,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9851103 .17192333 -.17192333 .9851103 0 708.661)"
@@ -8940,7 +9721,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9873224 .15872789 -.15872789 .9873224 0 708.661)"
@@ -8952,7 +9734,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9893563 .14551309 -.14551309 .9893563 0 708.661)"
@@ -8964,7 +9747,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9911971 .13239403 -.13239403 .9911971 0 708.661)"
@@ -8976,7 +9760,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99287357 .11917246 -.11917246 .99287357 0 708.661)"
@@ -8988,7 +9773,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9943714 .10595013 -.10595013 .9943714 0 708.661)"
@@ -9000,7 +9786,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99569919 .09264518 -.09264518 .99569919 0 708.661)"
@@ -9012,7 +9799,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9968405 .07943001 -.07943001 .9968405 0 708.661)"
@@ -9024,7 +9812,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.997805 .06622144 -.06622144 .997805 0 708.661)"
@@ -9036,7 +9825,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99859789 .052937 -.052937 .99859789 0 708.661)"
@@ -9048,7 +9838,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9992135 .0396527 -.0396527 .9992135 0 708.661)"
@@ -9060,7 +9851,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99965217 .026375354 -.026375354 .99965217 0 708.661)"
@@ -9072,7 +9864,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99991396 .0131185869 -.0131185869 .99991396 0 708.661)"
@@ -9084,7 +9877,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(1 -.00011743819 .00011743819 1 0 708.661)"
@@ -9096,7 +9890,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99991098 -.013346516 .013346516 .99991098 0 708.661)"
@@ -9108,7 +9903,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.999645 -.026644765 .026644765 .999645 0 708.661)"
@@ -9120,7 +9916,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99920669 -.039825407 .039825407 .99920669 0 708.661)"
@@ -9132,7 +9929,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9985902 -.05308203 .05308203 .9985902 0 708.661)"
@@ -9144,7 +9942,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.997805 -.06622144 .06622144 .997805 0 708.661)"
@@ -9156,7 +9955,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9968405 -.07943001 .07943001 .9968405 0 708.661)"
@@ -9168,7 +9968,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9957031 -.09260347 .09260347 .9957031 0 708.661)"
@@ -9180,7 +9981,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9944022 -.105660337 .105660337 .9944022 0 708.661)"
@@ -9192,7 +9994,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99292078 -.11877856 .11877856 .99292078 0 708.661)"
@@ -9204,7 +10007,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.99126717 -.13186914 .13186914 .99126717 0 708.661)"
@@ -9216,7 +10020,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9894426 -.14492537 .14492537 .9894426 0 708.661)"
@@ -9228,7 +10033,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.986024 -.1666032 .1666032 .986024 0 708.661)"
@@ -9240,7 +10046,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9822222 -.1877222 .1877222 .9822222 0 708.661)"
@@ -9252,7 +10059,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9775987 -.21047727 .21047727 .9775987 0 708.661)"
@@ -9264,7 +10072,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.96983209 -.24377403 .24377403 .96983209 0 708.661)"
@@ -9276,7 +10085,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9616794 -.2741764 .2741764 .9616794 0 708.661)"
@@ -9288,7 +10098,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9528263 -.30351616 .30351616 .9528263 0 708.661)"
@@ -9300,7 +10111,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9457994 -.32475136 .32475136 .9457994 0 708.661)"
@@ -9312,7 +10124,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.93919339 -.3433888 .3433888 .93919339 0 708.661)"
@@ -9324,7 +10137,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.92886927 -.37040786 .37040786 .92886927 0 708.661)"
@@ -9336,7 +10150,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9205491 -.39062686 .39062686 .9205491 0 708.661)"
@@ -9348,7 +10163,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.91531535 -.40273793 .40273793 .91531535 0 708.661)"
@@ -9360,7 +10176,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9099219 -.41477967 .41477967 .9099219 0 708.661)"
@@ -9372,7 +10189,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.9043594 -.42677156 .42677156 .9043594 0 708.661)"
@@ -9384,7 +10202,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.89864346 -.43867976 .43867976 .89864346 0 708.661)"
@@ -9396,7 +10215,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8927589 -.45053474 .45053474 .8927589 0 708.661)"
@@ -9408,7 +10228,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.88675627 -.46223734 .46223734 .88675627 0 708.661)"
@@ -9420,7 +10241,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8805432 -.4739659 .4739659 .8805432 0 708.661)"
@@ -9432,7 +10254,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8742189 -.4855321 .4855321 .8742189 0 708.661)"
@@ -9444,7 +10267,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8676883 -.4971088 .4971088 .8676883 0 708.661)"
@@ -9456,7 +10280,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8610418 -.5085343 .5085343 .8610418 0 708.661)"
@@ -9468,7 +10293,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8542319 -.5198922 .5198922 .8542319 0 708.661)"
@@ -9480,7 +10306,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.84727099 -.53116086 .53116086 .84727099 0 708.661)"
@@ -9492,7 +10319,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8401474 -.54235818 .54235818 .8401474 0 708.661)"
@@ -9504,7 +10332,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8328635 -.5534785 .5534785 .8328635 0 708.661)"
@@ -9516,7 +10345,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.825425 -.5645118 .5645118 .825425 0 708.661)"
@@ -9528,7 +10358,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8178854 -.57538118 .57538118 .8178854 0 708.661)"
@@ -9540,7 +10371,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.81013277 -.58624657 .58624657 .81013277 0 708.661)"
@@ -9552,7 +10384,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.8022764 -.5969528 .5969528 .8022764 0 708.661)"
@@ -9564,7 +10397,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7942706 -.6075642 .6075642 .7942706 0 708.661)"
@@ -9576,7 +10410,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7861115 -.6180848 .6180848 .7861115 0 708.661)"
@@ -9588,7 +10423,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.77779838 -.628514 .628514 .77779838 0 708.661)"
@@ -9600,7 +10436,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.7625311 -.6469515 .6469515 .7625311 0 708.661)"
@@ -9612,7 +10449,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.739669 -.6729709 .6729709 .739669 0 708.661)"
@@ -9624,7 +10462,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.71338239 -.700775 .700775 .71338239 0 708.661)"
@@ -9636,7 +10475,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6941761 -.7198052 .7198052 .6941761 0 708.661)"
@@ -9648,7 +10488,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6799419 -.733266 .733266 .6799419 0 708.661)"
@@ -9660,7 +10501,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.665564 -.7463408 .7463408 .665564 0 708.661)"
@@ -9672,7 +10514,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.65053138 -.75947949 .75947949 .65053138 0 708.661)"
@@ -9684,7 +10527,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6280591 -.77816566 .77816566 .6280591 0 708.661)"
@@ -9696,7 +10540,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6107758 -.7918035 .7918035 .6107758 0 708.661)"
@@ -9708,7 +10553,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6002067 -.799845 .799845 .6002067 0 708.661)"
@@ -9720,7 +10566,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5895908 -.8077021 .8077021 .5895908 0 708.661)"
@@ -9732,7 +10579,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5788747 -.81541648 .81541648 .5788747 0 708.661)"
@@ -9744,7 +10592,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5681236 -.8229433 .8229433 .5681236 0 708.661)"
@@ -9756,7 +10605,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5572674 -.8303331 .8303331 .5572674 0 708.661)"
@@ -9768,7 +10618,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5463171 -.8375784 .8375784 .5463171 0 708.661)"
@@ -9780,7 +10631,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5352582 -.84468856 .84468856 .5352582 0 708.661)"
@@ -9792,7 +10644,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.52418187 -.8516063 .8516063 .52418187 0 708.661)"
@@ -9804,7 +10657,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5131094 -.8583233 .8583233 .5131094 0 708.661)"
@@ -9816,7 +10670,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.50764647 -.86156556 .86156556 .50764647 0 708.661)"
@@ -9828,7 +10683,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4794604 -.87756356 .87756356 .4794604 0 708.661)"
@@ -9840,7 +10696,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4784915 -.8780922 .8780922 .4784915 0 708.661)"
@@ -9852,7 +10709,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4670667 -.88422206 .88422206 .4670667 0 708.661)"
@@ -9864,7 +10722,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4554814 -.8902453 .8902453 .4554814 0 708.661)"
@@ -9876,7 +10735,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4437451 -.89615306 .89615306 .4437451 0 708.661)"
@@ -9888,7 +10748,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.43201516 -.9018663 .9018663 .43201516 0 708.661)"
@@ -9900,7 +10761,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.42013336 -.90746238 .90746238 .42013336 0 708.661)"
@@ -9912,7 +10774,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.40809823 -.912938 .912938 .40809823 0 708.661)"
@@ -9924,7 +10787,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.39608426 -.91821417 .91821417 .39608426 0 708.661)"
@@ -9936,7 +10800,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.37326823 -.92772349 .92772349 .37326823 0 708.661)"
@@ -9948,7 +10813,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3411384 -.94001308 .94001308 .3411384 0 708.661)"
@@ -9960,7 +10826,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3110378 -.95039758 .95039758 .3110378 0 708.661)"
@@ -9972,7 +10839,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.28733776 -.9578293 .9578293 .28733776 0 708.661)"
@@ -9984,7 +10852,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.26812626 -.96338376 .96338376 .26812626 0 708.661)"
@@ -9996,7 +10865,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.24885832 -.9685399 .9685399 .24885832 0 708.661)"
@@ -10008,7 +10878,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.21864978 -.97580346 .97580346 .21864978 0 708.661)"
@@ -10020,7 +10891,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.1851239 -.9827152 .9827152 .1851239 0 708.661)"
@@ -10032,7 +10904,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.15407932 -.98805847 .98805847 .15407932 0 708.661)"
@@ -10044,7 +10917,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.13297501 -.9911194 .9911194 .13297501 0 708.661)"
@@ -10056,7 +10930,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.11976627 -.9928021 .9928021 .11976627 0 708.661)"
@@ -10068,7 +10943,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.106550928 -.9943072 .9943072 .106550928 0 708.661)"
@@ -10080,7 +10956,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.093335788 -.99563476 .99563476 .093335788 0 708.661)"
@@ -10092,7 +10969,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.080120828 -.9967851 .9967851 .080120828 0 708.661)"
@@ -10104,7 +10982,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.06682254 -.9977649 .9977649 .06682254 0 708.661)"
@@ -10116,7 +10995,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.053538145 -.99856588 .99856588 .053538145 0 708.661)"
@@ -10128,7 +11008,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.040343517 -.9991859 .9991859 .040343517 0 708.661)"
@@ -10140,7 +11021,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.027072948 -.9996335 .9996335 .027072948 0 708.661)"
@@ -10152,7 +11034,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.013816275 -.9999045 .9999045 .013816275 0 708.661)"
@@ -10164,7 +11047,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.00057337459 -.9999998 .9999998 .00057337459 0 708.661)"
@@ -10176,7 +11060,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.012745519 -.99991878 .99991878 -.012745519 0 708.661)"
@@ -10188,7 +11073,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.025946979 -.9996633 .9996633 -.025946979 0 708.661)"
@@ -10200,7 +11086,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.03913458 -.99923399 .99923399 -.03913458 0 708.661)"
@@ -10212,7 +11099,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.052384434 -.998627 .998627 -.052384434 0 708.661)"
@@ -10224,7 +11112,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(-.06560656 -.99784556 .99784556 -.06560656 0 708.661)"
@@ -10236,7 +11125,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6931156 .7208264 -.7208264 .6931156 0 708.661)"
@@ -10248,7 +11138,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6835669 .72988787 -.72988787 .6835669 0 708.661)"
@@ -10260,7 +11151,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.67390289 .73881998 -.73881998 .67390289 0 708.661)"
@@ -10272,7 +11164,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6641317 .7476156 -.7476156 .6641317 0 708.661)"
@@ -10284,7 +11177,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.65424528 .75628247 -.75628247 .65424528 0 708.661)"
@@ -10296,7 +11190,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6442522 .7648131 -.7648131 .6442522 0 708.661)"
@@ -10308,7 +11203,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.634148 .7732117 -.7732117 .634148 0 708.661)"
@@ -10320,7 +11216,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.6239411 .7814713 -.7814713 .6239411 0 708.661)"
@@ -10332,7 +11229,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.613623 .7895991 -.7895991 .613623 0 708.661)"
@@ -10344,7 +11242,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.60319909 .79759076 -.79759076 .60319909 0 708.661)"
@@ -10356,7 +11255,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5926762 .8054408 -.8054408 .5926762 0 708.661)"
@@ -10368,7 +11268,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.58197048 .81320986 -.81320986 .58197048 0 708.661)"
@@ -10380,7 +11281,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.57131788 .8207289 -.8207289 .57131788 0 708.661)"
@@ -10392,7 +11294,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.56040456 .82821908 -.82821908 .56040456 0 708.661)"
@@ -10404,7 +11307,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5495486 .83546176 -.83546176 .5495486 0 708.661)"
@@ -10416,7 +11320,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5384405 .8426635 -.8426635 .5384405 0 708.661)"
@@ -10428,7 +11333,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5273875 .84962496 -.84962496 .5273875 0 708.661)"
@@ -10440,7 +11346,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.51607599 .8565428 -.8565428 .51607599 0 708.661)"
@@ -10452,7 +11359,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.5048301 .8632187 -.8632187 .5048301 0 708.661)"
@@ -10464,7 +11372,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4934097 .86979708 -.86979708 .4934097 0 708.661)"
@@ -10476,7 +11385,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.48189203 .8762306 -.8762306 .48189203 0 708.661)"
@@ -10488,7 +11398,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.470285 .88251468 -.88251468 .470285 0 708.661)"
@@ -10500,7 +11411,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.45858024 .88865306 -.88865306 .45858024 0 708.661)"
@@ -10512,7 +11424,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4468748 .8945965 -.8945965 .4468748 0 708.661)"
@@ -10524,7 +11437,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.4349911 .90043476 -.90043476 .4349911 0 708.661)"
@@ -10536,7 +11450,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.41515974 .9097485 -.9097485 .41515974 0 708.661)"
@@ -10548,7 +11463,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3877127 .9217802 -.9217802 .3877127 0 708.661)"
@@ -10560,7 +11476,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.3590344 .93332436 -.93332436 .3590344 0 708.661)"
@@ -10572,7 +11489,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.32921369 .9442555 -.9442555 .32921369 0 708.661)"
@@ -10584,7 +11502,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.30067004 .95372828 -.95372828 .30067004 0 708.661)"
@@ -10596,7 +11515,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.27268628 .962103 -.962103 .27268628 0 708.661)"
@@ -10608,7 +11528,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.24436575 .9696831 -.9696831 .24436575 0 708.661)"
@@ -10620,7 +11541,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.21423644 .97678187 -.97678187 .21423644 0 708.661)"
@@ -10632,7 +11554,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.18293679 .9831247 -.9831247 .18293679 0 708.661)"
@@ -10644,7 +11567,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.15056095 .98860076 -.98860076 .15056095 0 708.661)"
@@ -10656,7 +11580,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.11626199 .9932186 -.9932186 .11626199 0 708.661)"
@@ -10668,7 +11593,8 @@ const Symbol = forwardRef((props, ref) => {
           </tspan>
         </text>
         <text
-          fill="#231f20"
+          fill="#000"
+          fontWeight="1000"
           xmlSpace="preserve"
           style={{ pointerEvents: "none" }}
           transform="matrix(.08452497 .99642136 -.99642136 .08452497 0 708.661)"

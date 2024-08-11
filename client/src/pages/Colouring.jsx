@@ -18,11 +18,19 @@ function Colouring() {
     }
   });
 
+  const steps = [
+    { label: "Colouring 1", link: "/colouring1" },
+    { label: "Colouring 2", link: "/colouring2" },
+    { label: "Colouring 3", link: "/colouring3" },
+    { label: "Colouring 4", link: "/colouring4" },
+    { label: "Colouring 5", link: "/colouring5" },
+  ];
+
   return (
     <div className="w-full min-h-screen gradient-background text-white overflow-hidden">
       <Navbar />
       <section className="min-h-screen w-full flex flex-col items-center justify-center hero sm:px-12 pt-20 sm:pt-16 gap-y-8">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex text-center font-semibold gap-x-2">
+        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center  text-center font-semibold gap-x-2">
           <img
             src="/logo.png"
             alt="logo"
@@ -54,7 +62,7 @@ function Colouring() {
             <div className="flex gap-x-3 justify-center py-8">
               <VideoModal />
             </div>
-            <MyStepper />
+            <MyStepper steps={steps} />
           </div>
         </div>
       </section>

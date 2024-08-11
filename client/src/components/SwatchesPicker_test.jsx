@@ -17,7 +17,7 @@ const SwatchesPicker_test = ({ color, colors, onChangeComplete }) => {
             },
           },
         }}
-        height="700px"
+        height="350px"
       />
     </div>
   );
