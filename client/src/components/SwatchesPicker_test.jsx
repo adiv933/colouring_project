@@ -1,26 +1,66 @@
-/* eslint-disable react/prop-types */
-import { SwatchesPicker } from "react-color";
+import PropTypes from "prop-types";
+import { useState } from "react";
 
-const SwatchesPicker_test = ({ color, colors, onChangeComplete }) => {
+const SwatchesPicker_test = ({
+  colors,
+  onColorSelect,
+  swatchSize,
+  gridSize,
+}) => {
+  // eslint-disable-next-line no-unused-vars
+  const { rows, cols } = gridSize;
+  const [selectedColor, setSelectedColor] = useState(null);
+
+  const handleColorClick = (color) => {
+    setSelectedColor(color); // Set the selected color
+    if (onColorSelect) {
+      onColorSelect(color);
+    }
+  };
+
   return (
-    <div className="w-full h-full">
-      <SwatchesPicker
-        color={color}
-        colors={colors}
-        onChangeComplete={onChangeComplete}
-        styles={{
-          default: {
-            picker: {
-              width: "100%",
-              height: "fit-content",
-              boxSizing: "border-box",
-            },
-          },
-        }}
-        height="350px"
-      />
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: `repeat(${cols}, ${swatchSize}px)`,
+        gridGap: "5px",
+        padding: "10px",
+      }}
+    >
+      {colors.flat().map((color, index) => (
+        <div
+          key={index}
+          onClick={() => handleColorClick(color)}
+          style={{
+            backgroundColor: color,
+            width: `${swatchSize}px`,
+            height: `${swatchSize}px`,
+            cursor: "pointer",
+            border:
+              color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
+            boxSizing: "border-box", // Ensure borders are included in width/height
+            transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
+            transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
+          }}
+        />
+      ))}
     </div>
   );
+};
+
+SwatchesPicker_test.propTypes = {
+  colors: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onColorSelect: PropTypes.func.isRequired,
+  swatchSize: PropTypes.number,
+  gridSize: PropTypes.shape({
+    rows: PropTypes.number,
+    cols: PropTypes.number,
+  }),
+};
+
+SwatchesPicker_test.defaultProps = {
+  swatchSize: 30,
+  gridSize: { rows: 12, cols: 15 },
 };
 
 export default SwatchesPicker_test;

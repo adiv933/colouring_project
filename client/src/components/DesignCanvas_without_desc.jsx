@@ -51,7 +51,7 @@ const DesignCanvas_without_desc = ({ color }) => {
   };
 
   return (
-    <div className="flex flex-col gap-y-4 p-4 md:p-6">
+    <div className="flex flex-col gap-y-4">
       <div className="overflow-hidden w-full">
         <Symbol_without_desc
           ref={svgRef}

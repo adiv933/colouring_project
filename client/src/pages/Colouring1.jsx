@@ -33,7 +33,7 @@ function Colouring1() {
   return (
     <div className="w-full min-h-screen  gradient-background">
       <Navbar />
-      <div className="flex flex-col items-center min-h-screen w-full px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16 hero">
+      <div className="flex flex-col items-center min-h-screen w-full px-4 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16 p-2 hero">
         <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
           <img
             src="/logo.png"

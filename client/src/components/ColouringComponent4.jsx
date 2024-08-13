@@ -10,7 +10,7 @@ const ColouringComponent4 = () => {
     setColor(newColor.hex);
   };
   return (
-    <div className="min-h-screen flex flex-col md:flex-row gap-y-6 w-full justify-center items-start md:items-center">
+    <div className="min-h-screen flex flex-col md:flex-row gap-y-6 w-full justify-center items-center">
       <div className="flex-col order-2 md:order-1 p-4 md:p-6 w-full md:w-1/5 flex items-center justify-center gap-y-4">
         <ColourTester color={color} />
       </div>

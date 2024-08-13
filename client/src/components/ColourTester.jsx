@@ -8,7 +8,6 @@ const ColorTester = ({ color }) => {
 
   const handleSpaceClick = (index) => {
     if (color && color !== "clear") {
-      // Update the clicked space with the current color
       const updatedSpaces = [...spaces];
       updatedSpaces[index] = color;
       setSpaces(updatedSpaces);
@@ -24,7 +23,7 @@ const ColorTester = ({ color }) => {
 
   return (
     <div className="flex flex-col items-center gap-4  border-2 border-[#dbaf46] p-8 rounded-md">
-      <h1 className="text-[#dbaf46] font-semibold text-xl bg-white p-4 rounded-md">
+      <h1 className="text-[#dbaf46] font-semibold text-xl bg-white w-64 h-12 lg:h-24 rounded-md text-center py-8">
         Try you colours below
       </h1>
       <div
