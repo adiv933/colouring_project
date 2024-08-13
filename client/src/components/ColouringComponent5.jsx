@@ -1,13 +1,13 @@
 import { useState } from "react";
 import ColourTester from "./ColourTester";
 import DesignCanvas from "./DesignCanvas";
-import ColorPicker_test from "./ColorPicker_test";
+import RybPicker from "./RybPicker";
 
 const ColouringComponent5 = () => {
   const [color, setColor] = useState("#000000");
 
-  const handleColorChange = (newColor) => {
-    setColor(newColor.hex);
+  const handleColorSelect = (color) => {
+    setColor(color);
   };
 
   return (
@@ -18,8 +18,8 @@ const ColouringComponent5 = () => {
       <div className="order-3 md:order-2 w-full md:w-1/2">
         <DesignCanvas color={color} />
       </div>
-      <div className="flex-col order-1 md:order-3 w-full md:w-1/4 flex items-center justify-center">
-        <ColorPicker_test color={color} onChangeComplete={handleColorChange} />
+      <div className="flex-col order-1 md:order-3 w-full md:w-1/4 flex items-center justify-center p-4 gap-y-4 bg-white rounded-lg">
+        <RybPicker size={300} onColorSelect={handleColorSelect} />
       </div>
     </div>
   );
