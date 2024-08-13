@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import SwatchesPicker_test from "./SwatchesPicker_test";
+import SwatchesPicker from "./SwatchesPicker";
 import ColourTester from "./ColourTester";
 import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
 
@@ -143,7 +143,7 @@ const ColouringComponent1 = () => {
         <DesignCanvas_without_desc color={color} />
       </div>
       <div className="flex-col order-1 md:order-3 w-full md:w-1/4 flex items-center justify-center p-2 bg-white rounded-lg">
-        <SwatchesPicker_test
+        <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}
           swatchSize={25} // Customize swatch size here

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
 import ColourTester from "./ColourTester";
-import SwatchesPicker_test from "./SwatchesPicker_test";
+import SwatchesPicker from "./SwatchesPicker";
 
 const ColouringComponent2 = () => {
   const [color, setColor] = useState("#000");
@@ -203,7 +203,7 @@ const ColouringComponent2 = () => {
         <DesignCanvas_without_desc color={color} />
       </div>
       <div className="flex-col order-1 md:order-3 w-fit h-fit md:w-1/4 flex items-center justify-center p-8 bg-white rounded-lg">
-        <SwatchesPicker_test
+        <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}
           swatchSize={19} // Customize swatch size here

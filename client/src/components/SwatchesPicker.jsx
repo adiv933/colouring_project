@@ -1,12 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-const SwatchesPicker_test = ({
-  colors,
-  onColorSelect,
-  swatchSize,
-  gridSize,
-}) => {
+const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
   // eslint-disable-next-line no-unused-vars
   const { rows, cols } = gridSize;
   const [selectedColor, setSelectedColor] = useState(null);
@@ -48,7 +43,7 @@ const SwatchesPicker_test = ({
   );
 };
 
-SwatchesPicker_test.propTypes = {
+SwatchesPicker.propTypes = {
   colors: PropTypes.arrayOf(PropTypes.string).isRequired,
   onColorSelect: PropTypes.func.isRequired,
   swatchSize: PropTypes.number,
@@ -58,9 +53,9 @@ SwatchesPicker_test.propTypes = {
   }),
 };
 
-SwatchesPicker_test.defaultProps = {
+SwatchesPicker.defaultProps = {
   swatchSize: 30,
   gridSize: { rows: 12, cols: 15 },
 };
 
-export default SwatchesPicker_test;
+export default SwatchesPicker;
