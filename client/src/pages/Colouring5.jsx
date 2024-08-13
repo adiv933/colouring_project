@@ -3,8 +3,13 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ColouringComponent5 from "../components/ColouringComponent5";
 import ColouringFooter from "../components/ColouringFooter";
+import { useEffect } from "react";
 
 function Colouring5() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   useGSAP(() => {
     const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
 
@@ -28,7 +33,7 @@ function Colouring5() {
     <div className="w-full min-h-screen  gradient-background">
       <Navbar />
       <div className="flex flex-col items-center min-h-screen w-full px-4 md:px-6 space-y-6 md:space-y-8 pt-24 md:pt-20 pb-16 hero">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center items-center text-center font-semibold gap-x-2">
+        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
           <img
             src="/logo.png"
             alt="logo"
@@ -46,7 +51,9 @@ function Colouring5() {
           <br /> <br />
           If white is not convenient, the center may be gold (powder).”
           <br />
-          <span className="underline">- Sri Aurobindo</span>
+          <div className="underline w-full text-right text-blue-800">
+            - Sri Aurobindo
+          </div>
         </p>
         <ColouringComponent5 />
         <ColouringFooter steps={steps} />

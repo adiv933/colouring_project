@@ -3,8 +3,13 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ColouringComponent1 from "../components/ColouringComponent1";
 import ColouringFooter from "../components/ColouringFooter";
+import { useEffect } from "react";
 
 function Colouring1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   useGSAP(() => {
     const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
 
@@ -47,7 +52,9 @@ function Colouring1() {
           <br /> <br />
           If white is not convenient, the center may be gold (powder).”
           <br />
-          <span className="underline">- Sri Aurobindo</span>
+          <div className="underline w-full text-right text-blue-800">
+            - Sri Aurobindo
+          </div>
         </p>
         <ColouringComponent1 />
         <ColouringFooter steps={steps} />
