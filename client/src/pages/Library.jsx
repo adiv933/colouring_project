@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import Navbar from "../components/Navbar";
 import gsap from "gsap";
+import GoldenButton from "../components/GoldenButton";
 
 function Library() {
   useGSAP(() => {
@@ -19,8 +20,8 @@ function Library() {
   return (
     <div className="w-full h-screen gradient-background">
       <Navbar />
-      <section className="h-screen w-full flex flex-col justify-center items-center hero">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center items-center text-center font-semibold gap-x-2">
+      <section className="h-screen w-full flex flex-col items-center hero p-20 justify-between">
+        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
           <img
             src="/logo.png"
             alt="logo"
@@ -28,6 +29,19 @@ function Library() {
           />
           Library
         </h1>
+        <div className="h-full flex flex-col md:flex-row items-center justify-center gap-8">
+          <GoldenButton>
+            {" "}
+            <br />
+            Gallery
+            <br /> <br />{" "}
+          </GoldenButton>
+          <GoldenButton>
+            Works of the Mother
+            <br />&<br />
+            Sri Aurobindo
+          </GoldenButton>
+        </div>
       </section>
     </div>
   );

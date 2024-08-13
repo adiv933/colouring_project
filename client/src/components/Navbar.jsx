@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
+import GoldenButton from "./GoldenButton.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,10 +34,10 @@ const Navbar = () => {
   });
 
   const links = [
-    { href: "colouring", heading: "Colouring" },
+    { href: "colouring", heading: "Colourings" },
     { href: "guidance", heading: "Guidance" },
-    { href: "links", heading: "Useful links" },
     { href: "library", heading: "Library" },
+    { href: "links", heading: "Useful links" },
     { href: "contact", heading: "Contact us" },
   ];
 
@@ -48,8 +49,7 @@ const Navbar = () => {
             to="/"
             className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
           >
-            {/* <img src="/logo.png" alt="Logo" className="h-14 w-14" /> */}
-            Home
+            <GoldenButton>Home</GoldenButton>
           </Link>
           <div className="hidden md:flex md:space-x-8 md:ml-10">
             {links.map((link, index) => (
@@ -58,7 +58,7 @@ const Navbar = () => {
                 className="hover:text-gray-800 hover:-translate-y-1 duration-300 px-3 py-2 rounded-md text-xl links"
                 key={index}
               >
-                {link.heading}
+                <GoldenButton>{link.heading}</GoldenButton>
               </Link>
             ))}
           </div>

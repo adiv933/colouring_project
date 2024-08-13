@@ -57,7 +57,9 @@ function Colouring() {
               <br /> <br />
               If white is not convenient, the center may be gold (powder).”
               <br />
-              <span className="underline">- Sri Aurobindo</span>
+              <div className="underline w-full text-right text-blue-800">
+                - Sri Aurobindo
+              </div>
             </p>
             <div className="flex gap-x-3 justify-center py-8">
               <VideoModal />

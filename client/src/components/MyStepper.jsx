@@ -4,6 +4,14 @@ import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepButton from "@mui/material/StepButton";
 import { Link } from "react-router-dom";
+import { styled } from "@mui/material/styles";
+
+const CustomStepButton = styled(StepButton)(() => ({
+  color: "#dbaf46",
+  "& .MuiStepLabel-label": {
+    color: "white",
+  },
+}));
 
 export default function MyStepper({ steps }) {
   return (
@@ -14,15 +22,15 @@ export default function MyStepper({ steps }) {
           if (link) {
             return (
               <Step key={label}>
-                <StepButton component={Link} to={link}>
+                <CustomStepButton component={Link} to={link}>
                   {label}
-                </StepButton>
+                </CustomStepButton>
               </Step>
             );
           } else {
             return (
               <Step key={label}>
-                <StepButton>{label}</StepButton>
+                <CustomStepButton>{label}</CustomStepButton>
               </Step>
             );
           }
