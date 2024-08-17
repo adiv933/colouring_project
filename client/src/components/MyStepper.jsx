@@ -1,51 +1,8 @@
 /* eslint-disable react/prop-types */
-// /* eslint-disable react/prop-types */
-// import Box from "@mui/material/Box";
-// import Stepper from "@mui/material/Stepper";
-// import Step from "@mui/material/Step";
-// import StepButton from "@mui/material/StepButton";
-// import { Link } from "react-router-dom";
-// import { styled } from "@mui/material/styles";
 
 import React from "react";
 import { Link } from "react-router-dom";
 
-// const CustomStepButton = styled(StepButton)(() => ({
-//   color: "#dbaf46",
-//   "& .MuiStepLabel-label": {
-//     color: "white",
-//   },
-// }));
-
-// export default function MyStepper({ steps }) {
-//   return (
-//     <Box sx={{ width: "100%" }}>
-//       <Stepper nonLinear alternativeLabel>
-// {
-//   steps.map((step) => {
-//     const { label, link } = step;
-//     if (link) {
-//       return (
-//         <Step key={label}>
-//           <CustomStepButton component={Link} to={link}>
-//             {label}
-//           </CustomStepButton>
-//         </Step>
-//       );
-//     } else {
-//       return (
-//         <Step key={label}>
-//           <CustomStepButton>{label}</CustomStepButton>
-//         </Step>
-//       );
-//     }
-//   });
-// }
-//       </Stepper>
-//     </Box>
-//   );
-// }
-// Stepper Component
 export default function MyStepper({ steps }) {
   return (
     <div style={styles.stepperContainer}>
@@ -95,12 +52,13 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     width: "100%",
-    padding: "20px 0",
+    padding: "10px 0",
   },
   stepContainer: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    justifyContent: "center",
     cursor: "pointer",
   },
   circle: {
@@ -134,6 +92,6 @@ const styles = {
     height: "1px",
     backgroundColor: "#fff",
     flexGrow: 1,
-    margin: "0 10px",
+    margin: "0 5px",
   },
 };

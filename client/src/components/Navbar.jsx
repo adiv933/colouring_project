@@ -34,7 +34,7 @@ const Navbar = () => {
   });
 
   const links = [
-    { href: "colouring", heading: "Colourings" },
+    { href: "colourings", heading: "Colourings" },
     { href: "guidance", heading: "Guidance" },
     { href: "library", heading: "Library" },
     { href: "links", heading: "Useful links" },

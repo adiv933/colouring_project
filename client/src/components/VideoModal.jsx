@@ -3,6 +3,7 @@ import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
+import GoldenButton from "./GoldenButton";
 
 const style = {
   position: "absolute",
@@ -24,10 +25,7 @@ export default function VideoModal() {
 
   return (
     <div>
-      <button
-        onClick={handleOpen}
-        className="px-6 py-3 bg-white text-[#dbaf46] text-lg font-bold rounded-lg shadow-md hover:bg-blue-600 transition flex gap-4"
-      >
+      <GoldenButton onClick={handleOpen} className=" flex gap-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -41,7 +39,7 @@ export default function VideoModal() {
           />
         </svg>
         Play video
-      </button>
+      </GoldenButton>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
