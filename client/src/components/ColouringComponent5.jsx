@@ -4,7 +4,7 @@ import DesignCanvas from "./DesignCanvas";
 import RybPicker from "./RybPicker";
 
 const ColouringComponent5 = () => {
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("#fff");
 
   const handleColorSelect = (color) => {
     setColor(color);
@@ -15,7 +15,7 @@ const ColouringComponent5 = () => {
       <ColourTester color={color} />
 
       <DesignCanvas color={color} />
-      <div className="flex-col order-1 lg:order-3 w-full md:w-1/4 flex items-center justify-center p-4 gap-y-4 bg-white rounded-lg">
+      <div className="flex-col order-1 lg:order-3 w-fit flex items-center justify-center p-4 gap-y-4 bg-white rounded-lg">
         <RybPicker size={300} onColorSelect={handleColorSelect} />
       </div>
     </div>

@@ -6,7 +6,7 @@ import RgbPicker from "./RgbPicker";
 import GoldenButton from "./GoldenButton";
 
 const ColouringComponent3 = () => {
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("#fff");
   const [isRGB, setIsRGB] = useState(true);
 
   const handleColorSelect = (color) => {

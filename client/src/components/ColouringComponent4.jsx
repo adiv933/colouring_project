@@ -4,7 +4,7 @@ import DesignCanvas from "./DesignCanvas";
 import SwatchesPicker from "./SwatchesPicker";
 
 const ColouringComponent4 = () => {
-  const [color, setColor] = useState("#000");
+  const [color, setColor] = useState("#fff");
 
   const handleColorSelect = (color) => {
     setColor(color);

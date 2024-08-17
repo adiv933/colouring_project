@@ -5,7 +5,7 @@ import ColourTester from "./ColourTester";
 import SwatchesPicker from "./SwatchesPicker";
 
 const ColouringComponent2 = () => {
-  const [color, setColor] = useState("#000");
+  const [color, setColor] = useState("#fff");
 
   const handleColorSelect = (color) => {
     setColor(color);

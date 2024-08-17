@@ -5,7 +5,7 @@ import ColourTester from "./ColourTester";
 import DesignCanvas from "./DesignCanvas";
 
 const ColouringComponent1 = () => {
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("#fff");
 
   const handleColorSelect = (color) => {
     setColor(color);
@@ -138,7 +138,6 @@ const ColouringComponent1 = () => {
     <div className="min-h-screen flex flex-col lg:flex-row gap-y-6 w-full justify-center items-center">
       <ColourTester color={color} />
       <DesignCanvas color={color} />
-      {/* <div className="flex-col order-1 lg:order-3 w-full md:w-1/4 flex items-center justify-center p-2 bg-white rounded-lg"> */}
       <div className="flex-col order-1 lg:order-3 w-fit flex items-center justify-center p-4 gap-y-4 bg-white rounded-lg">
         <SwatchesPicker
           colors={colors}
