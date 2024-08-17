@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
+import DesignCanvas from "./DesignCanvas";
 import ColourTester from "./ColourTester";
 import SwatchesPicker from "./SwatchesPicker";
 
@@ -195,19 +195,16 @@ const ColouringComponent2 = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row gap-y-6 w-full justify-center items-center">
-      <div className="flex-col order-2 md:order-1 w-full md:w-1/5 flex items-center justify-center gap-y-4">
-        <ColourTester color={color} />
-      </div>
-      <div className="order-3 md:order-2 w-full md:w-1/2">
-        <DesignCanvas_without_desc color={color} />
-      </div>
-      <div className="flex-col order-1 md:order-3 w-fit h-fit md:w-1/4 flex items-center justify-center p-8 bg-white rounded-lg">
+    <div className="min-h-screen flex flex-col lg:flex-row gap-y-6 w-full justify-center items-center">
+      <ColourTester color={color} />
+
+      <DesignCanvas color={color} />
+      <div className="flex-col order-1 lg:order-3 w-fit h-fit flex items-center justify-center bg-white rounded-lg">
         <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}
-          swatchSize={19} // Customize swatch size here
-          gridSize={{ rows: 12, cols: 15 }} // Customize grid size here
+          swatchSize={20} // Customize swatch size here
+          gridSize={{ rows: 15, cols: 12 }} // Customize grid size here
         />
       </div>
     </div>

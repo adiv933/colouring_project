@@ -14,24 +14,24 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // useGSAP(() => {
-  //   const tl = gsap.timeline();
-  //   tl.from(".navbar", {
-  //     y: -100,
-  //     opacity: 0,
-  //     delay: 0.5,
-  //     duration: 2,
-  //     ease: "back.inOut",
-  //   });
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.from(".navbar", {
+      y: -100,
+      opacity: 0,
+      delay: 0.5,
+      duration: 2,
+      ease: "back.inOut",
+    });
 
-  //   ScrollTrigger.create({
-  //     start: "top -200", // Adjust this value to determine the height where the navbar disappears
-  //     end: 99999,
-  //     toggleClass: { targets: ".navbar", className: "hidden" },
-  //     onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
-  //     onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
-  //   });
-  // });
+    ScrollTrigger.create({
+      start: "top -200", // Adjust this value to determine the height where the navbar disappears
+      end: 99999,
+      toggleClass: { targets: ".navbar", className: "hidden" },
+      onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
+      onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
+    });
+  });
 
   const links = [
     { href: "colouring", heading: "Colourings" },

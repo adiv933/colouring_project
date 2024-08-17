@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useRef } from "react";
 import Symbol from "../../public/Symbol.jsx";
+import Symbol_without_desc from "../../public/Symbol_without_desc.jsx";
 import GoldenButton from "./GoldenButton.jsx";
 
 const DesignCanvas = ({ color }) => {
@@ -51,17 +52,28 @@ const DesignCanvas = ({ color }) => {
   };
 
   return (
-    <div className="flex flex-col gap-y-4 ">
-      <div className="overflow-hidden w-full ">
-        <Symbol ref={svgRef} className="w-full h-auto" color={color} />
+    <div className="order-3 lg:order-2 w-full lg:w-[50%]">
+      <div className="flex flex-col gap-y-4 ">
+        <div className="overflow-hidden w-full ">
+          {window.location.pathname === "/colouring1" ||
+          window.location.pathname === "/colouring2" ? (
+            <Symbol_without_desc
+              ref={svgRef}
+              className="w-full h-full"
+              color={color}
+            />
+          ) : (
+            <Symbol ref={svgRef} className="w-full h-auto" color={color} />
+          )}
+        </div>
+        <canvas
+          ref={canvasRef}
+          width="708.661"
+          height="708.661"
+          style={{ display: "none" }}
+        />
+        <GoldenButton onClick={saveAsPng}>Download</GoldenButton>
       </div>
-      <canvas
-        ref={canvasRef}
-        width="708.661"
-        height="708.661"
-        style={{ display: "none" }}
-      />
-      <GoldenButton onClick={saveAsPng}>Download</GoldenButton>
     </div>
   );
 };

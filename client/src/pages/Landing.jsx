@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import PageHeading from "../components/PageHeading";
 
 const Landing = () => {
   // useGSAP(() => {
@@ -19,14 +20,7 @@ const Landing = () => {
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
       <section className="min-h-screen w-full flex flex-col items-center justify-center hero px-4 pt-16 landing overflow-hidden ">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
-          <img
-            src="/logo.png"
-            alt="logo"
-            className="w-12 h-12 sm:w-16 sm:h-16"
-          />
-          Living Symbol of the Mother
-        </h1>
+        <PageHeading>Living Symbol of the Mother</PageHeading>
         <div className="flex flex-col md:flex-row items-center justify-center gap-y-8">
           <div className="flex-1 sm:w-1/2 flex md:block justify-center">
             <img

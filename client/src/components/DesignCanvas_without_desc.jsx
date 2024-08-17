@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useRef } from "react";
-import Symbol_without_desc from "../../public/Symbol_without_desc.jsx";
 import GoldenButton from "./GoldenButton.jsx";
 
 const DesignCanvas_without_desc = ({ color }) => {
@@ -53,11 +52,7 @@ const DesignCanvas_without_desc = ({ color }) => {
   return (
     <div className="flex flex-col gap-y-4">
       <div className="overflow-hidden w-full">
-        <Symbol_without_desc
-          ref={svgRef}
-          className="w-full h-full"
-          color={color}
-        />
+        
       </div>
       <canvas
         ref={canvasRef}

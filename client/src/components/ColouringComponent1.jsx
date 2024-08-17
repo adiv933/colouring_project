@@ -2,7 +2,7 @@
 import { useState } from "react";
 import SwatchesPicker from "./SwatchesPicker";
 import ColourTester from "./ColourTester";
-import DesignCanvas_without_desc from "./DesignCanvas_without_desc";
+import DesignCanvas from "./DesignCanvas";
 
 const ColouringComponent1 = () => {
   const [color, setColor] = useState("#000000");
@@ -135,14 +135,11 @@ const ColouringComponent1 = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row gap-y-6 w-full justify-center items-center">
-      <div className="flex-col order-2 md:order-1 w-full md:w-1/5 flex items-center justify-center gap-y-4">
-        <ColourTester color={color} />
-      </div>
-      <div className="order-3 md:order-2 w-full md:w-1/2">
-        <DesignCanvas_without_desc color={color} />
-      </div>
-      <div className="flex-col order-1 md:order-3 w-full md:w-1/4 flex items-center justify-center p-2 bg-white rounded-lg">
+    <div className="min-h-screen flex flex-col lg:flex-row gap-y-6 w-full justify-center items-center">
+      <ColourTester color={color} />
+      <DesignCanvas color={color} />
+      {/* <div className="flex-col order-1 lg:order-3 w-full md:w-1/4 flex items-center justify-center p-2 bg-white rounded-lg"> */}
+      <div className="flex-col order-1 lg:order-3 w-fit flex items-center justify-center p-4 gap-y-4 bg-white rounded-lg">
         <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}

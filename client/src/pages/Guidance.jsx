@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import Navbar from "../components/Navbar";
 import gsap from "gsap";
 import { Link } from "react-router-dom";
+import PageHeading from "../components/PageHeading";
 
 function Guidance() {
   useGSAP(() => {
@@ -30,14 +31,7 @@ function Guidance() {
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
       <section className="h-full w-full flex flex-col items-center hero pt-20 sm:p-20 justify-between gap-8 sm:gap-36">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
-          <img
-            src="/logo.png"
-            alt="logo"
-            className="w-12 h-12 sm:w-16 sm:h-16"
-          />
-          Guidance
-        </h1>
+        <PageHeading>Guidance</PageHeading>
         <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-8">
           {pdfLinks.map((pdfLink, index) => (
             <Link key={index} to={pdfLink} className="flex">
