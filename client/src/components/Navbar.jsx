@@ -14,24 +14,24 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  useGSAP(() => {
-    const tl = gsap.timeline();
-    tl.from(".navbar", {
-      y: -100,
-      opacity: 0,
-      delay: 0.5,
-      duration: 2,
-      ease: "back.inOut",
-    });
+  // useGSAP(() => {
+  //   const tl = gsap.timeline();
+  //   tl.from(".navbar", {
+  //     y: -100,
+  //     opacity: 0,
+  //     delay: 0.5,
+  //     duration: 2,
+  //     ease: "back.inOut",
+  //   });
 
-    ScrollTrigger.create({
-      start: "top -200", // Adjust this value to determine the height where the navbar disappears
-      end: 99999,
-      toggleClass: { targets: ".navbar", className: "hidden" },
-      onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
-      onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
-    });
-  });
+  //   ScrollTrigger.create({
+  //     start: "top -200", // Adjust this value to determine the height where the navbar disappears
+  //     end: 99999,
+  //     toggleClass: { targets: ".navbar", className: "hidden" },
+  //     onEnter: () => gsap.to(".navbar", { y: -100, duration: 1, opacity: 0 }),
+  //     onLeaveBack: () => gsap.to(".navbar", { y: 0, duration: 1, opacity: 1 }),
+  //   });
+  // });
 
   const links = [
     { href: "colouring", heading: "Colourings" },
@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full bg-[#0046ff] backdrop-blur-lg text-white z-10 h-16 shadow-md navbar">
-      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full sm:px-6 lg:px-6">
         <div className="flex justify-between h-16 items-center">
           <Link
             to="/"
@@ -51,7 +51,7 @@ const Navbar = () => {
           >
             <GoldenButton>Home</GoldenButton>
           </Link>
-          <div className="hidden md:flex md:space-x-8 md:ml-10">
+          <div className="hidden lg:flex md:items-center md:space-x-4 md:ml-10">
             {links.map((link, index) => (
               <Link
                 to={`/${link.href}`}
@@ -62,7 +62,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center lg:hidden">
             <button
               onClick={handleToggle}
               className="text-white hover:text-gray-800 focus:outline-none"

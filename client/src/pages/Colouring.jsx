@@ -57,7 +57,7 @@ function Colouring() {
               <br /> <br />
               If white is not convenient, the center may be gold (powder).”
               <br />
-              <div className="underline w-full text-right text-blue-800">
+              <div className="underline w-full text-right text-white">
                 - Sri Aurobindo
               </div>
             </p>

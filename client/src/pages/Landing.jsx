@@ -3,22 +3,22 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Landing = () => {
-  useGSAP(() => {
-    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
-    if (!isSmallScreen) {
-      gsap.from(".hero", {
-        y: 200,
-        opacity: 0,
-        delay: 2,
-        duration: 0.8,
-      });
-    }
-  });
+  // useGSAP(() => {
+  //   const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+  //   if (!isSmallScreen) {
+  //     gsap.from(".hero", {
+  //       y: 200,
+  //       opacity: 0,
+  //       delay: 2,
+  //       duration: 0.8,
+  //     });
+  //   }
+  // });
 
   return (
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="min-h-screen w-full flex flex-col items-center justify-center hero p-12 ">
+      <section className="min-h-screen w-full flex flex-col items-center justify-center hero px-4 pt-16 landing overflow-hidden ">
         <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
           <img
             src="/logo.png"
@@ -35,12 +35,12 @@ const Landing = () => {
               className="w-full md:w-[25vw] max-h-[70vh] object-cover rounded-3xl shadow-lg md:ml-24"
             />
           </div>
-          <div className="flex-1 sm:w-1/2 landing relative">
+          <div className="flex-1 sm:w-1/2">
             <h1 className="text-md lg:text-lg xl:text-xl font-semibold text-white text-left mb-2 sm:mb-4">
               Question: Mother, in your symbol the twelve petals signify the
               twelve inner planes, don’t they?
             </h1>
-            <p className="text-md lg:text-lg xl:text-xl font-semibold italic text-white mx-4 sm:mx-0 text-justify">
+            <p className="text-md lg:text-lg xl:text-xl font-semibold italic text-white text-justify">
               “It signifies anything one wants, you see. Twelve: that’s the
               number of Aditi, of Mahashakti. So it applies to everything; all
               Her action has twelve Aspects. There are also Her twelve Virtues,
@@ -50,7 +50,7 @@ const Landing = () => {
               of manifestation, double perfection, in essence and in
               manifestation, in the creation.”
               <br />
-              <div className="underline w-full text-right text-blue-800">
+              <div className="underline w-full text-right text-white">
                 {" "}
                 - The Mother
               </div>
