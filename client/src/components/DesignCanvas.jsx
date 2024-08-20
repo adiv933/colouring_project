@@ -6,7 +6,13 @@ import GoldenButton from "./GoldenButton.jsx";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-
+import {
+  haveSameRelativeShade,
+  haveSameRelativeTint,
+  containsWhite,
+  hasNoDuplicates,
+  countColorsInCategories,
+} from "../utils/scoring.js";
 const style = {
   position: "absolute",
   top: "50%",
@@ -22,12 +28,19 @@ const style = {
   alignItems: "center",
 };
 
+const scoreMessages = [
+  "Failed, retry",
+  "Score is below 50%, try again or click the Guidance button",
+  "Score is: ",
+];
+
 const DesignCanvas = ({ color }) => {
   const svgRef = useRef(null);
   const canvasRef = useRef(null);
   const [colorArray] = useState(Array(12).fill("#fff"));
   const [open, setOpen] = useState(false);
-  const [score, setScore] = useState(30);
+  const [score, setScore] = useState(0);
+  const [scoreMessage, setScoreMessage] = useState("");
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -81,8 +94,18 @@ const DesignCanvas = ({ color }) => {
     parseInt((text.match(/path-(\d+)/) || [])[1], 10);
 
   const revealScore = () => {
-    handleOpen();
     console.log("final colorArray", colorArray);
+    if (!hasNoDuplicates(colorArray) || containsWhite(colorArray)) {
+      setScoreMessage(scoreMessages[0]);
+    }
+    if (hasNoDuplicates(colorArray) && !containsWhite(colorArray)) {
+      setScore(100 - 8.4 * countColorsInCategories(colorArray));
+      if (score < 50) setScoreMessage(scoreMessages[1]);
+      else setScoreMessage(scoreMessages[2] + score.toString);
+    }
+    console.log("score", score);
+    console.log("scoreMessage", scoreMessage);
+    handleOpen();
   };
 
   return (
@@ -118,9 +141,7 @@ const DesignCanvas = ({ color }) => {
                     variant="h3"
                     component="h2"
                   >
-                    {score < 50
-                      ? "Score is below 50%, try again or click the Guidance button"
-                      : "Score: " + score + "%"}
+                    {scoreMessage}
                   </Typography>
                 </Box>
               </Modal>
