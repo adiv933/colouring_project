@@ -1,3 +1,4 @@
+import { Tooltip } from "@mui/material";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
@@ -23,21 +24,22 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
       }}
     >
       {colors.flat().map((color, index) => (
-        <div
-          key={index}
-          onClick={() => handleColorClick(color)}
-          style={{
-            backgroundColor: color,
-            width: `${swatchSize}px`,
-            height: `${swatchSize}px`,
-            cursor: "pointer",
-            border:
-              color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
-            boxSizing: "border-box", // Ensure borders are included in width/height
-            transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
-            transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
-          }}
-        />
+        <Tooltip key={index} title={color.toUpperCase()} arrow>
+          <div
+            onClick={() => handleColorClick(color)}
+            style={{
+              backgroundColor: color,
+              width: `${swatchSize}px`,
+              height: `${swatchSize}px`,
+              cursor: "pointer",
+              border:
+                color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
+              boxSizing: "border-box", // Ensure borders are included in width/height
+              transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
+              transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
+            }}
+          />
+        </Tooltip>
       ))}
     </div>
   );

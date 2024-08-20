@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import gsap from "gsap";
 import { Link } from "react-router-dom";
 import PageHeading from "../components/PageHeading";
+import GoldenButton from "../components/GoldenButton";
 
 function Guidance() {
   useGSAP(() => {
@@ -34,11 +35,9 @@ function Guidance() {
         <PageHeading>Guidance</PageHeading>
         <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-8">
           {pdfLinks.map((pdfLink, index) => (
-            <Link key={index} to={pdfLink} className="flex">
-              <div className="w-24 h-24 md:w-32 md:h-32 text-center py-4 md:py-8 text-xs md:text-sm lg:text-md font-semibold text-[#dbaf46] bg-white rounded-lg duration-100 hover:-translate-y-1 hover:bg-[#dbaf46] hover:text-white flex items-center justify-center">
-                {pdfLink}
-              </div>
-            </Link>
+            <GoldenButton key={index}>
+              <Link to={pdfLink}>{pdfLink}</Link>
+            </GoldenButton>
           ))}
         </div>
       </section>

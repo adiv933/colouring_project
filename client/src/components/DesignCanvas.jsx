@@ -1,12 +1,36 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Symbol from "../../public/Symbol.jsx";
 import Symbol_without_desc from "../../public/Symbol_without_desc.jsx";
 import GoldenButton from "./GoldenButton.jsx";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 400,
+  bgcolor: "background.paper",
+  border: "2px solid #000",
+  boxShadow: 24,
+  p: 4,
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+};
 
 const DesignCanvas = ({ color }) => {
   const svgRef = useRef(null);
   const canvasRef = useRef(null);
+  const [colorArray] = useState(Array(12).fill("#fff"));
+  const [open, setOpen] = useState(false);
+  const [score, setScore] = useState(30);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   useEffect(() => {
     const svgElement = svgRef.current;
@@ -14,7 +38,9 @@ const DesignCanvas = ({ color }) => {
     const handleClick = (event) => {
       const { target } = event;
       if (target.tagName !== "svg") {
+        const index = extractNumber(target.id);
         target.setAttribute("fill", color);
+        colorArray[index] = color;
       }
     };
 
@@ -23,7 +49,7 @@ const DesignCanvas = ({ color }) => {
     return () => {
       svgElement.removeEventListener("click", handleClick);
     };
-  }, [color]);
+  }, [color, colorArray]);
 
   const saveAsPng = () => {
     const svgElement = svgRef.current;
@@ -51,6 +77,14 @@ const DesignCanvas = ({ color }) => {
     img.src = url;
   };
 
+  const extractNumber = (text) =>
+    parseInt((text.match(/path-(\d+)/) || [])[1], 10);
+
+  const revealScore = () => {
+    handleOpen();
+    console.log("final colorArray", colorArray);
+  };
+
   return (
     <div className="order-3 lg:order-2 md:w-[70%] lg:w-[50%]">
       <div className="flex flex-col gap-y-4 items-center">
@@ -73,10 +107,25 @@ const DesignCanvas = ({ color }) => {
           style={{ display: "none" }}
         />
         <div className="flex justify-between gap-x-4">
-          {window.location.pathname === "/colouring1" ||
-            (window.location.pathname === "/colouring2" && (
-              <GoldenButton className="w-fit">Reveal</GoldenButton>
-            ))}
+          {(window.location.pathname === "/colouring1" ||
+            window.location.pathname === "/colouring2") && (
+            <div>
+              <GoldenButton onClick={revealScore}>Reveal</GoldenButton>
+              <Modal open={open} onClose={handleClose}>
+                <Box sx={style}>
+                  <Typography
+                    id="modal-modal-title"
+                    variant="h3"
+                    component="h2"
+                  >
+                    {score < 50
+                      ? "Score is below 50%, try again or click the Guidance button"
+                      : "Score: " + score + "%"}
+                  </Typography>
+                </Box>
+              </Modal>
+            </div>
+          )}
           <GoldenButton onClick={saveAsPng} className="w-fit">
             Download
           </GoldenButton>
@@ -86,137 +135,3 @@ const DesignCanvas = ({ color }) => {
   );
 };
 export default DesignCanvas;
-
-// /* eslint-disable react/prop-types */
-// import { useEffect, useRef, useState } from "react";
-// import Symbol from "../../public/Symbol.jsx";
-// import Symbol_without_desc from "../../public/Symbol_without_desc.jsx";
-// import GoldenButton from "./GoldenButton.jsx";
-
-// const DesignCanvas = ({ color }) => {
-//   const svgRef = useRef(null);
-//   const canvasRef = useRef(null);
-//   const [colors, setColors] = useState(Array(12).fill("#ffffff")); // Array to store 12 colors
-
-//   useEffect(() => {
-//     const svgElement = svgRef.current;
-
-//     // const handleClick = (event) => {
-//     //   const { target } = event;
-//     //   if (
-//     //     target.tagName === "path" &&
-//     //     target.getAttribute("style")?.includes("cursor: pointer")
-//     //   ) {
-//     //     target.setAttribute("fill", color);
-
-//     //     // Update colors array based on the element clicked
-//     //     const pathIndex = Array.from(
-//     //       svgElement.querySelectorAll("path")
-//     //     ).indexOf(target);
-//     //     if (pathIndex >= 0 && pathIndex < 12) {
-//     //       setColors((prevColors) => {
-//     //         const newColors = [...prevColors];
-//     //         newColors[pathIndex] = color;
-//     //         return newColors;
-//     //       });
-//     //     }
-//     //   }
-//     // };
-
-//     const handleClick = (event) => {
-//       const { target } = event;
-//       if (
-//         target.tagName === "path" &&
-//         target.getAttribute("style")?.includes("cursor: pointer")
-//       ) {
-//         const pathId = target.getAttribute("id");
-//         if (pathId) {
-//           const pathIndex = parseInt(pathId.replace("path-", ""), 10);
-//           if (pathIndex >= 0 && pathIndex < 12) {
-//             console.log(`${pathIndex}`);
-//             target.setAttribute("fill", color);
-//             setColors((prevColors) => {
-//               const newColors = [...prevColors];
-//               newColors[pathIndex] = color;
-//               return newColors;
-//             });
-//           }
-//         }
-//       }
-//     };
-
-//     svgElement.addEventListener("click", handleClick);
-
-//     return () => {
-//       svgElement.removeEventListener("click", handleClick);
-//     };
-//   }, [color]);
-
-//   const saveAsPng = () => {
-//     const svgElement = svgRef.current;
-//     const canvas = canvasRef.current;
-//     const ctx = canvas.getContext("2d");
-//     const serializer = new XMLSerializer();
-//     const svgString = serializer.serializeToString(svgElement);
-//     const svgBlob = new Blob([svgString], {
-//       type: "image/svg+xml;charset=utf-8",
-//     });
-//     const url = URL.createObjectURL(svgBlob);
-//     const img = new Image();
-
-//     img.onload = () => {
-//       ctx.clearRect(0, 0, canvas.width, canvas.height);
-//       ctx.drawImage(img, 0, 0);
-//       URL.revokeObjectURL(url);
-
-//       const link = document.createElement("a");
-//       link.href = canvas.toDataURL("image/png");
-//       link.download = "design.png";
-//       link.click();
-//     };
-
-//     img.src = url;
-//   };
-
-//   const revealColors = () => {
-//     console.log("Colors filled in the petals:", colors);
-//   };
-
-//   return (
-//     <div className="order-3 lg:order-2 md:w-[70%] lg:w-[50%]">
-//       <div className="flex flex-col gap-y-4 items-center">
-//         <div className="overflow-hidden w-full ">
-//           {window.location.pathname === "/colouring1" ||
-//           window.location.pathname === "/colouring2" ? (
-//             <Symbol_without_desc
-//               ref={svgRef}
-//               className="w-full h-full"
-//               color={color}
-//             />
-//           ) : (
-//             <Symbol ref={svgRef} className="w-full h-full" color={color} />
-//           )}
-//         </div>
-//         <canvas
-//           ref={canvasRef}
-//           width="708.661"
-//           height="708.661"
-//           style={{ display: "none" }}
-//         />
-//         <div className="flex justify-between gap-x-1">
-//           <GoldenButton onClick={saveAsPng} className="w-fit">
-//             Download
-//           </GoldenButton>
-//           {(window.location.pathname === "/colouring1" ||
-//             window.location.pathname === "/colouring2") && (
-//             <GoldenButton onClick={revealColors} className="w-fit">
-//               Reveal
-//             </GoldenButton>
-//           )}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default DesignCanvas;
