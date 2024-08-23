@@ -18,9 +18,10 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  width: 200,
   bgcolor: "background.paper",
   border: "2px solid #000",
+  borderRadius: "10px",
   boxShadow: 24,
   p: 4,
   display: "flex",
@@ -138,8 +139,8 @@ const DesignCanvas = ({ color }) => {
                 <Box sx={style}>
                   <Typography
                     id="modal-modal-title"
-                    variant="h3"
-                    component="h2"
+                    variant="h5"
+                    component="h5"
                   >
                     {scoreMessage}
                   </Typography>

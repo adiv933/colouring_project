@@ -14,8 +14,6 @@ export default function MyStepper({ steps }) {
           ) : (
             <Step index={index} label={step.label} />
           )}
-          {/* Render a line between steps except the last one */}
-          {index < steps.length - 1 && <div style={styles.line} />}
         </React.Fragment>
       ))}
     </div>
@@ -49,6 +47,7 @@ const styles = {
   stepperContainer: {
     display: "flex",
     justifyContent: "space-between",
+    gap:"6px",
     alignItems: "center",
     width: "100%",
     padding: "10px 0",
@@ -86,11 +85,5 @@ const styles = {
   },
   activeLabel: {
     color: "#dbaf46",
-  },
-  line: {
-    height: "1px",
-    backgroundColor: "#fff",
-    flexGrow: 1,
-    margin: "0 5px",
   },
 };

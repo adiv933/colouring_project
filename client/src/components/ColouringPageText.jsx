@@ -11,7 +11,7 @@ function ColouringPageText() {
         <br /> <br />
         If white is not convenient, the center may be gold (powder).”
       </p>
-      <p className="underline w-full text-right text-white">- Sri Aurobindo</p>
+      <p className="w-full text-right text-white">- Sri Aurobindo</p>
     </div>
   );
 }
