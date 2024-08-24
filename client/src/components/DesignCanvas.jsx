@@ -148,9 +148,7 @@ const DesignCanvas = ({ color }) => {
               </Modal>
             </div>
           )}
-          <GoldenButton onClick={saveAsPng} className="w-fit">
-            Download
-          </GoldenButton>
+          <GoldenButton onClick={saveAsPng}>Download</GoldenButton>
         </div>
       </div>
     </div>

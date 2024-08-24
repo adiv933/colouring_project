@@ -32,7 +32,7 @@ const Symbol = forwardRef((props, ref) => {
   return (
     <div>
       <div className="flex justify-between p-4">
-        <GoldenButton onClick={rotateAnticlockwise}>
+        <GoldenButton onClick={rotateAnticlockwise} className="w-fit p-2 gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ const Symbol = forwardRef((props, ref) => {
           qualities
         </h1>
 
-        <GoldenButton onClick={rotateClockwise}>
+        <GoldenButton onClick={rotateClockwise} className="w-fit p-2 gap-4">
           <h1 className="text-black">RIGHT</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,30 +87,6 @@ const Symbol = forwardRef((props, ref) => {
           position: `relative`,
         }}
       >
-        <defs>
-          <clipPath id="clip_0">
-            <path
-              transform="matrix(1,0,0,-1,0,708.661)"
-              d="M0 708.661H708.661V0H0Z"
-            />
-          </clipPath>
-          <clipPath id="clip_1">
-            <path
-              transform="matrix(1,0,0,-1,0,708.661)"
-              d="M0 708.661H708.661V0H0Z"
-            />
-          </clipPath>
-          <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop
-              offset="0%"
-              style={{ stopColor: "#ff0000", stopOpacity: 1 }}
-            />
-            <stop
-              offset="50%"
-              style={{ stopColor: "#8b0000", stopOpacity: 1 }}
-            />
-          </linearGradient>
-        </defs>
         <g id="layer_1" data-name="Vrstva 1">
           <g id="layer_1" data-name="Vrstva 1">
             <g clipPath="url(#clip_0)">

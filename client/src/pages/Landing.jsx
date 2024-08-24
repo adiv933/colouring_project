@@ -4,22 +4,22 @@ import gsap from "gsap";
 import PageHeading from "../components/PageHeading";
 
 const Landing = () => {
-  useGSAP(() => {
-    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
-    if (!isSmallScreen) {
-      gsap.from(".hero", {
-        y: 200,
-        opacity: 0,
-        delay: 2,
-        duration: 0.8,
-      });
-    }
-  });
+  // useGSAP(() => {
+  //   const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+  //   if (!isSmallScreen) {
+  //     gsap.from(".hero", {
+  //       y: 200,
+  //       opacity: 0,
+  //       delay: 2,
+  //       duration: 0.8,
+  //     });
+  //   }
+  // });
 
   return (
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="min-h-screen w-full flex flex-col items-center justify-center hero px-4 pt-16 landing overflow-hidden ">
+      <section className="min-h-screen w-full flex flex-col items-center justify-center hero px-4 pt-16 landing overflow-auto">
         <PageHeading>Living Symbol of the Mother</PageHeading>
         <div className="flex flex-col md:flex-row items-center justify-center gap-y-8">
           <div className="flex-1 sm:w-1/2 flex md:block justify-center">

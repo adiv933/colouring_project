@@ -35,7 +35,7 @@ function Guidance() {
         <PageHeading>Guidance</PageHeading>
         <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-8">
           {pdfLinks.map((pdfLink, index) => (
-            <GoldenButton key={index}>
+            <GoldenButton key={index} className="w-fit px-4">
               <Link to={pdfLink}>{pdfLink}</Link>
             </GoldenButton>
           ))}
