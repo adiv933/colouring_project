@@ -10,7 +10,6 @@ import Guidance from "./pages/Guidance";
 import UsefulLinks from "./pages/UsefulLinks";
 import Library from "./pages/Library";
 import Contact from "./pages/Contact";
-import ButtonPage from "./pages/ButtonPage";
 import PdfViewer from "./pages/PdfViewer";
 
 const App = () => {
@@ -28,7 +27,6 @@ const App = () => {
       <Route path="/library" element={<Library />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/view-pdf" element={<PdfViewer />} />
-      <Route path="/view-pdf-buttons" element={<ButtonPage />} />
       <Route path="/*" element={<Landing />} />
     </Routes>
   );

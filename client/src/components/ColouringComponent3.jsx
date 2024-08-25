@@ -7,7 +7,7 @@ import GoldenButton from "./GoldenButton";
 
 const ColouringComponent3 = () => {
   const [color, setColor] = useState("#fff");
-  const [isRGB, setIsRGB] = useState(true);
+  const [isRGB, setIsRGB] = useState(false);
 
   const handleColorSelect = (color) => {
     setColor(color);
@@ -16,6 +16,7 @@ const ColouringComponent3 = () => {
   const togglePicker = () => {
     setIsRGB(!isRGB);
   };
+
   return (
     <div className="min-h-screen flex flex-col lg:flex-row gap-y-6 w-full justify-center items-center">
       <ColourTester color={color} />
@@ -36,7 +37,7 @@ const ColouringComponent3 = () => {
           </GoldenButton>
         </div>
 
-        {isRGB ? (
+        {!isRGB ? (
           <RgbPicker size={300} onColorSelect={handleColorSelect} />
         ) : (
           <RybPicker size={300} onColorSelect={handleColorSelect} />

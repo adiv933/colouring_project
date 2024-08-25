@@ -24,13 +24,13 @@ function Library() {
       <section className="h-screen w-full flex flex-col items-center hero p-20 justify-between">
         <PageHeading>Library</PageHeading>
         <div className="h-full flex flex-col md:flex-row items-center justify-center gap-8">
-          <GoldenButton>
+          <GoldenButton className="w-48">
             {" "}
             <br />
             Gallery
             <br /> <br />{" "}
           </GoldenButton>
-          <GoldenButton>
+          <GoldenButton className="w-48">
             Works of the Mother
             <br />&<br />
             Sri Aurobindo

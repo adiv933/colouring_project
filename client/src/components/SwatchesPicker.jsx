@@ -1,4 +1,3 @@
-import { Tooltip } from "@mui/material";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
@@ -24,9 +23,10 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
       }}
     >
       {colors.flat().map((color, index) => (
-        <Tooltip key={index} title={color.toUpperCase()} arrow>
+        <>
           <div
             onClick={() => handleColorClick(color)}
+            key={index}
             style={{
               backgroundColor: color,
               width: `${swatchSize}px`,
@@ -39,7 +39,7 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
               transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
             }}
           />
-        </Tooltip>
+        </>
       ))}
     </div>
   );

@@ -18,12 +18,14 @@ function ColouringFooter({ steps }) {
 
   const handleBack = () => {
     if (currentPageIndex > 0) {
+      localStorage.removeItem("colorArray");
       navigate(pages[currentPageIndex - 1]);
     }
   };
 
   const handleNext = () => {
     if (currentPageIndex < pages.length - 1) {
+      localStorage.removeItem("colorArray");
       navigate(pages[currentPageIndex + 1]);
     }
   };

@@ -13,6 +13,7 @@ import {
   hasNoDuplicates,
   countColorsInCategories,
 } from "../utils/scoring.js";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -30,7 +31,6 @@ const style = {
 };
 
 const scoreMessages = [
-  "Failed, retry",
   "Score is below 50%, try again or click the Guidance button",
   "Score is: ",
 ];
@@ -38,7 +38,10 @@ const scoreMessages = [
 const DesignCanvas = ({ color }) => {
   const svgRef = useRef(null);
   const canvasRef = useRef(null);
-  const [colorArray] = useState(Array(12).fill("#fff"));
+  const [colorArray, setColorArray] = useState(() => {
+    const savedColors = localStorage.getItem("colorArray");
+    return savedColors ? JSON.parse(savedColors) : Array(12).fill("#fff");
+  });
   const [open, setOpen] = useState(false);
   const [score, setScore] = useState(0);
   const [scoreMessage, setScoreMessage] = useState("");
@@ -48,13 +51,27 @@ const DesignCanvas = ({ color }) => {
 
   useEffect(() => {
     const svgElement = svgRef.current;
+    colorArray.forEach((color, index) => {
+      const pathElement = svgElement.querySelector(`#path-${index}`);
+      console.log("pathElement", pathElement);
+      if (pathElement) {
+        pathElement.setAttribute("fill", color);
+      }
+    });
+  }, [colorArray]);
+
+  useEffect(() => {
+    const svgElement = svgRef.current;
 
     const handleClick = (event) => {
       const { target } = event;
       if (target.tagName !== "svg") {
         const index = extractNumber(target.id);
         target.setAttribute("fill", color);
-        colorArray[index] = color;
+        const newColorArray = [...colorArray];
+        newColorArray[index] = color;
+        setColorArray(newColorArray);
+        localStorage.setItem("colorArray", JSON.stringify(newColorArray)); // Save the updated array to localStorage
       }
     };
 

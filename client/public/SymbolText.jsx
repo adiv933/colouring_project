@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function SymbolText() {
   return (
     <>
@@ -3293,136 +3294,130 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.13401261 .9909797 -.9909797 .13401261 0 708.661)"
-        fontSize="14.5449"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-95.69636" x="-309.3175">
-          G
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.16637427 .9860627 -.9860627 .16637427 0 708.661)"
-        fontSize="14.544917"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-105.42616" x="-295.0505">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.19773816 .9802548 -.9802548 .19773816 0 708.661)"
-        fontSize="14.544993"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-114.48675" x="-282.71876">
-          N
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.22891824 .97344568 -.97344568 .22891824 0 708.661)"
-        fontSize="14.544931"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-123.129077" x="-268.49134">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.25896884 .96588566 -.96588566 .25896884 0 708.661)"
-        fontSize="14.544993"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-131.10611" x="-255.75514">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.29228664 .9563307 -.9563307 .29228664 0 708.661)"
-        fontSize="14.544968"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-139.53736" x="-241.17337">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.32437969 .9459269 -.9459269 .32437969 0 708.661)"
-        fontSize="14.544992"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-147.23583" x="-225.36719">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.344939 .93862518 -.93862518 .344939 0 708.661)"
-        fontSize="14.54489"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-151.94229" x="-212.7065">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.3635777 .9315639 -.9315639 .3635777 0 708.661)"
-        fontSize="14.544896"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-156.05515" x="-205.9302">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.39074723 .920498 -.920498 .39074723 0 708.661)"
-        fontSize="14.544953"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-161.77613" x="-192.97126">
-          Y
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=61">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.13401261 .9909797 -.9909797 .13401261 0 708.661)"
+          fontSize="14.5449"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-95.69636" x="-309.3175">
+            G
+          </tspan>
+        </text>
+
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.16637427 .9860627 -.9860627 .16637427 0 708.661)"
+          fontSize="14.544917"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-105.42616" x="-295.0505">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.19773816 .9802548 -.9802548 .19773816 0 708.661)"
+          fontSize="14.544993"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-114.48675" x="-282.71876">
+            N
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.22891824 .97344568 -.97344568 .22891824 0 708.661)"
+          fontSize="14.544931"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-123.129077" x="-268.49134">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.25896884 .96588566 -.96588566 .25896884 0 708.661)"
+          fontSize="14.544993"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-131.10611" x="-255.75514">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.29228664 .9563307 -.9563307 .29228664 0 708.661)"
+          fontSize="14.544968"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-139.53736" x="-241.17337">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.32437969 .9459269 -.9459269 .32437969 0 708.661)"
+          fontSize="14.544992"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-147.23583" x="-225.36719">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.344939 .93862518 -.93862518 .344939 0 708.661)"
+          fontSize="14.54489"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-151.94229" x="-212.7065">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.3635777 .9315639 -.9315639 .3635777 0 708.661)"
+          fontSize="14.544896"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-156.05515" x="-205.9302">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.39074723 .920498 -.920498 .39074723 0 708.661)"
+          fontSize="14.544953"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-161.77613" x="-192.97126">
+            Y
+          </tspan>
+        </text>
+      </Link>
+
       <text
         fill="#000"
         fontWeight="1000"
@@ -3670,110 +3665,104 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.92803767 -.37248648 .37248648 .92803767 0 708.661)"
-        fontSize="13.999971"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-489.07734" x="456.57167">
-          P
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9393223 -.343036 .343036 .9393223 0 708.661)"
-        fontSize="13.999988"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-503.52095" x="449.91377">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.95050796 -.31070028 .31070028 .95050796 0 708.661)"
-        fontSize="13.999989"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-518.95376" x="441.94023">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.96103647 -.27642165 .27642165 .96103647 0 708.661)"
-        fontSize="13.9999899"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-534.845" x="433.58515">
-          G
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.96992239 -.24341452 .24341452 .96992239 0 708.661)"
-        fontSize="13.999987"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-549.70437" x="425.60639">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9769072 -.21366431 .21366431 .9769072 0 708.661)"
-        fontSize="13.999999"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-562.736" x="418.1">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.98284587 -.18442914 .18442914 .98284587 0 708.661)"
-        fontSize="13.999957"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-575.2156" x="409.62458">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.98803177 -.15425049 .15425049 .98803177 0 708.661)"
-        fontSize="13.999955"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-587.76376" x="400.7991">
-          S
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=52">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.92803767 -.37248648 .37248648 .92803767 0 708.661)"
+          fontSize="13.999971"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-489.07734" x="456.57167">
+            P
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9393223 -.343036 .343036 .9393223 0 708.661)"
+          fontSize="13.999988"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-503.52095" x="449.91377">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.95050796 -.31070028 .31070028 .95050796 0 708.661)"
+          fontSize="13.999989"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-518.95376" x="441.94023">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.96103647 -.27642165 .27642165 .96103647 0 708.661)"
+          fontSize="13.9999899"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-534.845" x="433.58515">
+            G
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.96992239 -.24341452 .24341452 .96992239 0 708.661)"
+          fontSize="13.999987"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-549.70437" x="425.60639">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9769072 -.21366431 .21366431 .9769072 0 708.661)"
+          fontSize="13.999999"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-562.736" x="418.1">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.98284587 -.18442914 .18442914 .98284587 0 708.661)"
+          fontSize="13.999957"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-575.2156" x="409.62458">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.98803177 -.15425049 .15425049 .98803177 0 708.661)"
+          fontSize="13.999955"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-587.76376" x="400.7991">
+            S
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -4021,149 +4010,140 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.99177137 .12802142 -.12802142 .99177137 0 708.661)"
-        fontSize="14.000001"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-689.2661" x="301.62696">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9873234 .15872175 -.15872175 .9873234 0 708.661)"
-        fontSize="13.999972"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-698.57839" x="289.6095">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.98173967 .19022933 -.19022933 .98173967 0 708.661)"
-        fontSize="13.999944"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-707.77188" x="275.601">
-          C
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9751652 .22147878 -.22147878 .9751652 0 708.661)"
-        fontSize="13.999987"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-716.5191" x="262.88197">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9680313 .25082929 -.25082929 .9680313 0 708.661)"
-        fontSize="13.99996"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-724.39358" x="249.60576">
-          P
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9602906 .2790014 -.2790014 .9602906 0 708.661)"
-        fontSize="13.999928"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-731.6318" x="237.3218">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.95454087 .29808019 -.29808019 .95454087 0 708.661)"
-        fontSize="13.999925"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-736.3536" x="230.67836">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9481218 .31790728 -.31790728 .9481218 0 708.661)"
-        fontSize="13.999994"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-741.10147" x="218.8681">
-          V
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9413098 .33754383 -.33754383 .9413098 0 708.661)"
-        fontSize="13.99996"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-745.64248" x="211.92375">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.93442556 .3561587 -.3561587 .93442556 0 708.661)"
-        fontSize="13.999938"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-749.7935" x="200.65218">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.92365917 .3832151 -.3832151 .92365917 0 708.661)"
-        fontSize="13.9999699"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-755.55966" x="186.71308">
-          Y
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=53">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.99177137 .12802142 -.12802142 .99177137 0 708.661)"
+          fontSize="14.000001"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-689.2661" x="301.62696">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9873234 .15872175 -.15872175 .9873234 0 708.661)"
+          fontSize="13.999972"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-698.57839" x="289.6095">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.98173967 .19022933 -.19022933 .98173967 0 708.661)"
+          fontSize="13.999944"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-707.77188" x="275.601">
+            C
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9751652 .22147878 -.22147878 .9751652 0 708.661)"
+          fontSize="13.999987"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-716.5191" x="262.88197">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9680313 .25082929 -.25082929 .9680313 0 708.661)"
+          fontSize="13.99996"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-724.39358" x="249.60576">
+            P
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9602906 .2790014 -.2790014 .9602906 0 708.661)"
+          fontSize="13.999928"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-731.6318" x="237.3218">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.95454087 .29808019 -.29808019 .95454087 0 708.661)"
+          fontSize="13.999925"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-736.3536" x="230.67836">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9481218 .31790728 -.31790728 .9481218 0 708.661)"
+          fontSize="13.999994"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-741.10147" x="218.8681">
+            V
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9413098 .33754383 -.33754383 .9413098 0 708.661)"
+          fontSize="13.99996"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-745.64248" x="211.92375">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.93442556 .3561587 -.3561587 .93442556 0 708.661)"
+          fontSize="13.999938"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-749.7935" x="200.65218">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.92365917 .3832151 -.3832151 .92365917 0 708.661)"
+          fontSize="13.9999699"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-755.55966" x="186.71308">
+            Y
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -4398,136 +4378,128 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.79020306 .6128452 -.6128452 .79020306 0 708.661)"
-        fontSize="13.999947"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-789.6547" x="58.63513">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7709223 .6369293 -.6369293 .7709223 0 708.661)"
-        fontSize="13.999985"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-791.3661" x="43.226778">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7507739 .6605593 -.6605593 .7507739 0 708.661)"
-        fontSize="13.999954"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-792.6089" x="27.65445">
-          P
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.73626497 .67669346 -.67669346 .73626497 0 708.661)"
-        fontSize="13.999988"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-793.18838" x="19.46695">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.72083869 .69310286 -.69310286 .72083869 0 708.661)"
-        fontSize="13.999942"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-793.5414" x="5.145447">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6983026 .71580269 -.71580269 .6983026 0 708.661)"
-        fontSize="13.999948"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-793.5994" x="-10.715973">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.68025818 .73297259 -.73297259 .68025818 0 708.661)"
-        fontSize="13.999978"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-793.2888" x="-22.748047">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6655251 .7463755 -.7463755 .6655251 0 708.661)"
-        fontSize="13.999923"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-792.81716" x="-30.571595">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.64704468 .76245209 -.76245209 .64704468 0 708.661)"
-        fontSize="13.999962"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-791.96109" x="-46.394258">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6196096 .7849102 -.7849102 .6196096 0 708.661)"
-        fontSize="13.999946"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-790.1902" x="-63.901216">
-          N
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=54">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.79020306 .6128452 -.6128452 .79020306 0 708.661)"
+          fontSize="13.999947"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-789.6547" x="58.63513">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7709223 .6369293 -.6369293 .7709223 0 708.661)"
+          fontSize="13.999985"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-791.3661" x="43.226778">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7507739 .6605593 -.6605593 .7507739 0 708.661)"
+          fontSize="13.999954"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-792.6089" x="27.65445">
+            P
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.73626497 .67669346 -.67669346 .73626497 0 708.661)"
+          fontSize="13.999988"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-793.18838" x="19.46695">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.72083869 .69310286 -.69310286 .72083869 0 708.661)"
+          fontSize="13.999942"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-793.5414" x="5.145447">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6983026 .71580269 -.71580269 .6983026 0 708.661)"
+          fontSize="13.999948"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-793.5994" x="-10.715973">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.68025818 .73297259 -.73297259 .68025818 0 708.661)"
+          fontSize="13.999978"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-793.2888" x="-22.748047">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6655251 .7463755 -.7463755 .6655251 0 708.661)"
+          fontSize="13.999923"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-792.81716" x="-30.571595">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.64704468 .76245209 -.76245209 .64704468 0 708.661)"
+          fontSize="13.999962"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-791.96109" x="-46.394258">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6196096 .7849102 -.7849102 .6196096 0 708.661)"
+          fontSize="13.999946"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-790.1902" x="-63.901216">
+            N
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -8353,110 +8325,104 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.124700199 -.9921944 .9921944 .124700199 0 708.661)"
-        fontSize="13.999978"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="15.655525" x="391.02888">
-          G
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.1607295 -.9869985 .9869985 .1607295 0 708.661)"
-        fontSize="13.99992"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="1.0274582" x="401.87837">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.19659415 -.98048499 .98048499 .19659415 0 708.661)"
-        fontSize="13.999908"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-14.006149" x="412.20365">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.23083729 -.97299239 .97299239 .23083729 0 708.661)"
-        fontSize="13.999905"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-28.809067" x="422.00074">
-          D
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.26399369 -.96452447 .96452447 .26399369 0 708.661)"
-        fontSize="13.999956"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-43.569505" x="430.5507">
-          N
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.29462338 -.95561346 .95561346 .29462338 0 708.661)"
-        fontSize="13.9999079"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-57.588808" x="438.96565">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.32319428 -.94633266 .94633266 .32319428 0 708.661)"
-        fontSize="13.99994"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-71.007167" x="445.49864">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.35228796 -.9358916 .9358916 .35228796 0 708.661)"
-        fontSize="13.999911"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-85.02164" x="452.07975">
-          S
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=62">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.124700199 -.9921944 .9921944 .124700199 0 708.661)"
+          fontSize="13.999978"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="15.655525" x="391.02888">
+            G
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.1607295 -.9869985 .9869985 .1607295 0 708.661)"
+          fontSize="13.99992"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="1.0274582" x="401.87837">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.19659415 -.98048499 .98048499 .19659415 0 708.661)"
+          fontSize="13.999908"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-14.006149" x="412.20365">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.23083729 -.97299239 .97299239 .23083729 0 708.661)"
+          fontSize="13.999905"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-28.809067" x="422.00074">
+            D
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.26399369 -.96452447 .96452447 .26399369 0 708.661)"
+          fontSize="13.999956"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-43.569505" x="430.5507">
+            N
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.29462338 -.95561346 .95561346 .29462338 0 708.661)"
+          fontSize="13.9999079"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-57.588808" x="438.96565">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.32319428 -.94633266 .94633266 .32319428 0 708.661)"
+          fontSize="13.99994"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-71.007167" x="445.49864">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.35228796 -.9358916 .9358916 .35228796 0 708.661)"
+          fontSize="13.999911"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-85.02164" x="452.07975">
+            S
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -8707,103 +8673,96 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
+      <Link to="/view-pdf?page=51">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.60882946 -.79330119 .79330119 .60882946 0 708.661)"
+          fontSize="13.99998"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-226.60207" x="492.694">
+            C
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.63650259 -.7712745 .7712745 .63650259 0 708.661)"
+          fontSize="13.999944"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-244.24555" x="494.4041">
+            O
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6633737 -.7482883 .7482883 .6633737 0 708.661)"
+          fontSize="13.999952"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-261.9425" x="495.99284">
+            U
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.688196 -.7255248 .7255248 .688196 0 708.661)"
+          fontSize="13.999935"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-278.83106" x="496.91517">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.71106 -.7031314 .7031314 .71106 0 708.661)"
+          fontSize="13.999944"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-294.89057" x="497.2682">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7343087 -.6788157 .6788157 .7343087 0 708.661)"
+          fontSize="13.99997"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-311.76679" x="496.0294">
+            G
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7562024 -.6543378 .6543378 .7562024 0 708.661)"
+          fontSize="13.999955"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-328.21723" x="496.06715">
+            E
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
         xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.60882946 -.79330119 .79330119 .60882946 0 708.661)"
-        fontSize="13.99998"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-226.60207" x="492.694">
-          C
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.63650259 -.7712745 .7712745 .63650259 0 708.661)"
-        fontSize="13.999944"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-244.24555" x="494.4041">
-          O
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6633737 -.7482883 .7482883 .6633737 0 708.661)"
-        fontSize="13.999952"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-261.9425" x="495.99284">
-          U
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.688196 -.7255248 .7255248 .688196 0 708.661)"
-        fontSize="13.999935"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-278.83106" x="496.91517">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.71106 -.7031314 .7031314 .71106 0 708.661)"
-        fontSize="13.999944"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-294.89057" x="497.2682">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7343087 -.6788157 .6788157 .7343087 0 708.661)"
-        fontSize="13.99997"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-311.76679" x="496.0294">
-          G
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7562024 -.6543378 .6543378 .7562024 0 708.661)"
-        fontSize="13.999955"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-328.21723" x="496.06715">
-          E
-        </tspan>
-      </text>
-
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
         transform="matrix(.43110375 .90230247 -.90230247 .43110375 0 708.661)"
         fontSize="14.475635"
         fontFamily="HelveticaNeueOT"
@@ -9033,110 +8992,104 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6384235 .7696852 -.7696852 .6384235 0 708.661)"
-        fontSize="14.475657"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-197.54312" x="-50.99894">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6633625 .7482982 -.7482982 .6633625 0 708.661)"
-        fontSize="14.475645"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-198.80493" x="-35.723405">
-          Q
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6895724 .72421678 -.72421678 .6895724 0 708.661)"
-        fontSize="14.475638"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-199.56415" x="-17.69661">
-          U
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.712968 .70119658 -.70119658 .712968 0 708.661)"
-        fontSize="14.475684"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-199.70584" x="-.7775421">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.73289367 .6803432 -.6803432 .73289367 0 708.661)"
-        fontSize="14.475635"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-199.38454" x="14.287445">
-          L
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.74603798 .66590347 -.66590347 .74603798 0 708.661)"
-        fontSize="14.475672"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-198.93225" x="26.183838">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.759183 .65087726 -.65087726 .759183 0 708.661)"
-        fontSize="14.475694"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-198.27179" x="33.862733">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7778234 .628483 -.628483 .7778234 0 708.661)"
-        fontSize="14.475651"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-196.953" x="47.843217">
-          Y
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=60">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6384235 .7696852 -.7696852 .6384235 0 708.661)"
+          fontSize="14.475657"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-197.54312" x="-50.99894">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6633625 .7482982 -.7482982 .6633625 0 708.661)"
+          fontSize="14.475645"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-198.80493" x="-35.723405">
+            Q
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6895724 .72421678 -.72421678 .6895724 0 708.661)"
+          fontSize="14.475638"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-199.56415" x="-17.69661">
+            U
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.712968 .70119658 -.70119658 .712968 0 708.661)"
+          fontSize="14.475684"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-199.70584" x="-.7775421">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.73289367 .6803432 -.6803432 .73289367 0 708.661)"
+          fontSize="14.475635"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-199.38454" x="14.287445">
+            L
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.74603798 .66590347 -.66590347 .74603798 0 708.661)"
+          fontSize="14.475672"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-198.93225" x="26.183838">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.759183 .65087726 -.65087726 .759183 0 708.661)"
+          fontSize="14.475694"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-198.27179" x="33.862733">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7778234 .628483 -.628483 .7778234 0 708.661)"
+          fontSize="14.475651"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-196.953" x="47.843217">
+            Y
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -9462,71 +9415,68 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9494795 .31382896 -.31382896 .9494795 0 708.661)"
-        fontSize="14.47572"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-146.24558" x="221.02899">
-          P
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.958498 .2850991 -.2850991 .958498 0 708.661)"
-        fontSize="14.475669"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-139.24695" x="234.63077">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9666746 .25600819 -.25600819 .9666746 0 708.661)"
-        fontSize="14.475709"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-131.82363" x="247.51575">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.97455826 .22413443 -.22413443 .97455826 0 708.661)"
-        fontSize="14.475687"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-123.31221" x="261.00288">
-          C
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9812205 .1928895 -.1928895 .9812205 0 708.661)"
-        fontSize="14.475646"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-114.59216" x="275.17247">
-          E
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=59">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9494795 .31382896 -.31382896 .9494795 0 708.661)"
+          fontSize="14.47572"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-146.24558" x="221.02899">
+            P
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.958498 .2850991 -.2850991 .958498 0 708.661)"
+          fontSize="14.475669"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-139.24695" x="234.63077">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9666746 .25600819 -.25600819 .9666746 0 708.661)"
+          fontSize="14.475709"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-131.82363" x="247.51575">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.97455826 .22413443 -.22413443 .97455826 0 708.661)"
+          fontSize="14.475687"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-123.31221" x="261.00288">
+            C
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9812205 .1928895 -.1928895 .9812205 0 708.661)"
+          fontSize="14.475646"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-114.59216" x="275.17247">
+            E
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -9852,123 +9802,116 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.986024 -.1666032 .1666032 .986024 0 708.661)"
-        fontSize="14.475713"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="11.122158" x="403.9137">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9822222 -.1877222 .1877222 .9822222 0 708.661)"
-        fontSize="14.475645"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="19.957238" x="412.9072">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9775987 -.21047727 .21047727 .9775987 0 708.661)"
-        fontSize="14.475673"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="29.663205" x="416.02745">
-          N
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.96983209 -.24377403 .24377403 .96983209 0 708.661)"
-        fontSize="14.475701"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="44.225389" x="425.14866">
-          C
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9616794 -.2741764 .2741764 .9616794 0 708.661)"
-        fontSize="14.475718"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="57.899045" x="433.9065">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9528263 -.30351616 .30351616 .9528263 0 708.661)"
-        fontSize="14.475671"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="71.445598" x="440.6963">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.9457994 -.32475136 .32475136 .9457994 0 708.661)"
-        fontSize="14.475691"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="81.47135" x="448.86116">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.93919339 -.3433888 .3433888 .93919339 0 708.661)"
-        fontSize="14.475719"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="90.426509" x="450.88157">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.92886927 -.37040786 .37040786 .92886927 0 708.661)"
-        fontSize="14.475665"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="103.67552" x="456.3167">
-          Y
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=58">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.986024 -.1666032 .1666032 .986024 0 708.661)"
+          fontSize="14.475713"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="11.122158" x="403.9137">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9822222 -.1877222 .1877222 .9822222 0 708.661)"
+          fontSize="14.475645"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="19.957238" x="412.9072">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9775987 -.21047727 .21047727 .9775987 0 708.661)"
+          fontSize="14.475673"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="29.663205" x="416.02745">
+            N
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.96983209 -.24377403 .24377403 .96983209 0 708.661)"
+          fontSize="14.475701"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="44.225389" x="425.14866">
+            C
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9616794 -.2741764 .2741764 .9616794 0 708.661)"
+          fontSize="14.475718"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="57.899045" x="433.9065">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9528263 -.30351616 .30351616 .9528263 0 708.661)"
+          fontSize="14.475671"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="71.445598" x="440.6963">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.9457994 -.32475136 .32475136 .9457994 0 708.661)"
+          fontSize="14.475691"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="81.47135" x="448.86116">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.93919339 -.3433888 .3433888 .93919339 0 708.661)"
+          fontSize="14.475719"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="90.426509" x="450.88157">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.92886927 -.37040786 .37040786 .92886927 0 708.661)"
+          fontSize="14.475665"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="103.67552" x="456.3167">
+            Y
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -10255,110 +10198,104 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.7625311 -.6469515 .6469515 .7625311 0 708.661)"
-        fontSize="14.475738"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="260.82887" x="494.7367">
-          H
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.739669 -.6729709 .6729709 .739669 0 708.661)"
-        fontSize="14.475664"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="278.16627" x="495.77653">
-          U
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.71338239 -.700775 .700775 .71338239 0 708.661)"
-        fontSize="14.475688"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="297.34849" x="495.14729">
-          M
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6941761 -.7198052 .7198052 .6941761 0 708.661)"
-        fontSize="14.475722"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="310.9065" x="499.45106">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6799419 -.733266 .733266 .6799419 0 708.661)"
-        fontSize="14.475648"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="320.72459" x="496.98609">
-          L
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.665564 -.7463408 .7463408 .665564 0 708.661)"
-        fontSize="14.475692"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="330.4563" x="498.63847">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.65053138 -.75947949 .75947949 .65053138 0 708.661)"
-        fontSize="14.475705"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="340.44386" x="495.65385">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.6280591 -.77816566 .77816566 .6280591 0 708.661)"
-        fontSize="14.475709"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="355.03178" x="493.74324">
-          Y
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=57">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.7625311 -.6469515 .6469515 .7625311 0 708.661)"
+          fontSize="14.475738"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="260.82887" x="494.7367">
+            H
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.739669 -.6729709 .6729709 .739669 0 708.661)"
+          fontSize="14.475664"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="278.16627" x="495.77653">
+            U
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.71338239 -.700775 .700775 .71338239 0 708.661)"
+          fontSize="14.475688"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="297.34849" x="495.14729">
+            M
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6941761 -.7198052 .7198052 .6941761 0 708.661)"
+          fontSize="14.475722"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="310.9065" x="499.45106">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6799419 -.733266 .733266 .6799419 0 708.661)"
+          fontSize="14.475648"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="320.72459" x="496.98609">
+            L
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.665564 -.7463408 .7463408 .665564 0 708.661)"
+          fontSize="14.475692"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="330.4563" x="498.63847">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.65053138 -.75947949 .75947949 .65053138 0 708.661)"
+          fontSize="14.475705"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="340.44386" x="495.65385">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.6280591 -.77816566 .77816566 .6280591 0 708.661)"
+          fontSize="14.475709"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="355.03178" x="493.74324">
+            Y
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -10619,123 +10556,116 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.37326823 -.92772349 .92772349 .37326823 0 708.661)"
-        fontSize="14.47565"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="498.45228" x="456.39515">
-          G
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.3411384 -.94001308 .94001308 .3411384 0 708.661)"
-        fontSize="14.47565"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="514.22348" x="449.87757">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.3110378 -.95039758 .95039758 .3110378 0 708.661)"
-        fontSize="14.475732"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="528.5946" x="443.11787">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.28733776 -.9578293 .9578293 .28733776 0 708.661)"
-        fontSize="14.475648"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="539.64529" x="437.83564">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.26812626 -.96338376 .96338376 .26812626 0 708.661)"
-        fontSize="14.475643"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="548.4369" x="435.23139">
-          I
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.24885832 -.9685399 .9685399 .24885832 0 708.661)"
-        fontSize="14.475707"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="557.1043" x="427.9024">
-          T
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.21864978 -.97580346 .97580346 .21864978 0 708.661)"
-        fontSize="14.475661"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="570.4031" x="418.6183">
-          U
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.1851239 -.9827152 .9827152 .1851239 0 708.661)"
-        fontSize="14.47571"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="584.751" x="409.22853">
-          D
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.15407932 -.98805847 .98805847 .15407932 0 708.661)"
-        fontSize="14.475662"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="597.6599" x="400.71565">
-          E
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=56">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.37326823 -.92772349 .92772349 .37326823 0 708.661)"
+          fontSize="14.47565"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="498.45228" x="456.39515">
+            G
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.3411384 -.94001308 .94001308 .3411384 0 708.661)"
+          fontSize="14.47565"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="514.22348" x="449.87757">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.3110378 -.95039758 .95039758 .3110378 0 708.661)"
+          fontSize="14.475732"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="528.5946" x="443.11787">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.28733776 -.9578293 .9578293 .28733776 0 708.661)"
+          fontSize="14.475648"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="539.64529" x="437.83564">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.26812626 -.96338376 .96338376 .26812626 0 708.661)"
+          fontSize="14.475643"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="548.4369" x="435.23139">
+            I
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.24885832 -.9685399 .9685399 .24885832 0 708.661)"
+          fontSize="14.475707"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="557.1043" x="427.9024">
+            T
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.21864978 -.97580346 .97580346 .21864978 0 708.661)"
+          fontSize="14.475661"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="570.4031" x="418.6183">
+            U
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.1851239 -.9827152 .9827152 .1851239 0 708.661)"
+          fontSize="14.47571"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="584.751" x="409.22853">
+            D
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.15407932 -.98805847 .98805847 .15407932 0 708.661)"
+          fontSize="14.475662"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="597.6599" x="400.71565">
+            E
+          </tspan>
+        </text>
+      </Link>
       <text
         fill="#000"
         fontWeight="1000"
@@ -11269,164 +11199,152 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.41515974 .9097485 -.9097485 .41515974 0 708.661)"
-        fontSize="13.933191"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-760.5277" x="-179.75235">
-          P
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.3877127 .9217802 -.9217802 .3877127 0 708.661)"
-        fontSize="13.933256"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-755.0663" x="-193.49791">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.3590344 .93332436 -.93332436 .3590344 0 708.661)"
-        fontSize="13.933206"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-748.9939" x="-208.29727">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.32921369 .9442555 -.9442555 .32921369 0 708.661)"
-        fontSize="13.9332"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-742.29928" x="-222.51972">
-          S
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.30067004 .95372828 -.95372828 .30067004 0 708.661)"
-        fontSize="13.933214"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-735.5382" x="-235.78713">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.27268628 .962103 -.962103 .27268628 0 708.661)"
-        fontSize="13.933228"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-728.5858" x="-248.72896">
-          V
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.24436575 .9696831 -.9696831 .24436575 0 708.661)"
-        fontSize="13.933212"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-721.2305" x="-261.51927">
-          E
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.21423644 .97678187 -.97678187 .21423644 0 708.661)"
-        fontSize="13.933204"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-713.0604" x="-275.30549">
-          R
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.18293679 .9831247 -.9831247 .18293679 0 708.661)"
-        fontSize="13.933228"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-704.2052" x="-288.47215">
-          A
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.15056095 .98860076 -.98860076 .15056095 0 708.661)"
-        fontSize="13.9332289"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-694.6584" x="-302.49128">
-          N
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{ pointerEvents: "none" }}
-        transform="matrix(.11626199 .9932186 -.9932186 .11626199 0 708.661)"
-        fontSize="13.933187"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-684.1217" x="-316.37287">
-          C
-        </tspan>
-      </text>
-      <text
-        fill="#000"
-        fontWeight="1000"
-        xmlSpace="preserve"
-        style={{
-          pointerEvents: "none",
-        }}
-        transform="matrix(.08452497 .99642136 -.99642136 .08452497 0 708.661)"
-        fontSize="13.933162"
-        fontFamily="HelveticaNeueOT"
-      >
-        <tspan y="-673.99118" x="-328.05488">
-          E
-        </tspan>
-      </text>
+      <Link to="/view-pdf?page=55">
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.41515974 .9097485 -.9097485 .41515974 0 708.661)"
+          fontSize="13.933191"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-760.5277" x="-179.75235">
+            P
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.3877127 .9217802 -.9217802 .3877127 0 708.661)"
+          fontSize="13.933256"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-755.0663" x="-193.49791">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.3590344 .93332436 -.93332436 .3590344 0 708.661)"
+          fontSize="13.933206"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-748.9939" x="-208.29727">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.32921369 .9442555 -.9442555 .32921369 0 708.661)"
+          fontSize="13.9332"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-742.29928" x="-222.51972">
+            S
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.30067004 .95372828 -.95372828 .30067004 0 708.661)"
+          fontSize="13.933214"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-735.5382" x="-235.78713">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.27268628 .962103 -.962103 .27268628 0 708.661)"
+          fontSize="13.933228"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-728.5858" x="-248.72896">
+            V
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.24436575 .9696831 -.9696831 .24436575 0 708.661)"
+          fontSize="13.933212"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-721.2305" x="-261.51927">
+            E
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.21423644 .97678187 -.97678187 .21423644 0 708.661)"
+          fontSize="13.933204"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-713.0604" x="-275.30549">
+            R
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.18293679 .9831247 -.9831247 .18293679 0 708.661)"
+          fontSize="13.933228"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-704.2052" x="-288.47215">
+            A
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.15056095 .98860076 -.98860076 .15056095 0 708.661)"
+          fontSize="13.9332289"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-694.6584" x="-302.49128">
+            N
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.11626199 .9932186 -.9932186 .11626199 0 708.661)"
+          fontSize="13.933187"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-684.1217" x="-316.37287">
+            C
+          </tspan>
+        </text>
+        <text
+          fill="#000"
+          fontWeight="1000"
+          xmlSpace="preserve"
+          transform="matrix(.08452497 .99642136 -.99642136 .08452497 0 708.661)"
+          fontSize="13.933162"
+          fontFamily="HelveticaNeueOT"
+        >
+          <tspan y="-673.99118" x="-328.05488">
+            E
+          </tspan>
+        </text>
+      </Link>
     </>
   );
 }

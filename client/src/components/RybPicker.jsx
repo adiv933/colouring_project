@@ -2,39 +2,8 @@
 import { useState, useRef, useEffect } from "react";
 
 const RybPicker = ({ onColorSelect, size = 200 }) => {
-  const [color, setColor] = useState("#ffffff");
+  const [setColor] = useState("#ffffff");
   const canvasRef = useRef(null);
-
-  const rybToRgb = (angle) => {
-    const hue = (angle % 360) / 60;
-    const chroma = 1;
-    const x = chroma * (1 - Math.abs((hue % 2) - 1));
-    let r = 0,
-      g = 0,
-      b = 0;
-
-    if (0 <= hue && hue < 1) {
-      r = chroma;
-      g = x;
-    } else if (1 <= hue && hue < 2) {
-      r = x;
-      g = chroma;
-    } else if (2 <= hue && hue < 3) {
-      g = chroma;
-      b = x;
-    } else if (3 <= hue && hue < 4) {
-      g = x;
-      b = chroma;
-    } else if (4 <= hue && hue < 5) {
-      r = x;
-      b = chroma;
-    } else if (5 <= hue && hue < 6) {
-      r = chroma;
-      b = x;
-    }
-
-    return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
-  };
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -47,13 +16,15 @@ const RybPicker = ({ onColorSelect, size = 200 }) => {
       const startAngle = toRad(angle);
       const endAngle = toRad(angle + 1);
 
-      const [r, g, b] = rybToRgb(angle);
+      const gradient = ctx.createLinearGradient(0, 0, size, size);
+      gradient.addColorStop(0, "white");
+      gradient.addColorStop(1, `hsl(${angle}, 100%, 50%)`);
 
       ctx.beginPath();
       ctx.moveTo(radius, radius);
       ctx.arc(radius, radius, radius, startAngle, endAngle);
       ctx.closePath();
-      ctx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+      ctx.fillStyle = gradient;
       ctx.fill();
     }
   }, [size]);
@@ -94,7 +65,7 @@ const RybPicker = ({ onColorSelect, size = 200 }) => {
         onClick={handleClick}
         style={{ cursor: "pointer", borderRadius: "50%" }}
       />
-      <div
+      {/* <div
         style={{
           position: "absolute",
           top: "50%",
@@ -107,7 +78,7 @@ const RybPicker = ({ onColorSelect, size = 200 }) => {
           border: "2px solid #fff",
           boxShadow: "0 0 5px rgba(0,0,0,0.5)",
         }}
-      />
+      /> */}
     </div>
   );
 };

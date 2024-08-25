@@ -1,7 +1,7 @@
 /* eslint-disable react/display-name */
 import { useState, forwardRef } from "react";
 import GoldenButton from "../src/components/GoldenButton";
-import SymbolText from "./font/SymbolText";
+import SymbolText from "./SymbolText";
 
 const Symbol = forwardRef((props, ref) => {
   const [position, setPosition] = useState(0);
@@ -47,7 +47,7 @@ const Symbol = forwardRef((props, ref) => {
               strokeWidth="5"
             />
           </svg>
-          <h1 className="text-black">LEFT</h1>
+          <h1 className="text-black">Left</h1>
         </GoldenButton>
 
         <h1 className="text-5xl font-semibold text-center text-white">
@@ -57,7 +57,7 @@ const Symbol = forwardRef((props, ref) => {
         </h1>
 
         <GoldenButton onClick={rotateClockwise} className="w-fit p-2 gap-4">
-          <h1 className="text-black">RIGHT</h1>
+          <h1 className="text-black">Right</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

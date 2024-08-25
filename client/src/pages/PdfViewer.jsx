@@ -14,8 +14,8 @@ const PdfViewer = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-4 shadow-lg rounded-lg w-full h-screen">
+    <div className="min-h-screen w-full bg-gradient flex items-center justify-center">
+      <div className="bg-gradient p-4 shadow-lg rounded-lg w-full h-screen">
         <Worker
           // eslint-disable-next-line no-undef
           workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`}
