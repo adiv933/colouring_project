@@ -47,8 +47,8 @@ const styles = {
   stepperContainer: {
     display: "flex",
     justifyContent: "space-between",
-    gap:"6px",
-    alignItems: "center",
+    gap: "4px",
+    alignItems: "flex-start",
     width: "100%",
     padding: "10px 0",
   },

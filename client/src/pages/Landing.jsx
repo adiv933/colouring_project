@@ -4,17 +4,17 @@ import gsap from "gsap";
 import PageHeading from "../components/PageHeading";
 
 const Landing = () => {
-  // useGSAP(() => {
-  //   const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
-  //   if (!isSmallScreen) {
-  //     gsap.from(".hero", {
-  //       y: 200,
-  //       opacity: 0,
-  //       delay: 2,
-  //       duration: 0.8,
-  //     });
-  //   }
-  // });
+  useGSAP(() => {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    if (!isSmallScreen) {
+      gsap.from(".hero", {
+        y: 200,
+        opacity: 0,
+        delay: 2,
+        duration: 0.8,
+      });
+    }
+  });
 
   return (
     <div className="w-full min-h-screen gradient-background">
