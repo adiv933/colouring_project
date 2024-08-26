@@ -87,20 +87,35 @@ function hasNoDuplicates(colors) {
 
 function containsWhite(colors) {
     // Define the hex code for white
-    const whiteHex = "#FFFFFF";
+    const whiteHex1 = "#FFFFFF";
+    const whiteHex2 = "#FFF";
 
     // Iterate through the array of colors
     for (const color of colors) {
         // Check if the color is white
-        if (color.toUpperCase() === whiteHex) {
-            // If found, return false
-            return false;
+        if (color.toUpperCase() === whiteHex1 || color.toUpperCase() === whiteHex2) {
+            // If found, return true indicating a white color is present
+            return true;
         }
     }
 
-    // Return true if no white color is found
-    return true;
+    // Return false if no white color is found
+    return false;
 }
+
+
+// Helper function to calculate color distance (simplified)
+const colorDistance = (color1, color2) => {
+    const [r1, g1, b1] = color1.match(/\w\w/g).map((c) => parseInt(c, 16));
+    const [r2, g2, b2] = color2.match(/\w\w/g).map((c) => parseInt(c, 16));
+    return Math.sqrt((r2 - r1) ** 2 + (g2 - g1) ** 2 + (b2 - b1) ** 2);
+};
+
+// Helper function to check if a color is a shade/tint of a major color
+const isShadeOrTint = (color, majorColor) => {
+    const threshold = 50; // Adjust as necessary
+    return colorDistance(color, majorColor) < threshold;
+};
 
 function getClosestBaseColor(hue) {
     const baseColors = {
@@ -158,6 +173,37 @@ function countColorsInCategories(colors) {
     return valid ? 0 : extraColors;
 }
 
+// Grading function
+const gradeColors = (colorArray) => {
+    const majorColors = [
+        "#FF0000", // Red
+        "#FF9933", // Orange
+        "#FFFF00", // Yellow
+        "#009900", // Green
+        "#0000FF", // Blue
+        "#6600CC", // Purple
+    ];
+    let score = 100;
+    let majorColorIndex = 0;
+
+    for (let i = 0; i < colorArray.length; i++) {
+        const userColor = colorArray[i];
+        const expectedColor = majorColors[majorColorIndex];
+
+        if (isShadeOrTint(userColor, expectedColor)) {
+            // Move to the next major color if this one matches
+            majorColorIndex++;
+            if (majorColorIndex >= majorColors.length) break; // All major colors matched
+        } else {
+            // Deduct 8.4 points if the color doesn't match the expected shade/tint
+            score -= 8.4;
+        }
+    }
+
+    return score;
+};
 
 
-export { haveSameRelativeShade, haveSameRelativeTint, containsWhite, hasNoDuplicates, countColorsInCategories };
+
+
+export { haveSameRelativeShade, haveSameRelativeTint, containsWhite, hasNoDuplicates, countColorsInCategories, isShadeOrTint, gradeColors };

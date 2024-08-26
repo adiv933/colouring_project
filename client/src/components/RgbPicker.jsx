@@ -3,6 +3,8 @@ import { useState, useRef, useEffect } from "react";
 
 const RgbPicker = ({ onColorSelect, size = 200 }) => {
   const [color, setColor] = useState("#ffffff");
+  const [position, setPosition] = useState({ x: 50, y: 50 });
+
   const canvasRef = useRef(null);
 
   const rybToRgb = (angle) => {
@@ -66,6 +68,11 @@ const RgbPicker = ({ onColorSelect, size = 200 }) => {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
+    const positionX = (x / size) * 100;
+    const positionY = (y / size) * 100;
+
+    setPosition({ x: positionY, y: positionX });
+
     const imageData = ctx.getImageData(x, y, 1, 1).data;
     const [r, g, b] = imageData;
 
@@ -94,20 +101,20 @@ const RgbPicker = ({ onColorSelect, size = 200 }) => {
         onClick={handleClick}
         style={{ cursor: "pointer", borderRadius: "50%" }}
       />
-      {/* <div
+      <div
         style={{
           position: "absolute",
-          top: "50%",
-          left: "50%",
+          top: `${position.x}%`,
+          left: `${position.y}%`,
           transform: "translate(-50%, -50%)",
           backgroundColor: color,
-          width: size / 4,
-          height: size / 4,
+          width: "10px",
+          height: "10px",
           borderRadius: "50%",
           border: "2px solid #fff",
           boxShadow: "0 0 5px rgba(0,0,0,0.5)",
         }}
-      /> */}
+      />
     </div>
   );
 };
