@@ -177,7 +177,7 @@ const DesignCanvas = ({ color }) => {
           height="708.661"
           style={{ display: "none" }}
         />
-        <div className="flex justify-between gap-x-4">
+        <div className="flex flex-col sm:flex-row justify-between gap-4">
           {(window.location.pathname === "/colouring1" ||
             window.location.pathname === "/colouring2") && (
             <div>
