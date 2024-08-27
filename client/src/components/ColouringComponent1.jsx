@@ -143,7 +143,7 @@ const part2 = colors.slice(midpoint);
     <div className="min-h-screen flex flex-col lg:flex-row gap-y-6 w-full justify-center items-center">
       <ColourTester color={color} />
       <DesignCanvas color={color} />
-      <div className="order-1 lg:order-3 w-fit flex items-center justify-center p-4 bg-white rounded-lg">
+      <div className="order-1 lg:order-3 w-fit flex items-center justify-center p-2 bg-white rounded-lg">
         <SwatchesPicker
           colors={part1}
           onColorSelect={handleColorSelect}

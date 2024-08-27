@@ -19,7 +19,7 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
         display: "grid",
         gridTemplateColumns: `repeat(${cols}, ${swatchSize}px)`,
         gridGap: "5px",
-        padding: "10px",
+        padding: "5px",
       }}
     >
       {colors.map((color, index) => (

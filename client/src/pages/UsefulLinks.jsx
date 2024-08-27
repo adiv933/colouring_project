@@ -19,7 +19,7 @@ function UsefulLinks() {
     <div className="w-full h-screen gradient-background">
       <Navbar />
       <section className="h-screen w-full flex flex-col justify-center items-center hero">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center items-center text-center font-semibold gap-x-2">
+        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
           <img
             src="/logo.png"
             alt="logo"
