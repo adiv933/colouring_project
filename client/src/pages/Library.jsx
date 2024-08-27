@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import gsap from "gsap";
 import GoldenButton from "../components/GoldenButton";
 import PageHeading from "../components/PageHeading";
+import { Link } from "react-router-dom";
 
 function Library() {
   useGSAP(() => {
@@ -19,22 +20,25 @@ function Library() {
   });
 
   return (
-    <div className="w-full h-screen gradient-background">
+    <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="h-screen w-full flex flex-col items-center hero p-20 justify-between">
+      <section className="min-h-screen w-full flex flex-col items-center hero p-20 justify-center">
         <PageHeading>Library</PageHeading>
         <div className="h-full flex flex-col md:flex-row items-center justify-center gap-8">
-          <GoldenButton className="w-48">
+          <GoldenButton className="w-48 h-28">
             {" "}
             <br />
             Gallery
             <br /> <br />{" "}
           </GoldenButton>
-          <GoldenButton className="w-48">
-            Works of the Mother
+          <GoldenButton className="w-48 h-28">
+            Mother
             <br />&<br />
             Sri Aurobindo
           </GoldenButton>
+          <Link to="/links">
+            <GoldenButton className="w-48 h-28">Readings</GoldenButton>
+          </Link>
         </div>
       </section>
     </div>

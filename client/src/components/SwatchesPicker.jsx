@@ -22,7 +22,7 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
         padding: "10px",
       }}
     >
-      {colors.flat().map((color, index) => (
+      {colors.map((color, index) => (
         <>
           <div
             onClick={() => handleColorClick(color)}
