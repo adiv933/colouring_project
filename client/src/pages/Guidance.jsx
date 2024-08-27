@@ -22,7 +22,7 @@ function Guidance() {
   const pdfPages = [
     { topic: "Physics of light and colour", pageNumber: "3" },
     { topic: "Physiology of colour vision", pageNumber: "8" },
-    { topic: "Colour psychology", pageNumber: "3" },
+    { topic: "Colour psychology", pageNumber: "11" },
     { topic: "Colour theory in art and design", pageNumber: "23" },
     { topic: "Colour in traditional yoga", pageNumber: "35" },
     { topic: "Living Symbol of the Mother", pageNumber: "45" },

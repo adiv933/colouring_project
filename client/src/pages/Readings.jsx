@@ -1,8 +1,9 @@
 import { useGSAP } from "@gsap/react";
-import Navbar from "../components/Navbar";
 import gsap from "gsap";
+import Navbar from "../components/Navbar";
+import PageHeading from "../components/PageHeading";
 
-function UsefulLinks() {
+function Readings() {
   useGSAP(() => {
     const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
 
@@ -19,17 +20,10 @@ function UsefulLinks() {
     <div className="w-full h-screen gradient-background">
       <Navbar />
       <section className="h-screen w-full flex flex-col justify-center items-center hero">
-        <h1 className="text-2xl sm:text-3xl xl:text-5xl text-white flex items-center text-center font-semibold gap-x-2">
-          <img
-            src="/logo.png"
-            alt="logo"
-            className="w-12 h-12 sm:w-16 sm:h-16"
-          />
-          Useful links
-        </h1>
+        <PageHeading>Readings</PageHeading>
       </section>
     </div>
   );
 }
 
-export default UsefulLinks;
+export default Readings;

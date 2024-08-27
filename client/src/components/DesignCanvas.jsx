@@ -44,7 +44,7 @@ const DesignCanvas = ({ color }) => {
     return savedColors ? JSON.parse(savedColors) : Array(12).fill("#fff");
   });
   const [open, setOpen] = useState(false);
-  const [score, setScore] = useState(0);
+  const [setScore] = useState(0);
   const [scoreMessage, setScoreMessage] = useState("");
 
   const handleOpen = () => setOpen(true);

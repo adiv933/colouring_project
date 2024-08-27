@@ -7,7 +7,7 @@ import Colouring4 from "./pages/Colouring4";
 import Colouring5 from "./pages/Colouring5";
 import Colouring from "./pages/Colouring";
 import Guidance from "./pages/Guidance";
-import UsefulLinks from "./pages/UsefulLinks";
+import Readings from "./pages/Readings";
 import Library from "./pages/Library";
 import Contact from "./pages/Contact";
 import PdfViewer from "./pages/PdfViewer";
@@ -23,7 +23,7 @@ const App = () => {
       <Route path="/colouring4" element={<Colouring4 />} />
       <Route path="/colouring5" element={<Colouring5 />} />
       <Route path="/guidance" element={<Guidance />} />
-      <Route path="/links" element={<UsefulLinks />} />
+      <Route path="/readings" element={<Readings />} />
       <Route path="/library" element={<Library />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/view-pdf" element={<PdfViewer />} />

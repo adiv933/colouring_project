@@ -36,7 +36,7 @@ function Library() {
             <br />&<br />
             Sri Aurobindo
           </GoldenButton>
-          <Link to="/links">
+          <Link to="/readings">
             <GoldenButton className="w-48 h-28">Readings</GoldenButton>
           </Link>
         </div>
