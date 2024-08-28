@@ -4,7 +4,8 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
-const PdfViewer = () => {
+// eslint-disable-next-line react/prop-types
+const PdfViewer = ({ url }) => {
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const page = parseInt(query.get("page"), 10);
@@ -21,7 +22,7 @@ const PdfViewer = () => {
           workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`}
         >
           <Viewer
-            fileUrl="/presentation.pdf"
+            fileUrl={url}
             plugins={[defaultLayoutPluginInstance]}
             initialPage={page ? page - 1 : 0}
           />

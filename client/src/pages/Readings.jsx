@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Navbar from "../components/Navbar";
 import PageHeading from "../components/PageHeading";
+import { Link } from "react-router-dom";
 
 function Readings() {
   useGSAP(() => {
@@ -16,11 +17,33 @@ function Readings() {
       });
     }
   });
+
+  const articles = [
+    { id: 1, title: "On Mother's Flag and Symbol", path: "article1" },
+    { id: 2, title: "Sample article 2", path: "article2" },
+    { id: 3, title: "Sample article 3", path: "article3" },
+    // Add more articles here
+  ];
+
   return (
-    <div className="w-full h-screen gradient-background">
+    <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="h-screen w-full flex flex-col justify-center items-center hero">
+      <section className="h-full w-full flex flex-col items-center hero py-20">
         <PageHeading>Readings</PageHeading>
+        <div className="mt-8 w-3/4 md:w-1/2 lg:w-1/3">
+          <ul className="space-y-4 list-disc list-inside bg-white p-6 rounded-lg shadow-md">
+            {articles.map((article) => (
+              <li key={article.id} className="text-lg font-semibold">
+                <Link
+                  to={`/readings/${article.path}`}
+                  className="text-[#dbaf46] hover:text-[#675220] hover:underline"
+                >
+                  {article.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
     </div>
   );

@@ -3294,7 +3294,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=61">
+      <Link to="/view-presentation?page=61">
         <text
           fill="#000"
           fontWeight="1000"
@@ -3665,7 +3665,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=52">
+      <Link to="/view-presentation?page=52">
         <text
           fill="#000"
           fontWeight="1000"
@@ -4010,7 +4010,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=53">
+      <Link to="/view-presentation?page=53">
         <text
           fill="#000"
           fontWeight="1000"
@@ -4378,7 +4378,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=54">
+      <Link to="/view-presentation?page=54">
         <text
           fill="#000"
           fontWeight="1000"
@@ -8325,7 +8325,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=62">
+      <Link to="/view-presentation?page=62">
         <text
           fill="#000"
           fontWeight="1000"
@@ -8673,7 +8673,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=51">
+      <Link to="/view-presentation?page=51">
         <text
           fill="#000"
           fontWeight="1000"
@@ -8992,7 +8992,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=60">
+      <Link to="/view-presentation?page=60">
         <text
           fill="#000"
           fontWeight="1000"
@@ -9415,7 +9415,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=59">
+      <Link to="/view-presentation?page=59">
         <text
           fill="#000"
           fontWeight="1000"
@@ -9802,7 +9802,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=58">
+      <Link to="/view-presentation?page=58">
         <text
           fill="#000"
           fontWeight="1000"
@@ -10198,7 +10198,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=57">
+      <Link to="/view-presentation?page=57">
         <text
           fill="#000"
           fontWeight="1000"
@@ -10556,7 +10556,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=56">
+      <Link to="/view-presentation?page=56">
         <text
           fill="#000"
           fontWeight="1000"
@@ -11199,7 +11199,7 @@ function SymbolText() {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-pdf?page=55">
+      <Link to="/view-presentation?page=55">
         <text
           fill="#000"
           fontWeight="1000"

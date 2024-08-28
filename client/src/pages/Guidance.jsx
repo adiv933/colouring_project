@@ -36,7 +36,9 @@ function Guidance() {
         <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-8">
           {pdfPages.map((page, index) => (
             <GoldenButton key={index} className="w-fit px-4">
-              <Link to={`/view-pdf?page=${page.pageNumber}`}>{page.topic}</Link>
+              <Link to={`/view-presentation?page=${page.pageNumber}`}>
+                {page.topic}
+              </Link>
             </GoldenButton>
           ))}
         </div>
