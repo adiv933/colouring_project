@@ -111,7 +111,7 @@ const DesignCanvas = ({ color }) => {
   };
 
   const revealScore = () => {
-    console.log("final colorArray", colorArray);
+    // console.log("final colorArray", colorArray);
 
     if (containsWhite(colorArray)) {
       setScoreMessage(scoreMessages[1]);
@@ -126,7 +126,7 @@ const DesignCanvas = ({ color }) => {
     }
 
     const gradedScore = gradeColors(colorArray);
-    console.log(gradedScore);
+    // console.log(gradedScore);
     if (gradedScore === -1) {
       setScoreMessage(scoreMessages[2]);
     }

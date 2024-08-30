@@ -104,33 +104,15 @@ function getClosestBaseColor(hue) {
 
 const correctColorOrder = (uniqueBaseColors) => {
     const correctOrder = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
-
-    // let currentIndex = 0;
-
-    // for (const color of uniqueBaseColors) {
-    //     const colorIndex = correctOrder.indexOf(color);
-
-    //     if (colorIndex === -1 || colorIndex < currentIndex) {
-    //         console.log(`Test failed: Color ${color} is not in the correct order.`);
-    //         return false;
-    //     }
-
-    //     currentIndex = colorIndex;
-    // }
-
-    // console.log("Test passed: Colors are in the correct order.");
-    // return true;
-
     const correctOrderCombo = correctOrder.join('');
     let uniqueBaseColorsCombo = uniqueBaseColors.join('');
     uniqueBaseColorsCombo += uniqueBaseColorsCombo;
-    console.log(correctOrderCombo);
-    console.log(uniqueBaseColorsCombo);
+    // console.log(correctOrderCombo);
+    // console.log(uniqueBaseColorsCombo);
     return uniqueBaseColorsCombo.includes(correctOrderCombo);
 };
 
 const findMaxMatches = (hexArray) => {
-    // Create a map of hex codes to their column index in the reference array
     const colorToColumn = {};
     for (let col = 0; col < colors1[0].length; col++) {
         for (let row = 0; row < colors1.length; row++) {
@@ -138,7 +120,6 @@ const findMaxMatches = (hexArray) => {
         }
     }
 
-    // Create a count of how many hex codes from hexArray are in each column
     const columnCount = new Array(colors1[0].length).fill(0);
     for (const hex of hexArray) {
         const columnIndex = colorToColumn[hex.toLowerCase()];
@@ -147,7 +128,6 @@ const findMaxMatches = (hexArray) => {
         }
     }
 
-    // Return the maximum number of hex codes found in the same column
     return Math.max(...columnCount);
 };
 
@@ -159,11 +139,11 @@ const gradeColors = (colorArray) => {
     });
 
     const uniqueBaseColors = [...new Set(baseColors)];
-    console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
+    // console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
     if (uniqueBaseColors.length < 6 || !correctColorOrder(colorArray)) {
 
-        if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
-        else console.log("incorrect order")
+        // if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
+        // else console.log("incorrect order")
         return -1;
 
     }
@@ -171,11 +151,5 @@ const gradeColors = (colorArray) => {
 
     return 100 - (12 - findMaxMatches(colorArray)) * 8.4;
 };
-
-
-
-
-
-
 
 export { containsWhite, hasNoDuplicates, gradeColors };
