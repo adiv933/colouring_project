@@ -55,44 +55,6 @@ function hexToHSL(hex) {
     };
 }
 
-function getRelativeTint(hsl) {
-    const baseLightness = 50; // Assuming 50% lightness is the base for pure hues
-    return hsl.l - baseLightness; // Calculate the relative tint
-}
-
-function haveSameRelativeTint(colors) {
-    // Convert colors from hex to HSL
-    const hslColors = colors.map(hex => hexToHSL(hex));
-
-    // Calculate relative tints
-    const relativeTints = hslColors.map(hsl => getRelativeTint(hsl));
-
-    // Use the first tint as reference
-    const firstRelativeTint = relativeTints[0];
-
-    // Check if all relative tints are the same (with a small tolerance)
-    return relativeTints.every(tint => Math.abs(tint - firstRelativeTint) < 5);
-}
-
-function getRelativeShade(hsl) {
-    const baseLightness = 50; // Assuming 50% lightness is the base for pure hues
-    return baseLightness - hsl.l; // Calculate the relative shade
-}
-
-function haveSameRelativeShade(colors) {
-    // Convert colors from hex to HSL
-    const hslColors = colors.map(hex => hexToHSL(hex));
-
-    // Calculate relative shades
-    const relativeShades = hslColors.map(hsl => getRelativeShade(hsl));
-
-    // Use the first shade as reference
-    const firstRelativeShade = relativeShades[0];
-
-    // Check if all relative shades are the same (with a small tolerance)
-    return relativeShades.every(shade => Math.abs(shade - firstRelativeShade) < 5);
-}
-
 function hasNoDuplicates(colors) {
     // Create a Set to store unique colors
     const colorSet = new Set();
@@ -130,20 +92,6 @@ function containsWhite(colors) {
     return false;
 }
 
-
-// Helper function to calculate color distance (simplified)
-const colorDistance = (color1, color2) => {
-    const [r1, g1, b1] = color1.match(/\w\w/g).map((c) => parseInt(c, 16));
-    const [r2, g2, b2] = color2.match(/\w\w/g).map((c) => parseInt(c, 16));
-    return Math.sqrt((r2 - r1) ** 2 + (g2 - g1) ** 2 + (b2 - b1) ** 2);
-};
-
-// Helper function to check if a color is a shade/tint of a major color
-const isShadeOrTint = (color, majorColor) => {
-    const threshold = 50; // Adjust as necessary
-    return colorDistance(color, majorColor) < threshold;
-};
-
 function getClosestBaseColor(hue) {
     if (hue >= 0 && hue < 30) return "#FF0000";
     if (hue >= 30 && hue < 60) return "#FF9933";
@@ -157,21 +105,50 @@ function getClosestBaseColor(hue) {
 const correctColorOrder = (uniqueBaseColors) => {
     const correctOrder = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
 
-    let currentIndex = 0;
+    // let currentIndex = 0;
 
-    for (const color of uniqueBaseColors) {
-        const colorIndex = correctOrder.indexOf(color);
+    // for (const color of uniqueBaseColors) {
+    //     const colorIndex = correctOrder.indexOf(color);
 
-        if (colorIndex === -1 || colorIndex < currentIndex) {
-            console.log(`Test failed: Color ${color} is not in the correct order.`);
-            return false;
+    //     if (colorIndex === -1 || colorIndex < currentIndex) {
+    //         console.log(`Test failed: Color ${color} is not in the correct order.`);
+    //         return false;
+    //     }
+
+    //     currentIndex = colorIndex;
+    // }
+
+    // console.log("Test passed: Colors are in the correct order.");
+    // return true;
+
+    const correctOrderCombo = correctOrder.join('');
+    let uniqueBaseColorsCombo = uniqueBaseColors.join('');
+    uniqueBaseColorsCombo += uniqueBaseColorsCombo;
+    console.log(correctOrderCombo);
+    console.log(uniqueBaseColorsCombo);
+    return uniqueBaseColorsCombo.includes(correctOrderCombo);
+};
+
+const findMaxMatches = (hexArray) => {
+    // Create a map of hex codes to their column index in the reference array
+    const colorToColumn = {};
+    for (let col = 0; col < colors1[0].length; col++) {
+        for (let row = 0; row < colors1.length; row++) {
+            colorToColumn[colors1[row][col].toLowerCase()] = col;
         }
-
-        currentIndex = colorIndex;
     }
 
-    console.log("Test passed: Colors are in the correct order.");
-    return true;
+    // Create a count of how many hex codes from hexArray are in each column
+    const columnCount = new Array(colors1[0].length).fill(0);
+    for (const hex of hexArray) {
+        const columnIndex = colorToColumn[hex.toLowerCase()];
+        if (columnIndex !== undefined) {
+            columnCount[columnIndex]++;
+        }
+    }
+
+    // Return the maximum number of hex codes found in the same column
+    return Math.max(...columnCount);
 };
 
 // Grading function
@@ -182,23 +159,23 @@ const gradeColors = (colorArray) => {
     });
 
     const uniqueBaseColors = [...new Set(baseColors)];
-    console.log(uniqueBaseColors)
+    console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
     if (uniqueBaseColors.length < 6 || !correctColorOrder(colorArray)) {
+
+        if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
+        else console.log("incorrect order")
         return -1;
+
     }
+    correctColorOrder(uniqueBaseColors)
 
-    
-
-
+    return 100 - (12 - findMaxMatches(colorArray)) * 8.4;
 };
 
 
-/**
- * i am wanting to make a grading system based on the 12 colors picked by the user. the colors picked have to follow certain rules otherwise their score gets deducted from 100. we have 6 primary colors: Red #FF0000,Orange #FF9933,Yellow #FFFF00, Green #009900,Blue #0000FF,Violet #6600CC. the 12 
-
- */
 
 
 
 
-export { haveSameRelativeShade, haveSameRelativeTint, containsWhite, hasNoDuplicates, isShadeOrTint, gradeColors };
+
+export { containsWhite, hasNoDuplicates, gradeColors };

@@ -126,7 +126,7 @@ const DesignCanvas = ({ color }) => {
     }
 
     const gradedScore = gradeColors(colorArray);
-
+    console.log(gradedScore);
     if (gradedScore === -1) {
       setScoreMessage(scoreMessages[2]);
     }
