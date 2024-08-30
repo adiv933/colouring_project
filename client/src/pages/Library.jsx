@@ -32,7 +32,7 @@ function Library() {
             <br /> <br />{" "}
           </GoldenButton>
           <GoldenButton className="w-48 h-28">
-            Mother
+            The Mother
             <br />&<br />
             Sri Aurobindo
           </GoldenButton>

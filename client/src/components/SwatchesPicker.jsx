@@ -22,8 +22,9 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
         padding: "5px",
       }}
     >
-      {colors.map((color, index) => (
+      {colors.flat().map((color, index) => (
         <>
+          {/* <Tooltip title={color} placement="left"> */}
           <div
             onClick={() => handleColorClick(color)}
             key={index}
@@ -39,6 +40,7 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
               transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
             }}
           />
+          {/* </Tooltip> */}
         </>
       ))}
     </div>

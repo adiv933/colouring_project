@@ -20,12 +20,12 @@ function Guidance() {
   });
 
   const pdfPages = [
-    { topic: "Physics of light and colour", pageNumber: "3" },
-    { topic: "Physiology of colour vision", pageNumber: "8" },
-    { topic: "Colour psychology", pageNumber: "11" },
-    { topic: "Colour theory in art and design", pageNumber: "23" },
-    { topic: "Colour in traditional yoga", pageNumber: "35" },
-    { topic: "Living Symbol of the Mother", pageNumber: "45" },
+    { topic: "1. Physics of light and colour", pageNumber: "3" },
+    { topic: "2. Physiology of colour vision", pageNumber: "8" },
+    { topic: "3. Colour psychology", pageNumber: "11" },
+    { topic: "4. Colour theory in art and design", pageNumber: "23" },
+    { topic: "5. Colour in traditional yoga", pageNumber: "35" },
+    { topic: "6. Living Symbol of the Mother", pageNumber: "45" },
   ];
 
   return (
@@ -33,9 +33,9 @@ function Guidance() {
       <Navbar />
       <section className="h-full w-full flex flex-col items-center hero pt-20 sm:p-20 justify-between gap-8 sm:gap-36">
         <PageHeading>Guidance</PageHeading>
-        <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-8">
+        <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-2 md:gap-8">
           {pdfPages.map((page, index) => (
-            <GoldenButton key={index} className="w-fit px-4">
+            <GoldenButton key={index} className="w-32 sm:w-36 h-28 p-2">
               <Link to={`/view-presentation?page=${page.pageNumber}`}>
                 {page.topic}
               </Link>

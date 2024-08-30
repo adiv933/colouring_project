@@ -19,21 +19,20 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 200,
   bgcolor: "background.paper",
-  border: "2px solid #000",
+  border: "5px solid #dbaf46",
   borderRadius: "10px",
-  boxShadow: 24,
-  p: 4,
+  boxShadow: 25,
+  p: 2,
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
 };
 
 const scoreMessages = [
+  "No duplicate colors allowed.",
+  "All petals must be filled with a color.",
   "Score is below 50%, try again or click the Guidance button",
   "Score is: ",
-  "Perfect! All major colors matched correctly.",
-  "Good job! Some colors were not in the correct shade/tint.",
-  "Needs improvement. Many colors didn't match the expected shades/tints.",
 ];
 
 const DesignCanvas = ({ color }) => {
@@ -115,15 +114,15 @@ const DesignCanvas = ({ color }) => {
     console.log("final colorArray", colorArray);
 
     if (containsWhite(colorArray)) {
-      console.log("All petals must be filled with a color.");
-      setScoreMessage("All petals must be filled with a color.");
+      console.log(scoreMessages[1]);
+      setScoreMessage(scoreMessages[1]);
       handleOpen();
       return;
     }
 
     if (!hasNoDuplicates(colorArray)) {
-      console.log("No duplicate colors allowed.");
-      setScoreMessage("No duplicate colors allowed.");
+      console.log(scoreMessages[0]);
+      setScoreMessage(scoreMessages[0]);
       handleOpen();
       return;
     }
@@ -132,11 +131,11 @@ const DesignCanvas = ({ color }) => {
     setScore(gradedScore);
 
     if (gradedScore === 100) {
-      setScoreMessage(scoreMessages[2]);
+      setScoreMessage("Great job. " + scoreMessages[3] + gradedScore);
     } else if (gradedScore >= 50) {
-      setScoreMessage(scoreMessages[3]);
+      setScoreMessage(scoreMessages[3] + gradedScore);
     } else {
-      setScoreMessage(scoreMessages[4]);
+      setScoreMessage(scoreMessages[2]);
     }
 
     handleOpen();
