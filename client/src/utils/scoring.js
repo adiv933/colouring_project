@@ -145,70 +145,76 @@ const isShadeOrTint = (color, majorColor) => {
 };
 
 function getClosestBaseColor(hue) {
-    const baseColors = {
-        "#FF0000": 0,
-        "#FF9933": 30,
-        "#FFFF00": 60,
-        "#009900": 120,
-        "#0000FF": 240,
-        "#6600CC": 270
-    };
+    // const baseColors = {
+    //     "#FF0000": 0,
+    //     "#FF9933": 30,
+    //     "#FFFF00": 60,
+    //     "#009900": 120,
+    //     "#0000FF": 240,
+    //     "#6600CC": 270
+    // };
 
-    let closestColor = null;
-    let smallestDifference = Infinity;
+    // let closestColor = null;
+    // let smallestDifference = Infinity;
 
-    for (const [color, baseHue] of Object.entries(baseColors)) {
-        let hueDifference = Math.abs(hue - baseHue);
-        hueDifference = Math.min(hueDifference, 360 - hueDifference);
-        if (hueDifference < smallestDifference) {
-            smallestDifference = hueDifference;
-            closestColor = color;
-        }
-    }
+    // for (const [color, baseHue] of Object.entries(baseColors)) {
+    //     let hueDifference = Math.abs(hue - baseHue);
+    //     hueDifference = Math.min(hueDifference, 360 - hueDifference);
+    //     if (hueDifference < smallestDifference) {
+    //         smallestDifference = hueDifference;
+    //         closestColor = color;
+    //     }
+    // }
 
-    return closestColor;
-}
-
-function countColorsInCategories(colors) {
-    const categoryCounts = {
-        "#FF0000": 0,
-        "#FF9933": 0,
-        "#FFFF00": 0,
-        "#009900": 0,
-        "#0000FF": 0,
-        "#6600CC": 0
-    };
-
-    colors.forEach(color => {
-        const baseColor = getClosestBaseColor(hexToHSL(color).h);
-        if (baseColor) {
-            categoryCounts[baseColor]++;
-        }
-    });
-
-    let extraColors = 0;
-    let valid = true;
-
-    for (const count of Object.values(categoryCounts)) {
-        if (count > 2) {
-            extraColors += count - 2;
-        } else if (count < 2) {
-            valid = false;
-        }
-    }
-
-    return valid ? 0 : extraColors;
+    if (hue >= 0 && hue < 30) return "#FF0000";
+    if (hue >= 30 && hue < 60) return "#FF9933";
+    if (hue >= 60 && hue < 120) return "#FFFF00";
+    if (hue >= 120 && hue < 240) return "#009900";
+    if (hue >= 240 && hue < 270) return "#0000FF";
+    if (hue >= 270) return "#6600CC";
+    return null;
 }
 
 // Grading function
 const gradeColors = (colorArray) => {
-    
+    // Step 1: Convert each hex code to its closest base color
+    // const classifiedColors = colorArray.map(hex => {
+    //     const hue = hexToHSL(hex);   // Convert hex to hue
+    //     return getClosestBaseColor(hue); // Classify color
+    // });
+
+    // // Step 2: Remove duplicates while maintaining the original order
+    // const uniqueColors = [];
+    // const seenColors = new Set();
+
+    // for (const color of classifiedColors) {
+    //     if (!seenColors.has(color)) {
+    //         seenColors.add(color);
+    //         uniqueColors.push(color);
+    //     }
+    // }
+
+    // return uniqueColors; // Return the array of unique base colors
+    const baseColors = colorArray.map(hex => {
+        const hue = hexToHSL(hex).h; // Convert hex to hue
+        return getClosestBaseColor(hue); // Find the closest base color
+    });
+
+    // Remove duplicates while maintaining the order
+    const uniqueBaseColors = [...new Set(baseColors)];
+    console.log(uniqueBaseColors)
+    if (uniqueBaseColors.length < 6) {
+        return -1;
+    }
 };
 
 
+/**
+ * i am wanting to make a grading system based on the 12 colors picked by the user. the colors picked have to follow certain rules otherwise their score gets deducted from 100. we have 6 primary colors: Red #FF0000,Orange #FF9933,Yellow #FFFF00, Green #009900,Blue #0000FF,Violet #6600CC. the 12 
+
+ */
 
 
 
 
-
-export { haveSameRelativeShade, haveSameRelativeTint, containsWhite, hasNoDuplicates, countColorsInCategories, isShadeOrTint, gradeColors };
+export { haveSameRelativeShade, haveSameRelativeTint, containsWhite, hasNoDuplicates, isShadeOrTint, gradeColors };

@@ -26,13 +26,14 @@ const style = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
+  textAlign: "center",
 };
 
 const scoreMessages = [
-  "No duplicate colors allowed.",
-  "All petals must be filled with a color.",
+  "Duplicate colours are not harmonious.",
+  "Please fill all petals with colours.",
   "Score is below 50%, try again or click the Guidance button",
-  "Score is: ",
+  "% harmony achieved, click Guidance for more",
 ];
 
 const DesignCanvas = ({ color }) => {
@@ -43,7 +44,6 @@ const DesignCanvas = ({ color }) => {
     return savedColors ? JSON.parse(savedColors) : Array(12).fill("#fff");
   });
   const [open, setOpen] = useState(false);
-  const [setScore] = useState(0);
   const [scoreMessage, setScoreMessage] = useState("");
 
   const handleOpen = () => setOpen(true);
@@ -114,26 +114,27 @@ const DesignCanvas = ({ color }) => {
     console.log("final colorArray", colorArray);
 
     if (containsWhite(colorArray)) {
-      console.log(scoreMessages[1]);
       setScoreMessage(scoreMessages[1]);
       handleOpen();
       return;
     }
 
     if (!hasNoDuplicates(colorArray)) {
-      console.log(scoreMessages[0]);
       setScoreMessage(scoreMessages[0]);
       handleOpen();
       return;
     }
 
     const gradedScore = gradeColors(colorArray);
-    setScore(gradedScore);
+
+    if (gradedScore === -1) {
+      setScoreMessage(scoreMessages[2]);
+    }
 
     if (gradedScore === 100) {
-      setScoreMessage("Great job. " + scoreMessages[3] + gradedScore);
+      setScoreMessage("Great job. " + gradedScore + scoreMessages[3]);
     } else if (gradedScore >= 50) {
-      setScoreMessage(scoreMessages[3] + gradedScore);
+      setScoreMessage(gradedScore + scoreMessages[3]);
     } else {
       setScoreMessage(scoreMessages[2]);
     }
