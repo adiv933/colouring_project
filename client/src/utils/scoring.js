@@ -145,27 +145,6 @@ const isShadeOrTint = (color, majorColor) => {
 };
 
 function getClosestBaseColor(hue) {
-    // const baseColors = {
-    //     "#FF0000": 0,
-    //     "#FF9933": 30,
-    //     "#FFFF00": 60,
-    //     "#009900": 120,
-    //     "#0000FF": 240,
-    //     "#6600CC": 270
-    // };
-
-    // let closestColor = null;
-    // let smallestDifference = Infinity;
-
-    // for (const [color, baseHue] of Object.entries(baseColors)) {
-    //     let hueDifference = Math.abs(hue - baseHue);
-    //     hueDifference = Math.min(hueDifference, 360 - hueDifference);
-    //     if (hueDifference < smallestDifference) {
-    //         smallestDifference = hueDifference;
-    //         closestColor = color;
-    //     }
-    // }
-
     if (hue >= 0 && hue < 30) return "#FF0000";
     if (hue >= 30 && hue < 60) return "#FF9933";
     if (hue >= 60 && hue < 120) return "#FFFF00";
@@ -175,37 +154,42 @@ function getClosestBaseColor(hue) {
     return null;
 }
 
+const correctColorOrder = (uniqueBaseColors) => {
+    const correctOrder = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
+
+    let currentIndex = 0;
+
+    for (const color of uniqueBaseColors) {
+        const colorIndex = correctOrder.indexOf(color);
+
+        if (colorIndex === -1 || colorIndex < currentIndex) {
+            console.log(`Test failed: Color ${color} is not in the correct order.`);
+            return false;
+        }
+
+        currentIndex = colorIndex;
+    }
+
+    console.log("Test passed: Colors are in the correct order.");
+    return true;
+};
+
 // Grading function
 const gradeColors = (colorArray) => {
-    // Step 1: Convert each hex code to its closest base color
-    // const classifiedColors = colorArray.map(hex => {
-    //     const hue = hexToHSL(hex);   // Convert hex to hue
-    //     return getClosestBaseColor(hue); // Classify color
-    // });
-
-    // // Step 2: Remove duplicates while maintaining the original order
-    // const uniqueColors = [];
-    // const seenColors = new Set();
-
-    // for (const color of classifiedColors) {
-    //     if (!seenColors.has(color)) {
-    //         seenColors.add(color);
-    //         uniqueColors.push(color);
-    //     }
-    // }
-
-    // return uniqueColors; // Return the array of unique base colors
     const baseColors = colorArray.map(hex => {
         const hue = hexToHSL(hex).h; // Convert hex to hue
         return getClosestBaseColor(hue); // Find the closest base color
     });
 
-    // Remove duplicates while maintaining the order
     const uniqueBaseColors = [...new Set(baseColors)];
     console.log(uniqueBaseColors)
-    if (uniqueBaseColors.length < 6) {
+    if (uniqueBaseColors.length < 6 || !correctColorOrder(colorArray)) {
         return -1;
     }
+
+    
+
+
 };
 
 
