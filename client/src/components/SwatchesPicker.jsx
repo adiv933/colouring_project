@@ -25,24 +25,23 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
     >
       {colors.flat().map((color, index) => (
         <>
-          <Tooltip title={color} placement="left">
-            <div
-              onClick={() => handleColorClick(color)}
-              key={index}
-              style={{
-                backgroundColor: color,
-                width: `${swatchSize}px`,
-                height: `${swatchSize}px`,
-                cursor: "pointer",
-                border:
-                  color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
-                boxSizing: "border-box", // Ensure borders are included in width/height
-                transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
-                transition:
-                  "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
-              }}
-            />
-          </Tooltip>
+          {/* <Tooltip title={color} placement="left"> */}
+          <div
+            onClick={() => handleColorClick(color)}
+            key={index}
+            style={{
+              backgroundColor: color,
+              width: `${swatchSize}px`,
+              height: `${swatchSize}px`,
+              cursor: "pointer",
+              border:
+                color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
+              boxSizing: "border-box", // Ensure borders are included in width/height
+              transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
+              transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
+            }}
+          />
+          {/* </Tooltip> */}
         </>
       ))}
     </div>

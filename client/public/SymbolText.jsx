@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
+// eslint-disable-next-line react/prop-types
 function SymbolText() {
   return (
-    <>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="708.661"
+      height="708.661"
+      viewBox="0 0 708.661 708.661"
+    >
       <text
         fill="#000"
         fontWeight="1000"
@@ -11345,7 +11351,7 @@ function SymbolText() {
           </tspan>
         </text>
       </Link>
-    </>
+    </svg>
   );
 }
 

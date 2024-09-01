@@ -104,11 +104,11 @@ function getClosestBaseColor(hue) {
 
 const correctColorOrder = (uniqueBaseColors) => {
     const correctOrder = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
-    const correctOrderCombo = correctOrder.join('');
-    let uniqueBaseColorsCombo = uniqueBaseColors.join('');
+    const correctOrderCombo = correctOrder.join('').toLowerCase();
+    let uniqueBaseColorsCombo = uniqueBaseColors.join('').toLowerCase();
+    console.log(correctOrderCombo);
+    console.log(uniqueBaseColorsCombo);
     uniqueBaseColorsCombo += uniqueBaseColorsCombo;
-    // console.log(correctOrderCombo);
-    // console.log(uniqueBaseColorsCombo);
     return uniqueBaseColorsCombo.includes(correctOrderCombo);
 };
 
@@ -139,11 +139,11 @@ const gradeColors = (colorArray) => {
     });
 
     const uniqueBaseColors = [...new Set(baseColors)];
-    // console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
-    if (uniqueBaseColors.length < 6 || !correctColorOrder(colorArray)) {
+    console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
+    if (uniqueBaseColors.length < 6 || !correctColorOrder(uniqueBaseColors)) {
 
-        // if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
-        // else console.log("incorrect order")
+        if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
+        else console.log("incorrect order")
         return -1;
 
     }

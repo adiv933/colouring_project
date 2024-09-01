@@ -7,12 +7,14 @@ const Symbol = forwardRef((props, ref) => {
   const [position, setPosition] = useState(0);
 
   const rotateClockwise = () => {
+    console.log("clock");
     if (position < 1) {
       setPosition((prevPosition) => prevPosition + 1);
     }
   };
 
   const rotateAnticlockwise = () => {
+    console.log("anticlock");
     if (position > -1) {
       setPosition((prevPosition) => prevPosition - 1);
     }
@@ -84,7 +86,6 @@ const Symbol = forwardRef((props, ref) => {
         viewBox="0 0 708.661 708.661"
         style={{
           transform: `rotate(${getRotationAngle()}deg)`,
-          position: `relative`,
         }}
       >
         <g id="layer_1" data-name="Vrstva 1">
@@ -255,8 +256,8 @@ const Symbol = forwardRef((props, ref) => {
               />
             </g>
           </g>
+          {/* middle circle */}
           <g clipPath="url(#clip_1)">
-            {/* middle circle */}
             <path
               transform="matrix(1,0,0,-1,379.8199,328.74873)"
               d="M0 0C13.879-13.88 13.878-36.384-.003-50.265-13.883-64.145-36.387-64.146-50.267-50.267-64.146-36.387-64.145-13.883-50.264-.002-36.384 13.878-13.88 13.879 0 0"
@@ -265,14 +266,9 @@ const Symbol = forwardRef((props, ref) => {
                 pointerEvents: "none",
               }}
             />
-            {/* <path
-              transform={`matrix(1,0,0,-1,379.8199,328.74873) rotate(${getRotationAngle()})`}
-              d="M0 0C13.879-13.88 13.878-36.384-.003-50.265-13.883-64.145-36.387-64.146-50.267-50.267-64.146-36.387-64.145-13.883-50.264-.002-36.384 13.878-13.88 13.879 0 0"
-              fill="url(#redGradient)"
-              style={{ pointerEvents: "none" }}
-            /> */}
           </g>
-          <SymbolText />
+
+          <SymbolText getRotationAngle={getRotationAngle} />
         </g>
       </svg>
     </div>
