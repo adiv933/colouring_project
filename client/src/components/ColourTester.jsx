@@ -25,7 +25,6 @@ const ColorTester = ({ color }) => {
     <div className="flex-col order-2 lg:order-1 w-3/4 md:w-1/3 lg:w-[20%] flex items-center justify-center gap-y-4">
       <div className="h-full w-full flex flex-col items-center gap-4  border-2 border-[#dbaf46] p-4 rounded-md">
         <h1 className="text-[#dbaf46] font-semibold bg-white w-2/3 lg:w-full h-16 rounded-md text-center ">
-          <br />
           Try your colours below
         </h1>
         <div

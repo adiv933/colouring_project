@@ -203,7 +203,7 @@ const ColouringComponent2 = () => {
         <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}
-          swatchSize={25} // Customize swatch size here
+          swatchSize={23} // Customize swatch size here
           gridSize={{ rows: 15, cols: 12 }} // Customize grid size here
         />
       </div>
