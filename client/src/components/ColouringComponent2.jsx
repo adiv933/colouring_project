@@ -199,11 +199,11 @@ const ColouringComponent2 = () => {
       <ColourTester color={color} />
 
       <DesignCanvas color={color} />
-      <div className="flex-col order-1 lg:order-3 w-fit h-fit flex items-center justify-center bg-white rounded-lg">
+      <div className="flex-col order-1 lg:order-3 w-fit flex items-center justify-center bg-white rounded-lg">
         <SwatchesPicker
           colors={colors}
           onColorSelect={handleColorSelect}
-          swatchSize={20} // Customize swatch size here
+          swatchSize={25} // Customize swatch size here
           gridSize={{ rows: 15, cols: 12 }} // Customize grid size here
         />
       </div>

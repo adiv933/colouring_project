@@ -56,7 +56,10 @@ export default function VideoModal() {
         <Fade in={open}>
           <Box sx={style}>
             <video className="w-full h-full object-cover" controls>
-              <source src="your-video-source.mp4" type="video/mp4" />
+              <source
+                src="https://www.youtube.com/watch?v=C_UgSQ-nphY"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </Box>

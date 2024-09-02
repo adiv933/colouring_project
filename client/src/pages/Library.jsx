@@ -26,11 +26,9 @@ function Library() {
         <PageHeading>Library</PageHeading>
         <div className="h-full flex flex-col md:flex-row items-center justify-center gap-8">
           <GoldenButton className="w-48 h-28">
-            {" "}
-            <br />
             Gallery
-            <br /> <br />{" "}
           </GoldenButton>
+          <GoldenButton className="w-48 h-28">Errors finding</GoldenButton>
           <GoldenButton className="w-48 h-28">
             The Mother
             <br />&<br />

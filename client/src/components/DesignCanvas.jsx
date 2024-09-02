@@ -157,7 +157,7 @@ const DesignCanvas = ({ color }) => {
   };
 
   return (
-    <div className="order-3 lg:order-2 md:w-[70%] lg:w-[50%]">
+    <div className="order-3 lg:order-2 md:w-[70%] lg:w-[45%]">
       <div className="flex flex-col gap-y-4 items-center">
         <div className="overflow-hidden w-full ">
           {window.location.pathname === "/colouring1" ||

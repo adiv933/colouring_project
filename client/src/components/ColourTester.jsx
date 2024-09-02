@@ -24,21 +24,22 @@ const ColorTester = ({ color }) => {
   return (
     <div className="flex-col order-2 lg:order-1 w-3/4 md:w-1/3 lg:w-[20%] flex items-center justify-center gap-y-4">
       <div className="h-full w-full flex flex-col items-center gap-4  border-2 border-[#dbaf46] p-4 rounded-md">
-        <h1 className="text-[#dbaf46] font-semibold bg-white w-2/3 lg:w-full h-12 rounded-md text-center">
+        <h1 className="text-[#dbaf46] font-semibold bg-white w-2/3 lg:w-full h-16 rounded-md text-center ">
+          <br />
           Try your colours below
         </h1>
         <div
-          className="w-2/3 lg:w-full h-12 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
           style={{ backgroundColor: spaces[0] }}
           onClick={() => handleSpaceClick(0)}
         />
         <div
-          className="w-2/3 lg:w-full h-12 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
           style={{ backgroundColor: spaces[1] }}
           onClick={() => handleSpaceClick(1)}
         />
         <div
-          className="w-2/3 lg:w-full h-12 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
           style={{ backgroundColor: spaces[2] }}
           onClick={() => handleSpaceClick(2)}
         />
