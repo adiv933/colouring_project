@@ -19,7 +19,7 @@ const ColouringComponent2 = () => {
     ["#f7935a", "#ff863d", "#ff7711", "#de670d", "#be5709"],
     ["#ffaf68", "#ffa450", "#ff9933", "#de842b", "#be7023"],
     ["#ffbc63", "#ffb349", "#ffaa22", "#de931c", "#be7d16"],
-    ["#ffca61", "#ffc245", "#ffbb11", "#dea20d", "#be8a09"],
+    ["#ffca61", "#ffc245", "#ffbb11", "#dea205", "#be8a09"],
     ["#f9c660", "#ffc245", "#ffcc00", "#dea20d", "#be8a09"],
     ["#fde464", "#ffe146", "#ffdd00", "#dec000", "#bea400"],
     ["#f4e96d", "#fff048", "#ffee00", "#decf00", "#beb100"],
