@@ -192,4 +192,4 @@ const gradeColors = (colorArray, num) => {
         return 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
 };
 
-export { containsWhite, hasNoDuplicates, gradeColors };
+export { colors1, colors2, containsWhite, hasNoDuplicates, gradeColors };
