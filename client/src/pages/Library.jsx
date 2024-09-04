@@ -25,9 +25,9 @@ function Library() {
       <section className="min-h-screen w-full flex flex-col items-center hero p-20 justify-center">
         <PageHeading>Library</PageHeading>
         <div className="h-full flex flex-col md:flex-row items-center justify-center gap-8">
-          <GoldenButton className="w-48 h-28">
-            Gallery
-          </GoldenButton>
+          <Link to="/gallery">
+            <GoldenButton className="w-48 h-28">Gallery</GoldenButton>
+          </Link>
           <GoldenButton className="w-48 h-28">Errors finding</GoldenButton>
           <GoldenButton className="w-48 h-28">
             The Mother

@@ -125,7 +125,10 @@ const DesignCanvas = ({ color }) => {
       return;
     }
 
-    const gradedScore = gradeColors(colorArray);
+    const gradedScore =
+      window.location.pathname === "/colouring1"
+        ? gradeColors(colorArray, 1)
+        : gradeColors(colorArray, 2);
     console.log(gradedScore);
     if (gradedScore === -1) {
       setScoreMessage(scoreMessages[2]);
@@ -157,9 +160,9 @@ const DesignCanvas = ({ color }) => {
   };
 
   return (
-    <div className="order-3 lg:order-2 w-full md:w-[70%] lg:w-[45%]">
+    <div className="order-3 lg:order-2 w-[100%] md:w-[70%] lg:w-[45%]">
       <div className="flex flex-col gap-y-4 items-center">
-        <div className="overflow-hidden w-full ">
+        <div className="overflow-hidden w-full">
           {window.location.pathname === "/colouring1" ||
           window.location.pathname === "/colouring2" ? (
             <Symbol_without_desc
