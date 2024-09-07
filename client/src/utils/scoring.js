@@ -63,35 +63,35 @@ const colors2 = [
     ["#e65768", "#e43a56", "#b12c55", "#c0003a", "#a40030"],
 ];
 
-function hexToHSL(hex) {
-    // Convert hex to RGB first
-    let r = parseInt(hex.slice(1, 3), 16) / 255;
-    let g = parseInt(hex.slice(3, 5), 16) / 255;
-    let b = parseInt(hex.slice(5, 7), 16) / 255;
+// function hexToHSL(hex) {
+//     // Convert hex to RGB first
+//     let r = parseInt(hex.slice(1, 3), 16) / 255;
+//     let g = parseInt(hex.slice(3, 5), 16) / 255;
+//     let b = parseInt(hex.slice(5, 7), 16) / 255;
 
-    // Find min and max values to get luminance
-    let max = Math.max(r, g, b), min = Math.min(r, g, b);
-    let h, s, l = (max + min) / 2;
+//     // Find min and max values to get luminance
+//     let max = Math.max(r, g, b), min = Math.min(r, g, b);
+//     let h, s, l = (max + min) / 2;
 
-    if (max === min) {
-        h = s = 0; // Achromatic
-    } else {
-        let d = max - min;
-        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-        switch (max) {
-            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-            case g: h = (b - r) / d + 2; break;
-            case b: h = (r - g) / d + 4; break;
-        }
-        h /= 6;
-    }
+//     if (max === min) {
+//         h = s = 0; // Achromatic
+//     } else {
+//         let d = max - min;
+//         s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+//         switch (max) {
+//             case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+//             case g: h = (b - r) / d + 2; break;
+//             case b: h = (r - g) / d + 4; break;
+//         }
+//         h /= 6;
+//     }
 
-    return {
-        h: Math.round(h * 360),
-        s: Math.round(s * 100),
-        l: Math.round(l * 100)
-    };
-}
+//     return {
+//         h: Math.round(h * 360),
+//         s: Math.round(s * 100),
+//         l: Math.round(l * 100)
+//     };
+// }
 
 function hasNoDuplicates(colors) {
     // Create a Set to store unique colors
@@ -130,25 +130,52 @@ function containsWhite(colors) {
     return false;
 }
 
-function getClosestBaseColor(hue) {
-    if (hue >= 0 && hue < 30) return "#FF0000";
-    if (hue >= 30 && hue < 60) return "#FF9933";
-    if (hue >= 60 && hue < 120) return "#FFFF00";
-    if (hue >= 120 && hue < 240) return "#009900";
-    if (hue >= 240 && hue < 270) return "#0000FF";
-    if (hue >= 270) return "#6600CC";
-    return null;
-}
+// function getClosestBaseColor(hue) {
+//     if (hue >= 0 && hue < 30) return "#FF0000";
+//     if (hue >= 30 && hue < 60) return "#FF9933";
+//     if (hue >= 60 && hue < 120) return "#FFFF00";
+//     if (hue >= 120 && hue < 240) return "#009900";
+//     if (hue >= 240 && hue < 270) return "#0000FF";
+//     if (hue >= 270) return "#6600CC";
+//     return null;
+// }
 
-const correctColorOrder = (uniqueBaseColors) => {
-    const correctOrder = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
-    const correctOrderCombo = correctOrder.join('').toLowerCase();
-    let uniqueBaseColorsCombo = uniqueBaseColors.join('').toLowerCase();
-    console.log(correctOrderCombo);
-    console.log(uniqueBaseColorsCombo);
-    uniqueBaseColorsCombo += uniqueBaseColorsCombo;
-    return uniqueBaseColorsCombo.includes(correctOrderCombo);
-};
+const correctColorOrder = (baseColors, num) => {
+    function isSorted(arr) {
+        if (!Array.isArray(arr) || arr.length <= 1) {
+            return true;
+        }
+
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] < arr[i - 1]) {
+                return false; // Not sorted in ascending order
+            }
+        }
+
+        return true;
+    }
+
+    function findRowIn2DMatrix(matrix, target) {
+        for (let i = 0; i < matrix.length; i++) {
+            if (matrix[i].indexOf(target) !== -1) {
+                return i; // Return the row index
+            }
+        }
+        return -1; // Return -1 if the element is not found
+    }
+
+    let colorRows = [];
+    if (num === 1) {
+        for (let color of baseColors)
+            colorRows.push(findRowIn2DMatrix(colors1, color))
+    }
+    else {
+        for (let color of baseColors)
+            colorRows.push(findRowIn2DMatrix(colors2, color))
+    }
+
+    return isSorted(colorRows);
+}
 
 const findMaxMatches = (hexArray, matrix) => {
     const colorToColumn = {};
@@ -169,23 +196,39 @@ const findMaxMatches = (hexArray, matrix) => {
     return Math.max(...columnCount);
 };
 
+const containsPrimaries = (colorArray) => {
+
+    function hasPrimary(colorArray, index) {
+        let count_hasPrimary = 0;
+        for (let color of colors1[index]) {
+            if (colorArray.indexOf(color) != -1) {
+                count_hasPrimary++;
+            }
+        }
+        return count_hasPrimary;
+    }
+
+
+    let count = 0;
+
+    for (let i = 0; i < 24; i += 4) {
+        count += hasPrimary(colorArray, i);
+    }
+    // console.log('count from inside containsPrimaries', count);
+    return count >= 6;
+}
+
 // Grading function
 const gradeColors = (colorArray, num) => {
-    const baseColors = colorArray.map(hex => {
-        const hue = hexToHSL(hex).h; // Convert hex to hue
-        return getClosestBaseColor(hue); // Find the closest base color
-    });
 
-    const uniqueBaseColors = [...new Set(baseColors)];
-    console.log("uniqueBaseColors inside gradeColors function", uniqueBaseColors)
-    if (uniqueBaseColors.length < 6 || !correctColorOrder(uniqueBaseColors)) {
-
-        if (uniqueBaseColors.length < 6) console.log("all 6 colors not present")
-        else console.log("incorrect order")
+    if (!containsPrimaries(colorArray)) {
+        console.log("all 6 primary colors not present")
         return -1;
-
     }
-    correctColorOrder(uniqueBaseColors)
+    if (!correctColorOrder(colorArray, num)) {
+        console.log("incorrect order")
+        return -1;
+    }
     if (num === 1)
         return 100 - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
     else
