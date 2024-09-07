@@ -3,7 +3,7 @@ import { useState } from "react";
 import SwatchesPicker from "./SwatchesPicker";
 import ColourTester from "./ColourTester";
 import DesignCanvas from "./DesignCanvas";
-import colors1 from "../utils/scoring";
+import { colors1 } from "../utils/scoring";
 
 const ColouringComponent1 = () => {
   const [color, setColor] = useState("#fff");
