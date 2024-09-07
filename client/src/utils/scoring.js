@@ -24,76 +24,6 @@ const colors1 = [
     ["#ae54d9", "#a437d3", "#9900cc", "#8400b1", "#700097"],
     ["#f159a4", "#ec3c99", "#e6008e", "#c8007b", "#ab0068"],
 ];
-// const colors2 = [
-//     ["#ff5e4d", "#ff4031", "#ff0000", "#de0000", "#be0000"],
-//     ["#f9644d", "#ff4a32", "#ff2200", "#de1c00", "#be1600"],
-//     ["#fe7350", "#ff5e34", "#ff4400", "#de3a00", "#be3000"],
-//     ["#fa8651", "#ff7837", "#ff6600", "#de5800", "#be4a00"],
-//     ["#f7935a", "#ff863d", "#ff7711", "#de670d", "#be5709"],
-//     ["#ffaf68", "#ffa450", "#ff9933", "#de842b", "#be7023"],
-//     ["#ffbc63", "#ffb349", "#ffaa22", "#de931c", "#be7d16"],
-//     ["#ffca61", "#ffc245", "#ffbb11", "#dea205", "#be8a09"],
-//     ["#f9c660", "#ffc245", "#ffcc00", "#dea20d", "#be8a09"],
-//     ["#fde464", "#ffe146", "#ffdd00", "#dec000", "#bea400"],
-//     ["#f4e96d", "#fff048", "#ffee00", "#decf00", "#beb100"],
-//     ["#feff6b", "#ffff4b", "#ffff00", "#dede00", "#bebe00"],
-//     ["#bbf364", "#b2f045", "#aaee00", "#93cf00", "#7db100"],
-//     ["#9ae980", "#6be140", "#55dd00", "#49c000", "#3da400"],
-//     ["#5acb53", "#42d23c", "#00cc00", "#00b100", "#009700"],
-//     ["#5ac854", "#3ec338", "#00bb00", "#00a200", "#008a00"],
-//     ["#57bc51", "#3ab335", "#00aa00", "#009300", "#007d00"],
-//     ["#53ae4d", "#32982e", "#009900", "#008400", "#007000"],
-//     ["#57b86a", "#3bb358", "#00aa44", "#00933a", "#007000"],
-//     ["#5ec99f", "#40c293", "#00bb88", "#00a275", "#008a63"],
-//     ["#63cac9", "#45d1d1", "#00cbcb", "#00b1b1", "#009797"],
-//     ["#4a92d0", "#3595e1", "#0088dd", "#0075c0", "#0063a4"],
-//     ["#3972f5", "#1f5df2", "#0044ee", "#003acf", "#0030b1"],
-//     ["#2360fc", "#0541ff", "#0000ff", "#0000de", "#0000be"],
-//     ["#2c59e9", "#193be3", "#1100dd", "#0d00c0", "#0900a4"],
-//     ["#3c51cd", "#2c35c4", "#2200bb", "#1c00a2", "#16008a"],
-//     ["#5048b1", "#382790", "#330099", "#2b0084", "#230070"],
-//     ["#604bbf", "#5130b5", "#5130b5", "#3a0093", "#30007d"],
-//     ["#6d4dc6", "#6233c4", "#5500bb", "#4900a2", "#3d008a"],
-//     ["#7e51d8", "#7035d0", "#6600cc", "#5800b1", "#4a0097"],
-//     ["#7d51d6", "#7236d3", "#6600cc", "#5800b1", "#4a0097"],
-//     ["#8c53d2", "#8336d3", "#7700cc", "#6700b1", "#570097"],
-//     ["#9f53d9", "#9337d3", "#8800cc", "#7500b1", "#630097"],
-//     ["#9a4ebd", "#a437d3", "#9900cc", "#8400b1", "#4e0169"],
-//     ["#cb519d", "#c53594", "#bb0088", "#a20075", "#8a0063"],
-//     ["#e65768", "#e43a56", "#b12c55", "#c0003a", "#a40030"],
-// ];
-
-
-
-// function hexToHSL(hex) {
-//     // Convert hex to RGB first
-//     let r = parseInt(hex.slice(1, 3), 16) / 255;
-//     let g = parseInt(hex.slice(3, 5), 16) / 255;
-//     let b = parseInt(hex.slice(5, 7), 16) / 255;
-
-//     // Find min and max values to get luminance
-//     let max = Math.max(r, g, b), min = Math.min(r, g, b);
-//     let h, s, l = (max + min) / 2;
-
-//     if (max === min) {
-//         h = s = 0; // Achromatic
-//     } else {
-//         let d = max - min;
-//         s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-//         switch (max) {
-//             case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-//             case g: h = (b - r) / d + 2; break;
-//             case b: h = (r - g) / d + 4; break;
-//         }
-//         h /= 6;
-//     }
-
-//     return {
-//         h: Math.round(h * 360),
-//         s: Math.round(s * 100),
-//         l: Math.round(l * 100)
-//     };
-// }
 
 const colors2 = [
     [
@@ -387,38 +317,71 @@ function containsWhite(colors) {
     return false;
 }
 
-// function getClosestBaseColor(hue) {
-//     if (hue >= 0 && hue < 30) return "#FF0000";
-//     if (hue >= 30 && hue < 60) return "#FF9933";
-//     if (hue >= 60 && hue < 120) return "#FFFF00";
-//     if (hue >= 120 && hue < 240) return "#009900";
-//     if (hue >= 240 && hue < 270) return "#0000FF";
-//     if (hue >= 270) return "#6600CC";
-//     return null;
-// }
+function findRowIn2DMatrix(matrix, target) {
+    for (let i = 0; i < matrix.length; i++) {
+        if (matrix[i].indexOf(target) !== -1) {
+            return i; // Return the row index
+        }
+    }
+    return -1; // Return -1 if the element is not found
+}
+
+function getClosestBaseColor(hexCode, num) {
+    if (num === 1) {
+        const rowNum = findRowIn2DMatrix(colors1, hexCode)
+        if (rowNum >= 0 && rowNum < 4) return "#FF0000";
+        if (rowNum >= 4 && rowNum < 8) return "#FF9933";
+        if (rowNum >= 8 && rowNum < 12) return "#FFFF00";
+        if (rowNum >= 12 && rowNum < 16) return "#009900";
+        if (rowNum >= 16 && rowNum < 20) return "#0000FF";
+        if (rowNum >= 20) return "#6600CC";
+    }
+    else {
+        const rowNum = findRowIn2DMatrix(colors2, hexCode)
+        if (rowNum >= 0 && rowNum < 6) return "#FF0000";
+        if (rowNum >= 6 && rowNum < 12) return "#FF9933";
+        if (rowNum >= 12 && rowNum < 18) return "#FFFF00";
+        if (rowNum >= 18 && rowNum < 24) return "#009900";
+        if (rowNum >= 24 && rowNum < 30) return "#0000FF";
+        if (rowNum >= 30) return "#6600CC";
+
+    }
+    return null;
+}
 
 const correctColorOrder = (baseColors, num) => {
-    function isSorted(arr) {
-        if (!Array.isArray(arr) || arr.length <= 1) {
-            return true;
-        }
 
-        for (let i = 1; i < arr.length; i++) {
-            if (arr[i] < arr[i - 1]) {
-                return false; // Not sorted in ascending order
+    function isSortedOrRotatedSorted(arr) {
+        const n = arr.length;
+        let count = 0;
+
+        for (let i = 0; i < n; i++) {
+            if (arr[i] > arr[(i + 1) % n]) {
+                count++;
             }
         }
 
-        return true;
+        return count <= 1;
     }
 
-    function findRowIn2DMatrix(matrix, target) {
-        for (let i = 0; i < matrix.length; i++) {
-            if (matrix[i].indexOf(target) !== -1) {
-                return i; // Return the row index
-            }
+    function orderPersistent(baseColors, num) {
+
+        function convertColorsToClosestBase(hexColors) {
+            return hexColors.map(hex => {
+                return getClosestBaseColor(hex, num);
+            });
         }
-        return -1; // Return -1 if the element is not found
+
+        const orderedColorsString = "#FF0000#FF0000#FF9933#FF9933#FFFF00#FFFF00#009900#009900#0000FF#0000FF#6600CC#6600CC";
+        let closestBaseColors = convertColorsToClosestBase(baseColors);
+        let closestBaseColorsString = ""
+        for (let color of closestBaseColors) {
+            closestBaseColorsString += color
+        }
+        closestBaseColorsString += closestBaseColorsString;
+        console.log('closestBaseColorsString', closestBaseColorsString)
+        console.log('closestBaseColorsString.includes(orderedColorsString)', closestBaseColorsString.includes(orderedColorsString))
+        return closestBaseColorsString.includes(orderedColorsString);
     }
 
     let colorRows = [];
@@ -431,7 +394,10 @@ const correctColorOrder = (baseColors, num) => {
             colorRows.push(findRowIn2DMatrix(colors2, color))
     }
 
-    return isSorted(colorRows);
+    console.log('isSortedOrRotatedSorted(colorRows)', isSortedOrRotatedSorted(colorRows))
+    console.log('colorRows', colorRows)
+
+    return isSortedOrRotatedSorted(colorRows) && orderPersistent(baseColors, num);
 }
 
 const findMaxMatches = (hexArray, matrix) => {
