@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Colouring from "./pages/Colouring";
@@ -15,6 +16,11 @@ import Colouring4 from "./pages/Colouring4";
 import Colouring5 from "./pages/Colouring5";
 
 const App = () => {
+  useEffect(() => {
+    localStorage.setItem("score1", 0);
+    localStorage.setItem("score2", 0);
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<Landing />} />

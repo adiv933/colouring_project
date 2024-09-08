@@ -35,11 +35,9 @@ function Guidance() {
         <PageHeading>Guidance</PageHeading>
         <div className="h-full w-full flex flex-wrap md:flex-row items-center justify-center gap-2 md:gap-8">
           {pdfPages.map((page, index) => (
-            <GoldenButton key={index} className="w-32 sm:w-36 h-28 p-2">
-              <Link to={`/view-presentation?page=${page.pageNumber}`}>
-                {page.topic}
-              </Link>
-            </GoldenButton>
+            <Link to={`/view-presentation?page=${page.pageNumber}`} key={index}>
+              <GoldenButton className="">{page.topic}</GoldenButton>
+            </Link>
           ))}
         </div>
       </section>

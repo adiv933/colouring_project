@@ -32,8 +32,9 @@ const style = {
 const scoreMessages = [
   "Duplicate colours are not harmonious.",
   "Please fill all petals with colours.",
-  "Score is below 50%, try again or click the Guidance button",
-  "% harmony achieved, click Guidance for more",
+  "Scored below 50%, try again or see “Guidance”, section 4. Colour theory in art and design.",
+  "% harmony achieved, try again or see “Guidance”, section 4. Colour theory in art and design.",
+  "Great job! 100% harmony achieved.",
 ];
 
 const DesignCanvas = ({ color }) => {
@@ -168,7 +169,7 @@ const DesignCanvas = ({ color }) => {
     }
 
     if (gradedScore === 100) {
-      setScoreMessage("Great job. " + gradedScore + scoreMessages[3]);
+      setScoreMessage(scoreMessages[4]);
     } else if (gradedScore >= 50) {
       setScoreMessage(gradedScore + scoreMessages[3]);
     } else {
@@ -210,7 +211,7 @@ const DesignCanvas = ({ color }) => {
               color={color}
             />
           ) : (
-            <Symbol ref={svgRef} className="w-full h-full" color={color} />
+            <Symbol ref={svgRef} color={color} />
           )}
         </div>
         <canvas

@@ -1,12 +1,16 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-// eslint-disable-next-line react/prop-types
-function SymbolText() {
+function SymbolText(props) {
   return (
     <svg
+      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="708.661"
       height="708.661"
       viewBox="0 0 708.661 708.661"
+      style={{
+        transform: `rotate(${props.getRotationAngle()}deg)`,
+      }}
     >
       <text
         fill="#000"

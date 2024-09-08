@@ -30,7 +30,6 @@ function ColouringFooter({ steps }) {
 
     if (currentPageIndex === 1) {
       if (score1 < 70 && score2 < 70) {
-        console.log("inside if cond");
         window.alert(
           "Score above 70% on either colouring1 or colouring2 to proceed further"
         );
