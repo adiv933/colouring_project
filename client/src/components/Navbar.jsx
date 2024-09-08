@@ -37,7 +37,6 @@ const Navbar = () => {
     { href: "colourings", heading: "Colourings" },
     { href: "guidance", heading: "Guidance" },
     { href: "library", heading: "Library" },
-    // { href: "links", heading: "Useful links" },
     { href: "contact", heading: "Contact us" },
   ];
 

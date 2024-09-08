@@ -1,14 +1,15 @@
-// import { Tooltip } from "@mui/material";
 import PropTypes from "prop-types";
-import { useState } from "react";
 
-const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
-  // eslint-disable-next-line no-unused-vars
-  const { rows, cols } = gridSize;
-  const [selectedColor, setSelectedColor] = useState(null);
+const SwatchesPicker = ({
+  colors,
+  onColorSelect,
+  swatchSize,
+  gridSize,
+  selectedColor,
+}) => {
+  const { cols } = gridSize;
 
   const handleColorClick = (color) => {
-    setSelectedColor(color); // Set the selected color
     if (onColorSelect) {
       onColorSelect(color);
     }
@@ -24,25 +25,21 @@ const SwatchesPicker = ({ colors, onColorSelect, swatchSize, gridSize }) => {
       }}
     >
       {colors.flat().map((color, index) => (
-        <>
-          {/* <Tooltip title={color} placement="left"> */}
-          <div
-            onClick={() => handleColorClick(color)}
-            key={index}
-            style={{
-              backgroundColor: color,
-              width: `${swatchSize}px`,
-              height: `${swatchSize}px`,
-              cursor: "pointer",
-              boxSizing: "border-box", // Ensure borders are included in width/height
-              border:
-                color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
-              transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
-              transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
-            }}
-          />
-          {/* </Tooltip> */}
-        </>
+        <div
+          onClick={() => handleColorClick(color)}
+          key={index}
+          style={{
+            backgroundColor: color,
+            width: `${swatchSize}px`,
+            height: `${swatchSize}px`,
+            cursor: "pointer",
+            boxSizing: "border-box",
+            border:
+              color === selectedColor ? "3px solid #000" : "1px solid #ccc", // Highlight selected color
+            transform: color === selectedColor ? "scale(1.1)" : "scale(1)", // Slightly scale up the selected swatch
+            transition: "transform 0.1s ease-in-out, border 0.1s ease-in-out", // Smooth transition
+          }}
+        />
       ))}
     </div>
   );
@@ -56,6 +53,7 @@ SwatchesPicker.propTypes = {
     rows: PropTypes.number,
     cols: PropTypes.number,
   }),
+  selectedColor: PropTypes.string, // Added selectedColor prop type
 };
 
 SwatchesPicker.defaultProps = {

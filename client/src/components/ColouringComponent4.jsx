@@ -5,9 +5,11 @@ import SwatchesPicker from "./SwatchesPicker";
 
 const ColouringComponent4 = () => {
   const [color, setColor] = useState("#fff");
+  const [selectedColor, setSelectedColor] = useState(null);
 
   const handleColorSelect = (color) => {
     setColor(color);
+    setSelectedColor(color);
   };
 
   const colors = [
@@ -224,6 +226,7 @@ const ColouringComponent4 = () => {
           onColorSelect={handleColorSelect}
           swatchSize={20} // Customize swatch size here
           gridSize={{ rows: 20, cols: 10 }} // Customize grid size here
+          selectedColor={selectedColor}
         />
       </div>
     </div>

@@ -7,9 +7,11 @@ import { colors1 } from "../utils/scoring";
 
 const ColouringComponent1 = () => {
   const [color, setColor] = useState("#fff");
+  const [selectedColor, setSelectedColor] = useState(null);
 
   const handleColorSelect = (color) => {
     setColor(color);
+    setSelectedColor(color);
   };
 
   const midpoint = Math.floor(colors1.length / 2);
@@ -25,14 +27,16 @@ const ColouringComponent1 = () => {
         <SwatchesPicker
           colors={part1}
           onColorSelect={handleColorSelect}
-          swatchSize={25} // Customize swatch size here
-          gridSize={{ rows: 6, cols: 5 }} // Customize grid size here
+          swatchSize={25}
+          gridSize={{ rows: 6, cols: 5 }}
+          selectedColor={selectedColor} // Pass the selected color to SwatchesPicker
         />
         <SwatchesPicker
           colors={part2}
           onColorSelect={handleColorSelect}
-          swatchSize={25} // Customize swatch size here
-          gridSize={{ rows: 6, cols: 5 }} // Customize grid size here
+          swatchSize={25}
+          gridSize={{ rows: 6, cols: 5 }}
+          selectedColor={selectedColor} // Pass the selected color to SwatchesPicker
         />
       </div>
     </div>
