@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 /* eslint-disable react/prop-types */
-function ColourWheel({ colors, onColorSelect }) {
-  const radius = 250; // Adjust this for the size of the wheel
-  const centerX = 250; // Center of the SVG
-  const centerY = 250; // Center of the SVG
+function ColourWheel({ colors, onColorSelect, r, cX, cY }) {
+  const radius = r; // Adjust this for the size of the wheel
+  const centerX = cX; // Center of the SVG
+  const centerY = cY; // Center of the SVG
 
   const [selectedColor, setSelectedColor] = useState(null);
 
@@ -72,7 +72,11 @@ function ColourWheel({ colors, onColorSelect }) {
   };
 
   return (
-    <svg width="500" height="500" viewBox="0 0 500 500">
+    <svg
+      width={`${2 * cX}`}
+      height={`${2 * cX}`}
+      viewBox={`0 0 ${2 * cX} ${2 * cX}`}
+    >
       {generateSpokes(colors)}
     </svg>
   );

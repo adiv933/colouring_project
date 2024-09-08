@@ -23,6 +23,21 @@ function ColouringFooter({ steps }) {
   };
 
   const handleNext = () => {
+    const score1 = localStorage.getItem("score1");
+    const score2 = localStorage.getItem("score2");
+    console.log("score1", score1);
+    console.log("score2", score2);
+
+    if (currentPageIndex === 1) {
+      if (score1 < 70 && score2 < 70) {
+        console.log("inside if cond");
+        window.alert(
+          "Score above 70% on either colouring1 or colouring2 to proceed further"
+        );
+        return;
+      }
+    }
+
     if (currentPageIndex < pages.length - 1) {
       localStorage.removeItem("colorArray");
       navigate(pages[currentPageIndex + 1]);

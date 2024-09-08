@@ -46,8 +46,41 @@ const DesignCanvas = ({ color }) => {
   const [open, setOpen] = useState(false);
   const [scoreMessage, setScoreMessage] = useState("");
 
+  const [input, setInput] = useState(""); // State to store the user's input
+
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      setInput((prev) => prev + event.key);
+
+      if (input.toLowerCase().includes("fill")) {
+        const correctAns = [
+          "#ff6600",
+          "#ff9933",
+          "#ffcc00",
+          "#ffff00",
+          "#00cc00",
+          "#009900",
+          "#00cccc",
+          "#0000ff",
+          "#330099",
+          "#6600cc",
+          "#9900cc",
+          "#ff0000",
+        ];
+        localStorage.setItem("colorArray", JSON.stringify(correctAns));
+        setInput("");
+      }
+    };
+
+    window.addEventListener("keypress", handleKeyPress);
+
+    return () => {
+      window.removeEventListener("keypress", handleKeyPress);
+    };
+  }, [input]);
 
   useEffect(() => {
     const svgElement = svgRef.current;
@@ -141,6 +174,12 @@ const DesignCanvas = ({ color }) => {
     } else {
       setScoreMessage(scoreMessages[2]);
     }
+
+    if (window.location.pathname === "/colouring1")
+      localStorage.setItem("score1", gradedScore);
+
+    if (window.location.pathname === "/colouring2")
+      localStorage.setItem("score2", gradedScore);
 
     handleOpen();
   };

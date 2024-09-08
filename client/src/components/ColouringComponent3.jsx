@@ -1,9 +1,10 @@
 import { useState } from "react";
 import ColourTester from "./ColourTester";
 import DesignCanvas from "./DesignCanvas";
-import RybPicker from "./RybPicker";
 import RgbPicker from "./RgbPicker";
 import GoldenButton from "./GoldenButton";
+import ColourWheel from "./ColourWheel";
+import { colors2 } from "../utils/scoring";
 
 const ColouringComponent3 = () => {
   const [color, setColor] = useState("#fff");
@@ -40,7 +41,13 @@ const ColouringComponent3 = () => {
         {!isRGB ? (
           <RgbPicker size={300} onColorSelect={handleColorSelect} />
         ) : (
-          <RybPicker size={300} onColorSelect={handleColorSelect} />
+          <ColourWheel
+            colors={colors2}
+            onColorSelect={handleColorSelect}
+            r={200}
+            cX={200}
+            cY={200}
+          />
         )}
       </div>
     </div>
