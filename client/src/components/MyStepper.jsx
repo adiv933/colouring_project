@@ -3,14 +3,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function MyStepper({ steps }) {
+  const handleClick = (event) => {
+    const score1 = localStorage.getItem("score1");
+    const score2 = localStorage.getItem("score2");
+    if (score1 < 70 && score2 < 70) {
+      window.alert(
+        "Score above 70% on either Colouring 1 or Colouring 2 to proceed further"
+      );
+      event.preventDefault();
+    }
+  };
+
   return (
     <div style={styles.stepperContainer}>
       {steps.map((step, index) => (
         <React.Fragment key={index}>
           {step.link ? (
-            <Link to={step.link}>
-              <Step index={index} label={step.label} />
-            </Link>
+            ["/colouring3", "/colouring4", "/colouring5"].includes(
+              step.link
+            ) ? (
+              <Link to={step.link} onClick={handleClick}>
+                <Step index={index} label={step.label} />
+              </Link>
+            ) : (
+              <Link to={step.link}>
+                <Step index={index} label={step.label} />
+              </Link>
+            )
           ) : (
             <Step index={index} label={step.label} />
           )}
