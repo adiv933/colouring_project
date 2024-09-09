@@ -39,7 +39,7 @@ function Guidance() {
               to={`/view-presentation?page=${page.pageNumber}`}
               key={index}
               target="_blank"
-              // rel="noopener noreferrer"
+              rel="noopener noreferrer"
             >
               <GoldenButton className="">{page.topic}</GoldenButton>
             </Link>
