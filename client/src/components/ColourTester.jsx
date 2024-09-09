@@ -16,7 +16,6 @@ const ColorTester = ({ color }) => {
   };
 
   const handleClear = () => {
-    // Reset all spaces to white
     setSpaces(["white", "white", "white"]);
     setSelectedIndex(null);
   };
@@ -28,17 +27,17 @@ const ColorTester = ({ color }) => {
           Try your colours below
         </h1>
         <div
-          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md transition-colors duration-300 ease-in-out"
           style={{ backgroundColor: spaces[0] }}
           onClick={() => handleSpaceClick(0)}
         />
         <div
-          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md transition-colors duration-300 ease-in-out"
           style={{ backgroundColor: spaces[1] }}
           onClick={() => handleSpaceClick(1)}
         />
         <div
-          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md"
+          className="w-2/3 lg:w-full h-16 cursor-pointer rounded-md transition-colors duration-300 ease-in-out"
           style={{ backgroundColor: spaces[2] }}
           onClick={() => handleSpaceClick(2)}
         />
