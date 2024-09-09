@@ -3304,7 +3304,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=61">
+      <Link
+        to="/view-presentation?page=61"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -3675,7 +3679,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=52">
+      <Link
+        to="/view-presentation?page=52"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -4020,7 +4028,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=53">
+      <Link
+        to="/view-presentation?page=53"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -4388,7 +4400,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=54">
+      <Link
+        to="/view-presentation?page=54"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -8335,7 +8351,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=62">
+      <Link
+        to="/view-presentation?page=62"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -8683,7 +8703,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=51">
+      <Link
+        to="/view-presentation?page=51"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -9002,7 +9026,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=60">
+      <Link
+        to="/view-presentation?page=60"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -9425,7 +9453,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=59">
+      <Link
+        to="/view-presentation?page=59"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -9812,7 +9844,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=58">
+      <Link
+        to="/view-presentation?page=58"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -10208,7 +10244,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=57">
+      <Link
+        to="/view-presentation?page=57"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -10566,7 +10606,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=56">
+      <Link
+        to="/view-presentation?page=56"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
@@ -11209,7 +11253,11 @@ function SymbolText(props) {
           {" "}
         </tspan>
       </text>
-      <Link to="/view-presentation?page=55">
+      <Link
+        to="/view-presentation?page=55"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <text
           fill="#000"
           fontWeight="1000"
