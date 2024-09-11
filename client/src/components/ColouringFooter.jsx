@@ -34,6 +34,11 @@ function ColouringFooter({ steps }) {
         return;
       }
     }
+    if (currentPageIndex === 2 || currentPageIndex === 3) {
+      window.alert(
+        "You can also learn more through the “Errors finding” section of the “Library”"
+      );
+    }
 
     if (currentPageIndex < pages.length - 1) {
       localStorage.removeItem("colorArray");

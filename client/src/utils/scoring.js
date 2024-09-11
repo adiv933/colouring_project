@@ -379,8 +379,8 @@ const correctColorOrder = (baseColors, num) => {
             closestBaseColorsString += color
         }
         closestBaseColorsString += closestBaseColorsString;
-        console.log('closestBaseColorsString', closestBaseColorsString)
-        console.log('closestBaseColorsString.includes(orderedColorsString)', closestBaseColorsString.includes(orderedColorsString))
+        // console.log('closestBaseColorsString', closestBaseColorsString)
+        // console.log('closestBaseColorsString.includes(orderedColorsString)', closestBaseColorsString.includes(orderedColorsString))
         return closestBaseColorsString.includes(orderedColorsString);
     }
 
@@ -394,8 +394,8 @@ const correctColorOrder = (baseColors, num) => {
             colorRows.push(findRowIn2DMatrix(colors2, color))
     }
 
-    console.log('isSortedOrRotatedSorted(colorRows)', isSortedOrRotatedSorted(colorRows))
-    console.log('colorRows', colorRows)
+    // console.log('isSortedOrRotatedSorted(colorRows)', isSortedOrRotatedSorted(colorRows))
+    // console.log('colorRows', colorRows)
 
     return isSortedOrRotatedSorted(colorRows) && orderPersistent(baseColors, num);
 }
@@ -444,12 +444,22 @@ const containsPrimaries = (colorArray) => {
 // Grading function
 const gradeColors = (colorArray, num) => {
 
+    if (containsWhite(colorArray)) {
+        // console.log("unfilled petals")
+        return -3;
+    }
+
+    if (!hasNoDuplicates(colorArray)) {
+        // console.log("duplicates")
+        return -2;
+    }
+
     if (!containsPrimaries(colorArray)) {
-        console.log("all 6 primary colors not present")
+        // console.log("all 6 primary colors not present")
         return -1;
     }
     if (!correctColorOrder(colorArray, num)) {
-        console.log("incorrect order")
+        // console.log("incorrect order")
         return -1;
     }
     if (num === 1)
@@ -458,4 +468,4 @@ const gradeColors = (colorArray, num) => {
         return 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
 };
 
-export { colors1, colors2, containsWhite, hasNoDuplicates, gradeColors };
+export { colors1, colors2, gradeColors };

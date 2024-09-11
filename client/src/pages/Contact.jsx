@@ -24,7 +24,7 @@ function Contact() {
         <PageHeading>Contact us</PageHeading>
         <div className="w-fit text-center mt-8 bg-white p-2 sm:p-8 rounded-lg">
           <p className="text-lg text-black ">
-            We&apos;d love to hear from you! Feel free to reach out to us at:
+            We are happy to hear from you via:
           </p>
           <a
             href="mailto:themotherssymbol@gmail.com"

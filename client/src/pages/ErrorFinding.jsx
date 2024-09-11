@@ -6,26 +6,20 @@ import {
   Dialog,
   DialogContent,
   IconButton,
+  Typography,
+  CardContent,
 } from "@mui/material";
-import { styled } from "@mui/material/styles";
 import Navbar from "../components/Navbar";
 import PageHeading from "../components/PageHeading";
 
-const StyledCard = styled(Card)({
-  position: "relative",
-  height: "100%",
-  overflow: "hidden",
-  borderRadius: "0.5rem",
-});
-
-const Gallery = () => {
+const ErrorFinding = () => {
   const [images, setImages] = useState([]);
   const [open, setOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
     const fetchImages = async () => {
-      const imageContext = import.meta.glob("/public/compressed-gallery/*.jpg"); // Adjust pattern if necessary
+      const imageContext = import.meta.glob("/public/errors/*"); // Adjust pattern if necessary
       const imagePaths = Object.keys(imageContext).map((key) =>
         imageContext[key]().then((module) => module.default)
       );
@@ -49,21 +43,47 @@ const Gallery = () => {
   return (
     <div className="w-full min-h-screen gradient-background">
       <Navbar />
-      <section className="min-h-screen w-full flex flex-col items-center hero p-4 sm:px-12 pt-20 sm:pt-16 justify-center">
-        <PageHeading>Gallery</PageHeading>
+      <section className="min-h-screen w-full flex flex-col items-center hero gap-y-4 p-4 sm:px-12 pt-20 sm:pt-16 justify-center">
+        <PageHeading>Error Finding</PageHeading>
+        <div className="w-full text-justify bg-white p-2 sm:p-8 rounded-lg">
+          <p className="text-lg text-black ">
+            1. Can you bring a colouring you see below closer to harmony? <br />
+            2. Correct a colouring and send it to us for (anonymous) publishing{" "}
+            <br />
+            3. Do not forget to tell us which colouring you are correcting
+            (number reference below the image) <br />
+            4. You may share any comments or clarification, e.g. how you got to
+            the correction via:{" "}
+            <a
+              href="mailto:themotherssymbol@gmail.com"
+              className="text-[#dbaf46] hover:underline text-md sm:text-lg md:text-xl mt-4"
+            >
+              themotherssymbol@gmail.com
+            </a>
+          </p>
+        </div>
         <Grid container spacing={2} className="mt-4 sm:mt-8 lg:mt-12">
           {images.map((image, index) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-              <StyledCard>
+              <Card>
                 <CardMedia
                   component="img"
                   alt={`Image ${index + 1}`}
                   image={image}
                   title={`Image ${index + 1}`}
-                  className="object-cover w-full h-full cursor-pointer"
+                  className="object-cover w-full h-64 sm:h-72 cursor-pointer"
                   onClick={() => handleClickOpen(image)}
                 />
-              </StyledCard>
+                <CardContent>
+                  <Typography
+                    variant="body2"
+                    component="p"
+                    className="text-center"
+                  >
+                    {`Picture ${index + 1}`}
+                  </Typography>
+                </CardContent>
+              </Card>
             </Grid>
           ))}
         </Grid>
@@ -104,4 +124,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default ErrorFinding;

@@ -28,7 +28,9 @@ function Library() {
           <Link to="/gallery">
             <GoldenButton className="w-48 h-28">Gallery</GoldenButton>
           </Link>
-          <GoldenButton className="w-48 h-28">Errors finding</GoldenButton>
+          <Link to="/errors">
+            <GoldenButton className="w-48 h-28">Errors finding</GoldenButton>
+          </Link>
           <GoldenButton className="w-48 h-28">
             The Mother
             <br />&<br />

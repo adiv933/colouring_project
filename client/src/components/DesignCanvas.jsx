@@ -6,18 +6,18 @@ import GoldenButton from "./GoldenButton.jsx";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import {
-  containsWhite,
-  hasNoDuplicates,
-  gradeColors,
-} from "../utils/scoring.js";
+import { gradeColors } from "../utils/scoring.js";
 
 const style = {
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 200,
+  width: {
+    xs: "90%", // 90% width on extra-small screens
+    sm: 400, // 400px width on small screens
+    md: 500, // 500px width on medium screens
+  },
   bgcolor: "background.paper",
   border: "5px solid #dbaf46",
   borderRadius: "10px",
@@ -32,9 +32,10 @@ const style = {
 const scoreMessages = [
   "Duplicate colours are not harmonious.",
   "Please fill all petals with colours.",
-  "Scored below 50%, try again or see “Guidance”, section 4. Colour theory in art and design.",
-  "% harmony achieved, try again or see “Guidance”, section 4. Colour theory in art and design.",
-  "Great job! 100% harmony achieved.",
+  "Scored below 50%, try again or see “Guidance”, section 4 - Colour theory in art and design. To proceed to colourings 3, 4 & 5, a minimum of 70% needs to be achieved.",
+  "% harmony achieved, try again or see “Guidance”, section 4 - Colour theory in art and design. To proceed to colourings 3, 4 & 5, a minimum of 70% needs to be achieved.",
+  "% harmony achieved, colourings 3, 4 & 5 have been unlocked. You can proceed, try again or see “Guidance”, section 4 - Colour theory in art and design.",
+  "Great! 100% harmony achieved. Colourings 3, 4 & 5 have been unlocked.",
 ];
 
 const DesignCanvas = ({ color }) => {
@@ -146,32 +147,27 @@ const DesignCanvas = ({ color }) => {
 
   const revealScore = () => {
     console.log("final colorArray", colorArray);
-
-    if (containsWhite(colorArray)) {
-      setScoreMessage(scoreMessages[1]);
-      handleOpen();
-      return;
-    }
-
-    if (!hasNoDuplicates(colorArray)) {
-      setScoreMessage(scoreMessages[0]);
-      handleOpen();
-      return;
-    }
-
     const gradedScore =
       window.location.pathname === "/colouring1"
         ? gradeColors(colorArray, 1)
         : gradeColors(colorArray, 2);
     console.log(gradedScore);
+
+    if (gradedScore === -3) {
+      setScoreMessage(scoreMessages[1]);
+    }
+    if (gradedScore === -2) {
+      setScoreMessage(scoreMessages[0]);
+    }
     if (gradedScore === -1) {
       setScoreMessage(scoreMessages[2]);
     }
-
     if (gradedScore === 100) {
-      setScoreMessage(scoreMessages[4]);
-    } else if (gradedScore >= 50) {
+      setScoreMessage(scoreMessages[5]);
+    } else if (gradedScore >= 50 && gradedScore < 70) {
       setScoreMessage(gradedScore + scoreMessages[3]);
+    } else if (gradedScore >= 70 && gradedScore < 100) {
+      setScoreMessage(gradedScore + scoreMessages[4]);
     } else {
       setScoreMessage(scoreMessages[2]);
     }

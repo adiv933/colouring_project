@@ -8,6 +8,7 @@ import Library from "./pages/Library";
 import Contact from "./pages/Contact";
 import PdfViewer from "./pages/PdfViewer";
 import Gallery from "./pages/Gallery";
+import ErrorFinding from "./pages/ErrorFinding";
 
 import Colouring1 from "./pages/Colouring1";
 import Colouring2 from "./pages/Colouring2";
@@ -39,6 +40,7 @@ const App = () => {
       <Route path="colouring4" element={<Colouring4 />} />
       <Route path="colouring5" element={<Colouring5 />} />
       <Route path="gallery" element={<Gallery />} />
+      <Route path="errors" element={<ErrorFinding />} />
 
       <Route path="/readings" element={<Readings />} />
       <Route
