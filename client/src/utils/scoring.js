@@ -317,6 +317,7 @@ function containsWhite(colors) {
     return false;
 }
 
+//helper function for correctColorOrder
 function findRowIn2DMatrix(matrix, target) {
     for (let i = 0; i < matrix.length; i++) {
         if (matrix[i].indexOf(target) !== -1) {
@@ -326,6 +327,7 @@ function findRowIn2DMatrix(matrix, target) {
     return -1; // Return -1 if the element is not found
 }
 
+//helper function for correctColorOrder
 function getClosestBaseColor(hexCode, num) {
     if (num === 1) {
         const rowNum = findRowIn2DMatrix(colors1, hexCode)
@@ -419,6 +421,16 @@ const findMaxMatches = (hexArray, matrix) => {
     return Math.max(...columnCount);
 };
 
+const containsMainSixPrimaries = (colorArray) => {
+    let count = 0;
+    const mainSix = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
+    for (let color of colorArray) {
+        if (mainSix.indexOf(color.toUpperCase()) != -1) count++;
+    }
+    // console.log("containsMainSixPrimaries count", count);
+    return count === 6;
+}
+
 const containsPrimaries = (colorArray) => {
 
     function hasPrimary(colorArray, index) {
@@ -462,10 +474,15 @@ const gradeColors = (colorArray, num) => {
         // console.log("incorrect order")
         return -1;
     }
-    if (num === 1)
-        return 100 - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
-    else
-        return 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
+    if (num === 1) {
+        let score = 100 - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
+        return score === 100 ? (containsMainSixPrimaries(colorArray) ? 100 : 85) : score;
+    }
+    else {
+        let score = 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
+        return score === 100 ? (containsMainSixPrimaries(colorArray) ? 100 : 85) : score;
+
+    }
 };
 
 export { colors1, colors2, gradeColors };
