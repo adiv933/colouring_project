@@ -421,14 +421,14 @@ const findMaxMatches = (hexArray, matrix) => {
     return Math.max(...columnCount);
 };
 
-const containsMainSixPrimaries = (colorArray) => {
+const countOfContainsMainSixPrimaries = (colorArray) => { //returns the no. of occerences of main 6 primary colours
     let count = 0;
     const mainSix = ["#FF0000", "#FF9933", "#FFFF00", "#009900", "#0000FF", "#6600CC"];
     for (let color of colorArray) {
         if (mainSix.indexOf(color.toUpperCase()) != -1) count++;
     }
     // console.log("containsMainSixPrimaries count", count);
-    return count === 6;
+    return count;
 }
 
 const containsPrimaries = (colorArray) => {
@@ -475,12 +475,21 @@ const gradeColors = (colorArray, num) => {
         return -1;
     }
     if (num === 1) {
-        let score = 100 - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
-        return score === 100 ? (containsMainSixPrimaries(colorArray) ? 100 : 85) : score;
+        // let countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
+        // let score = 100 - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
+        // console.log("hello there! ",score)
+        // return score === 100 ? (countOfMainSixPrimaries === 6 ? 100 : 85) : score - 8.4 * countOfMainSixPrimaries;
+
+        const countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
+        const maxScore = countOfMainSixPrimaries >= 3 ? 100 : 85;
+        const score = maxScore - (12 - findMaxMatches(colorArray, colors1)) * 8.4;
+        return score;
+
     }
     else {
+        let countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
         let score = 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
-        return score === 100 ? (containsMainSixPrimaries(colorArray) ? 100 : 85) : score;
+        return score === 100 ? (countOfMainSixPrimaries === 6 ? 100 : 85) : score - 8.4 * countOfMainSixPrimaries;
 
     }
 };
