@@ -487,9 +487,14 @@ const gradeColors = (colorArray, num) => {
 
     }
     else {
-        let countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
-        let score = 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
-        return score === 100 ? (countOfMainSixPrimaries === 6 ? 100 : 85) : score - 8.4 * countOfMainSixPrimaries;
+        // let countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
+        // let score = 100 - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
+        // return score === 100 ? (countOfMainSixPrimaries === 6 ? 100 : 85) : score - 8.4 * countOfMainSixPrimaries;
+
+        const countOfMainSixPrimaries = countOfContainsMainSixPrimaries(colorArray);
+        const maxScore = countOfMainSixPrimaries >= 3 ? 100 : 85;
+        const score = maxScore - (12 - findMaxMatches(colorArray, colors2)) * 8.4;
+        return score;
 
     }
 };
